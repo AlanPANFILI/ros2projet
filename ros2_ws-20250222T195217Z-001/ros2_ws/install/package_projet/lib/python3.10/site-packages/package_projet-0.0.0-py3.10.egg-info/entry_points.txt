@@ -1,0 +1,11 @@
+[console_scripts]
+capteur_presence = package_projet.capteur_presence:main
+client = package_projet.client:main
+my_node = package_projet.my_node:main
+porte = package_projet.porte:main
+publisher_i2c_rand = package_projet.publisher_i2c_rand:main
+serveur = package_projet.serveur:main
+site = package_projet.site:main
+suscriber_basededonne = package_projet.suscriber_basededonne:main
+suscriber_i2c = package_projet.suscriber_i2c:main
+

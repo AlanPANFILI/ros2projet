@@ -1,0 +1,90 @@
+[0.000000] (-) TimerEvent: {}
+[0.001351] (package_projet) JobQueued: {'identifier': 'package_projet', 'dependencies': OrderedDict()}
+[0.001417] (package_projet) JobStarted: {'identifier': 'package_projet'}
+[0.099879] (-) TimerEvent: {}
+[0.205389] (-) TimerEvent: {}
+[0.315779] (-) TimerEvent: {}
+[0.423953] (-) TimerEvent: {}
+[0.532464] (-) TimerEvent: {}
+[0.633049] (-) TimerEvent: {}
+[0.686705] (package_projet) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/package_projet', 'build', '--build-base', '/home/alan/ros2_ws/build/package_projet/build', 'install', '--record', '/home/alan/ros2_ws/build/package_projet/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/alan/ros2_ws/src/package_projet', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'alan', 'LC_TIME': 'fr_FR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/alan', 'OLDPWD': '/home/alan/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'fr_FR.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1079', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=627ed4b160f21af96243776267b8d1b1', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/alan/ros2_ws/install:/home/alan/ros2_ws/src/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'alan', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'alan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/opt/ros/humble/bin:/home/alan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/alan-VirtualBox:@/tmp/.ICE-unix/1079,unix/alan-VirtualBox:/tmp/.ICE-unix/1079', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'fr_FR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c6960f0c_e329_453c_a662_d4758e897e0a', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'fr_FR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.KG9312', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.340', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/alan/ros2_ws/src/install/package_projet:/home/alan/ros2_ws/install/package_projet:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'fr_FR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'fr_FR.UTF-8', 'LC_IDENTIFICATION': 'fr_FR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/alan/ros2_ws/build/package_projet', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=627ed4b160f21af96243776267b8d1b1', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/alan/ros2_ws/build/package_projet/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alan/ros2_ws/install/package_projet/lib/python3.10/site-packages:/home/alan/ros2_ws/src/install/package_projet/lib/python3.10/site-packages:/home/alan/ros2_ws/install/package_projet/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'fr_FR.UTF-8', 'LC_PAPER': 'fr_FR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.737481] (-) TimerEvent: {}
+[0.845009] (-) TimerEvent: {}
+[0.958247] (package_projet) StdoutLine: {'line': b'running egg_info\n'}
+[0.958490] (-) TimerEvent: {}
+[0.958835] (package_projet) StdoutLine: {'line': b'creating ../../build/package_projet/package_projet.egg-info\n'}
+[0.959029] (package_projet) StdoutLine: {'line': b'writing ../../build/package_projet/package_projet.egg-info/PKG-INFO\n'}
+[0.959231] (package_projet) StdoutLine: {'line': b'writing dependency_links to ../../build/package_projet/package_projet.egg-info/dependency_links.txt\n'}
+[0.959398] (package_projet) StdoutLine: {'line': b'writing entry points to ../../build/package_projet/package_projet.egg-info/entry_points.txt\n'}
+[0.959554] (package_projet) StdoutLine: {'line': b'writing requirements to ../../build/package_projet/package_projet.egg-info/requires.txt\n'}
+[0.959629] (package_projet) StdoutLine: {'line': b'writing top-level names to ../../build/package_projet/package_projet.egg-info/top_level.txt\n'}
+[0.959819] (package_projet) StdoutLine: {'line': b"writing manifest file '../../build/package_projet/package_projet.egg-info/SOURCES.txt'\n"}
+[0.961521] (package_projet) StdoutLine: {'line': b"reading manifest file '../../build/package_projet/package_projet.egg-info/SOURCES.txt'\n"}
+[0.962476] (package_projet) StdoutLine: {'line': b"writing manifest file '../../build/package_projet/package_projet.egg-info/SOURCES.txt'\n"}
+[0.962614] (package_projet) StdoutLine: {'line': b'running build\n'}
+[0.962765] (package_projet) StdoutLine: {'line': b'running build_py\n'}
+[0.962991] (package_projet) StdoutLine: {'line': b'creating /home/alan/ros2_ws/build/package_projet/build\n'}
+[0.963150] (package_projet) StdoutLine: {'line': b'creating /home/alan/ros2_ws/build/package_projet/build/lib\n'}
+[0.963261] (package_projet) StdoutLine: {'line': b'creating /home/alan/ros2_ws/build/package_projet/build/lib/package_projet\n'}
+[0.963331] (package_projet) StdoutLine: {'line': b'copying package_projet/porte.py -> /home/alan/ros2_ws/build/package_projet/build/lib/package_projet\n'}
+[0.963454] (package_projet) StdoutLine: {'line': b'copying package_projet/capteur_presence.py -> /home/alan/ros2_ws/build/package_projet/build/lib/package_projet\n'}
+[0.963529] (package_projet) StdoutLine: {'line': b'copying package_projet/suscriber.py -> /home/alan/ros2_ws/build/package_projet/build/lib/package_projet\n'}
+[0.963675] (package_projet) StdoutLine: {'line': b'copying package_projet/__init__.py -> /home/alan/ros2_ws/build/package_projet/build/lib/package_projet\n'}
+[0.963748] (package_projet) StdoutLine: {'line': b'copying package_projet/client.py -> /home/alan/ros2_ws/build/package_projet/build/lib/package_projet\n'}
+[0.963917] (package_projet) StdoutLine: {'line': b'copying package_projet/suscriber_i2c.py -> /home/alan/ros2_ws/build/package_projet/build/lib/package_projet\n'}
+[0.964001] (package_projet) StdoutLine: {'line': b'copying package_projet/serveur.py -> /home/alan/ros2_ws/build/package_projet/build/lib/package_projet\n'}
+[0.964147] (package_projet) StdoutLine: {'line': b'copying package_projet/publisher.py -> /home/alan/ros2_ws/build/package_projet/build/lib/package_projet\n'}
+[0.964221] (package_projet) StdoutLine: {'line': b'copying package_projet/publisher_i2c_rand.py -> /home/alan/ros2_ws/build/package_projet/build/lib/package_projet\n'}
+[0.964339] (package_projet) StdoutLine: {'line': b'copying package_projet/my_node.py -> /home/alan/ros2_ws/build/package_projet/build/lib/package_projet\n'}
+[0.964494] (package_projet) StdoutLine: {'line': b'copying package_projet/site.py -> /home/alan/ros2_ws/build/package_projet/build/lib/package_projet\n'}
+[0.964568] (package_projet) StdoutLine: {'line': b'copying package_projet/suscriber_basededonne.py -> /home/alan/ros2_ws/build/package_projet/build/lib/package_projet\n'}
+[0.964868] (package_projet) StdoutLine: {'line': b'running install\n'}
+[0.965178] (package_projet) StdoutLine: {'line': b'running install_lib\n'}
+[0.965827] (package_projet) StdoutLine: {'line': b'creating /home/alan/ros2_ws/install/package_projet/lib/python3.10/site-packages/package_projet\n'}
+[0.965976] (package_projet) StdoutLine: {'line': b'copying /home/alan/ros2_ws/build/package_projet/build/lib/package_projet/porte.py -> /home/alan/ros2_ws/install/package_projet/lib/python3.10/site-packages/package_projet\n'}
+[0.966132] (package_projet) StdoutLine: {'line': b'copying /home/alan/ros2_ws/build/package_projet/build/lib/package_projet/capteur_presence.py -> /home/alan/ros2_ws/install/package_projet/lib/python3.10/site-packages/package_projet\n'}
+[0.966265] (package_projet) StdoutLine: {'line': b'copying /home/alan/ros2_ws/build/package_projet/build/lib/package_projet/suscriber.py -> /home/alan/ros2_ws/install/package_projet/lib/python3.10/site-packages/package_projet\n'}
+[0.966340] (package_projet) StdoutLine: {'line': b'copying /home/alan/ros2_ws/build/package_projet/build/lib/package_projet/__init__.py -> /home/alan/ros2_ws/install/package_projet/lib/python3.10/site-packages/package_projet\n'}
+[0.966462] (package_projet) StdoutLine: {'line': b'copying /home/alan/ros2_ws/build/package_projet/build/lib/package_projet/client.py -> /home/alan/ros2_ws/install/package_projet/lib/python3.10/site-packages/package_projet\n'}
+[0.966544] (package_projet) StdoutLine: {'line': b'copying /home/alan/ros2_ws/build/package_projet/build/lib/package_projet/suscriber_i2c.py -> /home/alan/ros2_ws/install/package_projet/lib/python3.10/site-packages/package_projet\n'}
+[0.966692] (package_projet) StdoutLine: {'line': b'copying /home/alan/ros2_ws/build/package_projet/build/lib/package_projet/serveur.py -> /home/alan/ros2_ws/install/package_projet/lib/python3.10/site-packages/package_projet\n'}
+[0.966767] (package_projet) StdoutLine: {'line': b'copying /home/alan/ros2_ws/build/package_projet/build/lib/package_projet/publisher.py -> /home/alan/ros2_ws/install/package_projet/lib/python3.10/site-packages/package_projet\n'}
+[0.966921] (package_projet) StdoutLine: {'line': b'copying /home/alan/ros2_ws/build/package_projet/build/lib/package_projet/publisher_i2c_rand.py -> /home/alan/ros2_ws/install/package_projet/lib/python3.10/site-packages/package_projet\n'}
+[0.967069] (package_projet) StdoutLine: {'line': b'copying /home/alan/ros2_ws/build/package_projet/build/lib/package_projet/my_node.py -> /home/alan/ros2_ws/install/package_projet/lib/python3.10/site-packages/package_projet\n'}
+[0.967195] (package_projet) StdoutLine: {'line': b'copying /home/alan/ros2_ws/build/package_projet/build/lib/package_projet/site.py -> /home/alan/ros2_ws/install/package_projet/lib/python3.10/site-packages/package_projet\n'}
+[0.967334] (package_projet) StdoutLine: {'line': b'copying /home/alan/ros2_ws/build/package_projet/build/lib/package_projet/suscriber_basededonne.py -> /home/alan/ros2_ws/install/package_projet/lib/python3.10/site-packages/package_projet\n'}
+[0.967721] (package_projet) StdoutLine: {'line': b'byte-compiling /home/alan/ros2_ws/install/package_projet/lib/python3.10/site-packages/package_projet/porte.py to porte.cpython-310.pyc\n'}
+[0.968214] (package_projet) StdoutLine: {'line': b'byte-compiling /home/alan/ros2_ws/install/package_projet/lib/python3.10/site-packages/package_projet/capteur_presence.py to capteur_presence.cpython-310.pyc\n'}
+[0.968578] (package_projet) StdoutLine: {'line': b'byte-compiling /home/alan/ros2_ws/install/package_projet/lib/python3.10/site-packages/package_projet/suscriber.py to suscriber.cpython-310.pyc\n'}
+[0.968913] (package_projet) StdoutLine: {'line': b'byte-compiling /home/alan/ros2_ws/install/package_projet/lib/python3.10/site-packages/package_projet/__init__.py to __init__.cpython-310.pyc\n'}
+[0.969102] (package_projet) StdoutLine: {'line': b'byte-compiling /home/alan/ros2_ws/install/package_projet/lib/python3.10/site-packages/package_projet/client.py to client.cpython-310.pyc\n'}
+[0.969492] (package_projet) StdoutLine: {'line': b'byte-compiling /home/alan/ros2_ws/install/package_projet/lib/python3.10/site-packages/package_projet/suscriber_i2c.py to suscriber_i2c.cpython-310.pyc\n'}
+[0.970007] (package_projet) StdoutLine: {'line': b'byte-compiling /home/alan/ros2_ws/install/package_projet/lib/python3.10/site-packages/package_projet/serveur.py to serveur.cpython-310.pyc\n'}
+[0.970335] (package_projet) StdoutLine: {'line': b'byte-compiling /home/alan/ros2_ws/install/package_projet/lib/python3.10/site-packages/package_projet/publisher.py to publisher.cpython-310.pyc\n'}
+[0.970649] (package_projet) StdoutLine: {'line': b'byte-compiling /home/alan/ros2_ws/install/package_projet/lib/python3.10/site-packages/package_projet/publisher_i2c_rand.py to publisher_i2c_rand.cpython-310.pyc\n'}
+[0.971080] (package_projet) StdoutLine: {'line': b'byte-compiling /home/alan/ros2_ws/install/package_projet/lib/python3.10/site-packages/package_projet/my_node.py to my_node.cpython-310.pyc\n'}
+[0.971415] (package_projet) StdoutLine: {'line': b'byte-compiling /home/alan/ros2_ws/install/package_projet/lib/python3.10/site-packages/package_projet/site.py to site.cpython-310.pyc\n'}
+[0.972323] (package_projet) StdoutLine: {'line': b'byte-compiling /home/alan/ros2_ws/install/package_projet/lib/python3.10/site-packages/package_projet/suscriber_basededonne.py to suscriber_basededonne.cpython-310.pyc\n'}
+[0.972891] (package_projet) StdoutLine: {'line': b'running install_data\n'}
+[0.973039] (package_projet) StdoutLine: {'line': b'creating /home/alan/ros2_ws/install/package_projet/share/ament_index\n'}
+[0.973163] (package_projet) StdoutLine: {'line': b'creating /home/alan/ros2_ws/install/package_projet/share/ament_index/resource_index\n'}
+[0.973240] (package_projet) StdoutLine: {'line': b'creating /home/alan/ros2_ws/install/package_projet/share/ament_index/resource_index/packages\n'}
+[0.973366] (package_projet) StdoutLine: {'line': b'copying resource/package_projet -> /home/alan/ros2_ws/install/package_projet/share/ament_index/resource_index/packages\n'}
+[0.973457] (package_projet) StdoutLine: {'line': b'copying package.xml -> /home/alan/ros2_ws/install/package_projet/share/package_projet\n'}
+[0.973571] (package_projet) StdoutLine: {'line': b'creating /home/alan/ros2_ws/install/package_projet/share/package_projet/launch\n'}
+[0.973630] (package_projet) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.975163] (package_projet) StdoutLine: {'line': b'Copying ../../build/package_projet/package_projet.egg-info to /home/alan/ros2_ws/install/package_projet/lib/python3.10/site-packages/package_projet-0.0.0-py3.10.egg-info\n'}
+[0.976016] (package_projet) StdoutLine: {'line': b'running install_scripts\n'}
+[0.998107] (package_projet) StdoutLine: {'line': b'Installing capteur_presence script to /home/alan/ros2_ws/install/package_projet/lib/package_projet\n'}
+[0.998359] (package_projet) StdoutLine: {'line': b'Installing client script to /home/alan/ros2_ws/install/package_projet/lib/package_projet\n'}
+[0.998533] (package_projet) StdoutLine: {'line': b'Installing my_node script to /home/alan/ros2_ws/install/package_projet/lib/package_projet\n'}
+[0.998655] (package_projet) StdoutLine: {'line': b'Installing porte script to /home/alan/ros2_ws/install/package_projet/lib/package_projet\n'}
+[0.998743] (package_projet) StdoutLine: {'line': b'Installing publisher_i2c_rand script to /home/alan/ros2_ws/install/package_projet/lib/package_projet\n'}
+[0.998949] (package_projet) StdoutLine: {'line': b'Installing serveur script to /home/alan/ros2_ws/install/package_projet/lib/package_projet\n'}
+[0.999032] (package_projet) StdoutLine: {'line': b'Installing site script to /home/alan/ros2_ws/install/package_projet/lib/package_projet\n'}
+[0.999092] (package_projet) StdoutLine: {'line': b'Installing suscriber_basededonne script to /home/alan/ros2_ws/install/package_projet/lib/package_projet\n'}
+[0.999149] (package_projet) StdoutLine: {'line': b'Installing suscriber_i2c script to /home/alan/ros2_ws/install/package_projet/lib/package_projet\n'}
+[0.999463] (package_projet) StdoutLine: {'line': b"writing list of installed files to '/home/alan/ros2_ws/build/package_projet/install.log'\n"}
+[1.031270] (package_projet) CommandEnded: {'returncode': 0}
+[1.042380] (package_projet) JobEnded: {'identifier': 'package_projet', 'rc': 0}
+[1.043149] (-) EventReactorShutdown: {}

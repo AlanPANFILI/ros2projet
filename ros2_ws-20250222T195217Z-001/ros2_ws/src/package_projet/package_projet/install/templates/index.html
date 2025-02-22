@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROS 2 Flask Interface</title>
+    <script>
+        function fetchLiveData() {
+            fetch('/live_data')
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('live-temp').innerText = data.temp;
+                    document.getElementById('live-humid').innerText = data.humid;
+                    document.getElementById('live-qualite').innerText = data.qualite;
+                    document.getElementById('live-presence').innerText = data.presence;
+                });
+        }
+
+        function fetchStoredData() {
+            fetch('/data')
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('stored-temp').innerText = data.temp;
+                    document.getElementById('stored-humid').innerText = data.humid;
+                    document.getElementById('stored-qualite').innerText = data.qualite;
+                    document.getElementById('stored-heures').innerText = data.heure;
+                });
+        }
+
+        function sendCommand() {
+            fetch('/send', { method: 'POST' })
+                .then(response => response.json());
+        }
+        
+        
+        function sendbdd() {
+            fetch('/send', { method: 'POST' })
+                .then(response => response.json());
+        }
+
+
+        setInterval(fetchLiveData, 1000);
+        setInterval(fetchStoredData, 5000);
+    </script>
+</head>
+<body>
+    <h1>Valeurs en temps réel :</h1>
+    <p>Température: <span id="live-temp">Chargement...</span></p>
+    <p>Humidité: <span id="live-humid">Chargement...</span></p>
+    <p>Qualité de l'air: <span id="live-qualite">Chargement...</span></p>
+    <p>Détection presence: <span id="live-presence">Chargement...</span></p>
+
+    <h1>Dernières valeurs enregistrées :</h1>
+    <p>Température: <span id="stored-temp">Chargement...</span></p>
+    <p>Humidité: <span id="stored-humid">Chargement...</span></p>
+    <p>Qualité de l'air: <span id="stored-qualite">Chargement...</span></p>
+    <p>Heure de la prise de valeur: <span id="stored-heures">Chargement...</span></p>
+
+    <button onclick="sendCommand()">Envoyer Commande</button>
+    <button onclick="sendbdd()">Enregistrer les valeurs dans la base de données</button>
+</body>
+</html>
+

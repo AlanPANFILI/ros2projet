@@ -1,0 +1,139 @@
+[0.675s] Invoking command in '/home/alan/ros2_ws/src/package_projet': PYTHONPATH=/home/alan/ros2_ws/src/package_projet/build/package_projet/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/package_projet build --build-base /home/alan/ros2_ws/src/package_projet/build/package_projet/build install --record /home/alan/ros2_ws/src/package_projet/build/package_projet/install.log --single-version-externally-managed install_data
+[0.941s] running egg_info
+[0.941s] creating build/package_projet/package_projet.egg-info
+[0.942s] writing build/package_projet/package_projet.egg-info/PKG-INFO
+[0.942s] writing dependency_links to build/package_projet/package_projet.egg-info/dependency_links.txt
+[0.942s] writing entry points to build/package_projet/package_projet.egg-info/entry_points.txt
+[0.942s] writing requirements to build/package_projet/package_projet.egg-info/requires.txt
+[0.942s] writing top-level names to build/package_projet/package_projet.egg-info/top_level.txt
+[0.942s] writing manifest file 'build/package_projet/package_projet.egg-info/SOURCES.txt'
+[0.945s] reading manifest file 'build/package_projet/package_projet.egg-info/SOURCES.txt'
+[0.946s] writing manifest file 'build/package_projet/package_projet.egg-info/SOURCES.txt'
+[0.946s] running build
+[0.946s] running build_py
+[0.946s] creating /home/alan/ros2_ws/src/package_projet/build/package_projet/build
+[0.946s] creating /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib
+[0.947s] creating /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet
+[0.947s] copying package_projet/porte.py -> /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet
+[0.947s] copying package_projet/capteur_presence.py -> /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet
+[0.947s] copying package_projet/suscriber.py -> /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet
+[0.947s] copying package_projet/__init__.py -> /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet
+[0.947s] copying package_projet/client.py -> /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet
+[0.947s] copying package_projet/suscriber_i2c.py -> /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet
+[0.947s] copying package_projet/serveur.py -> /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet
+[0.947s] copying package_projet/publisher.py -> /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet
+[0.948s] copying package_projet/publisher_i2c_rand.py -> /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet
+[0.948s] copying package_projet/my_node.py -> /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet
+[0.948s] copying package_projet/site.py -> /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet
+[0.948s] copying package_projet/suscriber_basededonne.py -> /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet
+[0.948s] creating /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet/install
+[0.949s] copying package_projet/install/site4.py -> /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet/install
+[0.949s] copying package_projet/install/siteoui2.py -> /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet/install
+[0.949s] copying package_projet/install/sescriber_i2c.py -> /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet/install
+[0.949s] copying package_projet/install/capteur_presence.py -> /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet/install
+[0.949s] copying package_projet/install/_local_setup_util_sh.py -> /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet/install
+[0.949s] copying package_projet/install/suscriber.py -> /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet/install
+[0.949s] copying package_projet/install/__init__.py -> /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet/install
+[0.949s] copying package_projet/install/client.py -> /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet/install
+[0.950s] copying package_projet/install/testeur_recu.py -> /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet/install
+[0.950s] copying package_projet/install/serveur.py -> /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet/install
+[0.950s] copying package_projet/install/publisher.py -> /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet/install
+[0.950s] copying package_projet/install/siteoui.py -> /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet/install
+[0.950s] copying package_projet/install/publisher_i2c_rand.py -> /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet/install
+[0.950s] copying package_projet/install/site2.py -> /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet/install
+[0.950s] copying package_projet/install/my_node.py -> /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet/install
+[0.951s] copying package_projet/install/publisher_i2c.py -> /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet/install
+[0.951s] copying package_projet/install/site3 (copy).py -> /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet/install
+[0.951s] copying package_projet/install/site.py -> /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet/install
+[0.951s] copying package_projet/install/site3.py -> /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet/install
+[0.951s] copying package_projet/install/suscriber_bdd.py -> /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet/install
+[0.951s] copying package_projet/install/suscriber_basededonne.py -> /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet/install
+[0.951s] copying package_projet/install/site5.py -> /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet/install
+[0.951s] copying package_projet/install/_local_setup_util_ps1.py -> /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet/install
+[0.952s] running install
+[0.952s] running install_lib
+[0.953s] creating /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet
+[0.953s] copying /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet/porte.py -> /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet
+[0.953s] copying /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet/capteur_presence.py -> /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet
+[0.953s] copying /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet/suscriber.py -> /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet
+[0.954s] copying /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet/__init__.py -> /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet
+[0.954s] copying /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet/client.py -> /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet
+[0.954s] copying /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet/suscriber_i2c.py -> /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet
+[0.954s] copying /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet/serveur.py -> /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet
+[0.954s] copying /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet/publisher.py -> /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet
+[0.954s] copying /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet/publisher_i2c_rand.py -> /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet
+[0.954s] copying /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet/my_node.py -> /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet
+[0.954s] copying /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet/site.py -> /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet
+[0.955s] creating /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet/install
+[0.955s] copying /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet/install/site4.py -> /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet/install
+[0.955s] copying /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet/install/siteoui2.py -> /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet/install
+[0.955s] copying /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet/install/sescriber_i2c.py -> /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet/install
+[0.955s] copying /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet/install/capteur_presence.py -> /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet/install
+[0.955s] copying /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet/install/_local_setup_util_sh.py -> /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet/install
+[0.955s] copying /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet/install/suscriber.py -> /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet/install
+[0.955s] copying /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet/install/__init__.py -> /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet/install
+[0.956s] copying /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet/install/client.py -> /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet/install
+[0.956s] copying /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet/install/testeur_recu.py -> /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet/install
+[0.956s] copying /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet/install/serveur.py -> /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet/install
+[0.956s] copying /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet/install/publisher.py -> /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet/install
+[0.956s] copying /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet/install/siteoui.py -> /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet/install
+[0.956s] copying /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet/install/publisher_i2c_rand.py -> /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet/install
+[0.956s] copying /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet/install/site2.py -> /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet/install
+[0.957s] copying /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet/install/my_node.py -> /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet/install
+[0.957s] copying /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet/install/publisher_i2c.py -> /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet/install
+[0.957s] copying /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet/install/site3 (copy).py -> /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet/install
+[0.957s] copying /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet/install/site.py -> /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet/install
+[0.957s] copying /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet/install/site3.py -> /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet/install
+[0.957s] copying /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet/install/suscriber_bdd.py -> /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet/install
+[0.957s] copying /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet/install/suscriber_basededonne.py -> /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet/install
+[0.957s] copying /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet/install/site5.py -> /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet/install
+[0.957s] copying /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet/install/_local_setup_util_ps1.py -> /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet/install
+[0.957s] copying /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet/suscriber_basededonne.py -> /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet
+[0.958s] byte-compiling /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet/porte.py to porte.cpython-310.pyc
+[0.959s] byte-compiling /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet/capteur_presence.py to capteur_presence.cpython-310.pyc
+[0.959s] byte-compiling /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet/suscriber.py to suscriber.cpython-310.pyc
+[0.959s] byte-compiling /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet/__init__.py to __init__.cpython-310.pyc
+[0.959s] byte-compiling /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet/client.py to client.cpython-310.pyc
+[0.960s] byte-compiling /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet/suscriber_i2c.py to suscriber_i2c.cpython-310.pyc
+[0.960s] byte-compiling /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet/serveur.py to serveur.cpython-310.pyc
+[0.961s] byte-compiling /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet/publisher.py to publisher.cpython-310.pyc
+[0.961s] byte-compiling /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet/publisher_i2c_rand.py to publisher_i2c_rand.cpython-310.pyc
+[0.961s] byte-compiling /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet/my_node.py to my_node.cpython-310.pyc
+[0.962s] Sorry: IndentationError: expected an indented block after function definition on line 3 (my_node.py, line 5)
+[0.962s] byte-compiling /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet/site.py to site.cpython-310.pyc
+[0.963s] byte-compiling /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet/install/site4.py to site4.cpython-310.pyc
+[0.963s] byte-compiling /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet/install/siteoui2.py to siteoui2.cpython-310.pyc
+[0.964s] byte-compiling /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet/install/sescriber_i2c.py to sescriber_i2c.cpython-310.pyc
+[0.964s] byte-compiling /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet/install/capteur_presence.py to capteur_presence.cpython-310.pyc
+[0.965s] byte-compiling /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet/install/_local_setup_util_sh.py to _local_setup_util_sh.cpython-310.pyc
+[0.967s] byte-compiling /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet/install/suscriber.py to suscriber.cpython-310.pyc
+[0.967s] byte-compiling /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet/install/__init__.py to __init__.cpython-310.pyc
+[0.967s] byte-compiling /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet/install/client.py to client.cpython-310.pyc
+[0.967s] byte-compiling /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet/install/testeur_recu.py to testeur_recu.cpython-310.pyc
+[0.968s] byte-compiling /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet/install/serveur.py to serveur.cpython-310.pyc
+[0.968s] byte-compiling /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet/install/publisher.py to publisher.cpython-310.pyc
+[0.968s] byte-compiling /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet/install/siteoui.py to siteoui.cpython-310.pyc
+[0.969s] byte-compiling /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet/install/publisher_i2c_rand.py to publisher_i2c_rand.cpython-310.pyc
+[0.969s] byte-compiling /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet/install/site2.py to site2.cpython-310.pyc
+[0.970s] byte-compiling /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet/install/my_node.py to my_node.cpython-310.pyc
+[0.970s] byte-compiling /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet/install/publisher_i2c.py to publisher_i2c.cpython-310.pyc
+[0.971s] byte-compiling /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet/install/site3 (copy).py to site3 (copy).cpython-310.pyc
+[0.971s] byte-compiling /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet/install/site.py to site.cpython-310.pyc
+[0.971s] byte-compiling /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet/install/site3.py to site3.cpython-310.pyc
+[0.972s] byte-compiling /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet/install/suscriber_bdd.py to suscriber_bdd.cpython-310.pyc
+[0.972s] byte-compiling /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet/install/suscriber_basededonne.py to suscriber_basededonne.cpython-310.pyc
+[0.973s] byte-compiling /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet/install/site5.py to site5.cpython-310.pyc
+[0.974s] byte-compiling /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet/install/_local_setup_util_ps1.py to _local_setup_util_ps1.cpython-310.pyc
+[0.975s] byte-compiling /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet/suscriber_basededonne.py to suscriber_basededonne.cpython-310.pyc
+[0.976s] running install_data
+[0.976s] creating /home/alan/ros2_ws/src/package_projet/install/package_projet/share/ament_index
+[0.976s] creating /home/alan/ros2_ws/src/package_projet/install/package_projet/share/ament_index/resource_index
+[0.976s] creating /home/alan/ros2_ws/src/package_projet/install/package_projet/share/ament_index/resource_index/packages
+[0.976s] copying resource/package_projet -> /home/alan/ros2_ws/src/package_projet/install/package_projet/share/ament_index/resource_index/packages
+[0.976s] copying package.xml -> /home/alan/ros2_ws/src/package_projet/install/package_projet/share/package_projet
+[0.977s] running install_egg_info
+[0.978s] Copying build/package_projet/package_projet.egg-info to /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet-0.0.0-py3.10.egg-info
+[0.979s] running install_scripts
+[1.000s] Installing my_node script to /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/package_projet
+[1.001s] writing list of installed files to '/home/alan/ros2_ws/src/package_projet/build/package_projet/install.log'
+[1.028s] Invoked command in '/home/alan/ros2_ws/src/package_projet' returned '0': PYTHONPATH=/home/alan/ros2_ws/src/package_projet/build/package_projet/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/package_projet build --build-base /home/alan/ros2_ws/src/package_projet/build/package_projet/build install --record /home/alan/ros2_ws/src/package_projet/build/package_projet/install.log --single-version-externally-managed install_data

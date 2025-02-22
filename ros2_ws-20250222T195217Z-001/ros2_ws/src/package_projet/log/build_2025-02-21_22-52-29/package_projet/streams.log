@@ -1,0 +1,30 @@
+[0.679s] Invoking command in '/home/alan/ros2_ws/src/package_projet': PYTHONPATH=/home/alan/ros2_ws/src/package_projet/build/package_projet/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/package_projet build --build-base /home/alan/ros2_ws/src/package_projet/build/package_projet/build install --record /home/alan/ros2_ws/src/package_projet/build/package_projet/install.log --single-version-externally-managed install_data
+[0.960s] running egg_info
+[0.960s] writing build/package_projet/package_projet.egg-info/PKG-INFO
+[0.960s] writing dependency_links to build/package_projet/package_projet.egg-info/dependency_links.txt
+[0.961s] writing entry points to build/package_projet/package_projet.egg-info/entry_points.txt
+[0.961s] writing requirements to build/package_projet/package_projet.egg-info/requires.txt
+[0.961s] writing top-level names to build/package_projet/package_projet.egg-info/top_level.txt
+[0.963s] reading manifest file 'build/package_projet/package_projet.egg-info/SOURCES.txt'
+[0.965s] writing manifest file 'build/package_projet/package_projet.egg-info/SOURCES.txt'
+[0.965s] running build
+[0.965s] running build_py
+[0.966s] copying package_projet/my_node.py -> /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet
+[0.967s] copying package_projet/install/_local_setup_util_sh.py -> /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet/install
+[0.968s] copying package_projet/install/_local_setup_util_ps1.py -> /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet/install
+[0.968s] running install
+[0.969s] running install_lib
+[0.970s] copying /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet/my_node.py -> /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet
+[0.970s] copying /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet/install/_local_setup_util_sh.py -> /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet/install
+[0.971s] copying /home/alan/ros2_ws/src/package_projet/build/package_projet/build/lib/package_projet/install/_local_setup_util_ps1.py -> /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet/install
+[0.972s] byte-compiling /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet/my_node.py to my_node.cpython-310.pyc
+[0.972s] byte-compiling /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet/install/_local_setup_util_sh.py to _local_setup_util_sh.cpython-310.pyc
+[0.975s] byte-compiling /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet/install/_local_setup_util_ps1.py to _local_setup_util_ps1.cpython-310.pyc
+[0.976s] running install_data
+[0.977s] running install_egg_info
+[0.978s] removing '/home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet-0.0.0-py3.10.egg-info' (and everything under it)
+[0.979s] Copying build/package_projet/package_projet.egg-info to /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages/package_projet-0.0.0-py3.10.egg-info
+[0.979s] running install_scripts
+[1.003s] Installing my_node script to /home/alan/ros2_ws/src/package_projet/install/package_projet/lib/package_projet
+[1.004s] writing list of installed files to '/home/alan/ros2_ws/src/package_projet/build/package_projet/install.log'
+[1.037s] Invoked command in '/home/alan/ros2_ws/src/package_projet' returned '0': PYTHONPATH=/home/alan/ros2_ws/src/package_projet/build/package_projet/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alan/ros2_ws/src/package_projet/install/package_projet/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/package_projet build --build-base /home/alan/ros2_ws/src/package_projet/build/package_projet/build install --record /home/alan/ros2_ws/src/package_projet/build/package_projet/install.log --single-version-externally-managed install_data

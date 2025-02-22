@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page avec boutons et jauge</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        .button-container {
+            margin-bottom: 20px;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 5px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .gauge-container {
+            width: 50%;
+            margin: auto;
+        }
+        progress {
+            width: 100%;
+            height: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="button-container">
+        <button onclick="updateGauge(10)">Augmenter</button>
+        <button onclick="updateGauge(-10)">Diminuer</button>
+        <button onclick="resetGauge()">Réinitialiser</button>
+    </div>
+    <div class="gauge-container">
+        <progress id="gauge" value="50" max="100"></progress>
+    </div>
+
+    <script>
+        function updateGauge(value) {
+            let gauge = document.getElementById('gauge');
+            let newValue = parseInt(gauge.value) + value;
+            gauge.value = Math.max(0, Math.min(100, newValue));
+        }
+
+        function resetGauge() {
+            document.getElementById('gauge').value = 50;
+        }
+    </script>
+</body>
+</html>
+

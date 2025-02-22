@@ -1,0 +1,8 @@
+python3: can't open file '/home/alan/ros2_ws/src/.package_projet/serveur.py': [Errno 2] No such file or directory
+python3: can't open file '/home/alan/ros2_ws/src/./package_projet/capteur_presence.py': [Errno 2] No such file or directory
+python3: can't open file '/home/alan/ros2_ws/src/./package_projet/publisher_i2c_rand.py': [Errno 2] No such file or directory
+python3: can't open file '/home/alan/ros2_ws/src/./package_projet/site.py': [Errno 2] No such file or directory
+python3: can't open file '/home/alan/ros2_ws/src/./package_projet/client.py': [Errno 2] No such file or directory
+python3: can't open file '/home/alan/ros2_ws/src/./package_projet/suscriber_basededonne.py': [Errno 2] No such file or directory
+python3: can't open file '/home/alan/ros2_ws/src/./package_projet/suscriber_i2c.py': [Errno 2] No such file or directory
+python3: can't open file '/home/alan/ros2_ws/src/./package_projet/porte.py': [Errno 2] No such file or directory

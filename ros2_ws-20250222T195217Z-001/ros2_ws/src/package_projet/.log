@@ -1,0 +1,2228 @@
+[INFO] [1740175318.842512639] [lamp_service]: Service "allumer_lampe" prêt.
+ * Serving Flask app 'site'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.15:5000
+Press CTRL+C to quit
+ * Restarting with stat
+[INFO] [1740175319.077314705] [lamp_client]: Service trouvé, envoi des requêtes en boucle...
+[INFO] [1740175319.077991886] [lamp_client]: Prochaine requête dans 7.99 secondes...
+[INFO] [1740175319.078554697] [lamp_service]: État de la lampe : ON
+ * Debugger is active!
+ * Debugger PIN: 936-503-022
+[INFO] [1740175319.839597980] [publisher_presence]: Publishing: "1"
+[INFO] [1740175319.849664271] [site_flask_int]: presence: 1
+[INFO] [1740175319.849691422] [site_flask_int]: presence: 1
+[INFO] [1740175319.851469930] [site_flask_int]: Température reçue: 25
+[INFO] [1740175319.851587330] [site_flask_int]: Température reçue: 25
+[INFO] [1740175319.852974854] [publisher_i2c]: Publishing Temp: 25
+[INFO] [1740175319.853662315] [publisher_i2c]: Publishing Humid: 78
+[INFO] [1740175319.853718369] [data_logger]: Température reçue: 25
+[INFO] [1740175319.853775191] [subscriber_actioneur]: Température reçue: "25"
+[INFO] [1740175319.854134651] [publisher_i2c]: Publishing Qualite: 33
+[INFO] [1740175319.854365529] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175319.854553237] [site_flask_int]: Humidité reçue: 78
+[INFO] [1740175319.854655649] [data_logger]: Humidité reçue: 78
+[INFO] [1740175319.854665679] [site_flask_int]: Humidité reçue: 78
+[INFO] [1740175319.855120897] [subscriber_actioneur]: Humidité reçue: "78"
+[INFO] [1740175319.855161509] [data_logger]: Stockage en mémoire tampon : 25, 78, 33, None
+[INFO] [1740175319.855611297] [subscriber_actioneur]: Qualité reçue: "33"
+[INFO] [1740175319.855611303] [data_logger]: Qualité de l'air reçue: 33
+[INFO] [1740175319.856078063] [subscriber_actioneur]: Publishing on "fenetre": "Ferme la fenêtre"
+[INFO] [1740175319.856117192] [site_flask_int]: Qualité de l'air reçue: 33
+[INFO] [1740175319.856447392] [site_flask_int]: Qualité de l'air reçue: 33
+[INFO] [1740175320.831061583] [publisher_presence]: Publishing: "1"
+[INFO] [1740175320.832233477] [site_flask_int]: presence: 1
+[INFO] [1740175320.832417874] [site_flask_int]: presence: 1
+[INFO] [1740175320.841045496] [publisher_i2c]: Publishing Temp: 21
+[INFO] [1740175320.841565021] [data_logger]: Température reçue: 21
+[INFO] [1740175320.841600683] [subscriber_actioneur]: Température reçue: "21"
+[INFO] [1740175320.841789272] [publisher_i2c]: Publishing Humid: 65
+[INFO] [1740175320.842038911] [site_flask_int]: Température reçue: 21
+[INFO] [1740175320.842065270] [site_flask_int]: Température reçue: 21
+[INFO] [1740175320.842348461] [publisher_i2c]: Publishing Qualite: 44
+[INFO] [1740175320.842459610] [data_logger]: Humidité reçue: 65
+[INFO] [1740175320.842506217] [subscriber_actioneur]: Humidité reçue: "65"
+[INFO] [1740175320.843013830] [subscriber_actioneur]: Qualité reçue: "44"
+[INFO] [1740175320.843143013] [data_logger]: Stockage en mémoire tampon : 21, 65, 44, None
+[INFO] [1740175320.843435621] [subscriber_actioneur]: Publishing on "fenetre": "Ferme la fenêtre"
+[INFO] [1740175320.843521163] [data_logger]: Qualité de l'air reçue: 44
+[INFO] [1740175320.843657949] [site_flask_int]: Humidité reçue: 65
+[INFO] [1740175320.843707912] [site_flask_int]: Humidité reçue: 65
+[INFO] [1740175320.845228898] [site_flask_int]: Qualité de l'air reçue: 44
+[INFO] [1740175320.845331891] [site_flask_int]: Qualité de l'air reçue: 44
+[INFO] [1740175321.828446282] [publisher_presence]: Publishing: "1"
+[INFO] [1740175321.830001639] [site_flask_int]: presence: 1
+[INFO] [1740175321.830011467] [site_flask_int]: presence: 1
+[INFO] [1740175321.841224773] [publisher_i2c]: Publishing Temp: 28
+[INFO] [1740175321.841660401] [data_logger]: Température reçue: 28
+[INFO] [1740175321.841758244] [subscriber_actioneur]: Température reçue: "28"
+[INFO] [1740175321.841875684] [publisher_i2c]: Publishing Humid: 52
+[INFO] [1740175321.842405219] [site_flask_int]: Température reçue: 28
+[INFO] [1740175321.842431818] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175321.842440645] [site_flask_int]: Température reçue: 28
+[INFO] [1740175321.842482173] [publisher_i2c]: Publishing Qualite: 20
+[INFO] [1740175321.842525625] [data_logger]: Humidité reçue: 52
+[INFO] [1740175321.843232281] [subscriber_actioneur]: Humidité reçue: "52"
+[INFO] [1740175321.843306801] [data_logger]: Stockage en mémoire tampon : 28, 52, 20, None
+[INFO] [1740175321.843698646] [subscriber_actioneur]: Qualité reçue: "20"
+[INFO] [1740175321.843706070] [data_logger]: Qualité de l'air reçue: 20
+[INFO] [1740175321.844011303] [site_flask_int]: Humidité reçue: 52
+[INFO] [1740175321.844142098] [site_flask_int]: Humidité reçue: 52
+[INFO] [1740175321.844145415] [subscriber_actioneur]: Publishing on "fenetre": "Ouvre la fenêtre"
+[INFO] [1740175321.845545122] [site_flask_int]: Qualité de l'air reçue: 20
+[INFO] [1740175321.846068334] [site_flask_int]: Qualité de l'air reçue: 20
+[INFO] [1740175322.826917752] [publisher_presence]: Publishing: "1"
+[INFO] [1740175322.828199938] [site_flask_int]: presence: 1
+[INFO] [1740175322.828341364] [site_flask_int]: presence: 1
+[INFO] [1740175322.840495334] [publisher_i2c]: Publishing Temp: 29
+[INFO] [1740175322.840717602] [data_logger]: Température reçue: 29
+[INFO] [1740175322.840779738] [subscriber_actioneur]: Température reçue: "29"
+[INFO] [1740175322.841062248] [publisher_i2c]: Publishing Humid: 83
+[INFO] [1740175322.841502755] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175322.841583877] [data_logger]: Humidité reçue: 83
+[INFO] [1740175322.841605258] [publisher_i2c]: Publishing Qualite: 23
+[INFO] [1740175322.841680900] [site_flask_int]: Température reçue: 29
+[INFO] [1740175322.841703402] [site_flask_int]: Température reçue: 29
+[INFO] [1740175322.842289602] [data_logger]: Stockage en mémoire tampon : 29, 83, 23, None
+[INFO] [1740175322.842327363] [subscriber_actioneur]: Humidité reçue: "83"
+[INFO] [1740175322.842684754] [data_logger]: Qualité de l'air reçue: 23
+[INFO] [1740175322.842816531] [subscriber_actioneur]: Qualité reçue: "23"
+[INFO] [1740175322.843350588] [subscriber_actioneur]: Publishing on "fenetre": "Ouvre la fenêtre"
+[INFO] [1740175322.843597238] [site_flask_int]: Humidité reçue: 83
+[INFO] [1740175322.843723744] [site_flask_int]: Humidité reçue: 83
+[INFO] [1740175322.845456456] [site_flask_int]: Qualité de l'air reçue: 23
+[INFO] [1740175322.845482585] [site_flask_int]: Qualité de l'air reçue: 23
+[INFO] [1740175323.826748560] [publisher_presence]: Publishing: "1"
+[INFO] [1740175323.828001266] [site_flask_int]: presence: 1
+[INFO] [1740175323.828027515] [site_flask_int]: presence: 1
+[INFO] [1740175323.840731348] [publisher_i2c]: Publishing Temp: 25
+[INFO] [1740175323.840958214] [subscriber_actioneur]: Température reçue: "25"
+[INFO] [1740175323.841084941] [data_logger]: Température reçue: 25
+[INFO] [1740175323.841305285] [publisher_i2c]: Publishing Humid: 52
+[INFO] [1740175323.841500191] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175323.841757293] [publisher_i2c]: Publishing Qualite: 3
+[INFO] [1740175323.841809797] [site_flask_int]: Température reçue: 25
+[INFO] [1740175323.841871098] [site_flask_int]: Température reçue: 25
+[INFO] [1740175323.841949033] [data_logger]: Humidité reçue: 52
+[INFO] [1740175323.842445515] [subscriber_actioneur]: Humidité reçue: "52"
+[INFO] [1740175323.842601929] [data_logger]: Stockage en mémoire tampon : 25, 52, 3, None
+[INFO] [1740175323.842942288] [subscriber_actioneur]: Qualité reçue: "3"
+[INFO] [1740175323.842999665] [data_logger]: Qualité de l'air reçue: 3
+[INFO] [1740175323.843493332] [subscriber_actioneur]: Publishing on "fenetre": "Ouvre la fenêtre"
+[INFO] [1740175323.843867294] [site_flask_int]: Humidité reçue: 52
+[INFO] [1740175323.844212201] [site_flask_int]: Humidité reçue: 52
+[INFO] [1740175323.845630002] [site_flask_int]: Qualité de l'air reçue: 3
+[INFO] [1740175323.845764144] [site_flask_int]: Qualité de l'air reçue: 3
+[INFO] [1740175324.826780160] [publisher_presence]: Publishing: "1"
+[INFO] [1740175324.828087650] [site_flask_int]: presence: 1
+[INFO] [1740175324.828176461] [site_flask_int]: presence: 1
+[INFO] [1740175324.840569034] [publisher_i2c]: Publishing Temp: 26
+[INFO] [1740175324.840833341] [subscriber_actioneur]: Température reçue: "26"
+[INFO] [1740175324.840910706] [data_logger]: Température reçue: 26
+[INFO] [1740175324.841237890] [publisher_i2c]: Publishing Humid: 89
+[INFO] [1740175324.841384635] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175324.841611170] [site_flask_int]: Température reçue: 26
+[INFO] [1740175324.841749770] [publisher_i2c]: Publishing Qualite: 30
+[INFO] [1740175324.841795206] [data_logger]: Humidité reçue: 89
+[INFO] [1740175324.841839899] [site_flask_int]: Température reçue: 26
+[INFO] [1740175324.842159910] [subscriber_actioneur]: Humidité reçue: "89"
+[INFO] [1740175324.842639621] [data_logger]: Stockage en mémoire tampon : 26, 89, 30, None
+[INFO] [1740175324.842716485] [subscriber_actioneur]: Qualité reçue: "30"
+[INFO] [1740175324.843131925] [data_logger]: Qualité de l'air reçue: 30
+[INFO] [1740175324.843302816] [subscriber_actioneur]: Publishing on "fenetre": "Ferme la fenêtre"
+[INFO] [1740175324.843504073] [site_flask_int]: Humidité reçue: 89
+[INFO] [1740175324.844624415] [site_flask_int]: Humidité reçue: 89
+[INFO] [1740175324.845207269] [site_flask_int]: Qualité de l'air reçue: 30
+[INFO] [1740175324.847134081] [site_flask_int]: Qualité de l'air reçue: 30
+127.0.0.1 - - [21/Feb/2025 23:02:05] "GET / HTTP/1.1" 200 -
+[INFO] [1740175325.826536560] [publisher_presence]: Publishing: "1"
+[INFO] [1740175325.827756900] [site_flask_int]: presence: 1
+[INFO] [1740175325.827881805] [site_flask_int]: presence: 1
+[INFO] [1740175325.840524433] [publisher_i2c]: Publishing Temp: 21
+[INFO] [1740175325.840882665] [data_logger]: Température reçue: 21
+[INFO] [1740175325.840891492] [subscriber_actioneur]: Température reçue: "21"
+[INFO] [1740175325.841065969] [publisher_i2c]: Publishing Humid: 61
+[INFO] [1740175325.841621151] [publisher_i2c]: Publishing Qualite: 12
+[INFO] [1740175325.841740135] [data_logger]: Humidité reçue: 61
+[INFO] [1740175325.841805988] [subscriber_actioneur]: Humidité reçue: "61"
+[INFO] [1740175325.841930036] [site_flask_int]: Température reçue: 21
+[INFO] [1740175325.842214966] [data_logger]: Stockage en mémoire tampon : 21, 61, 12, None
+[INFO] [1740175325.842233620] [site_flask_int]: Température reçue: 21
+[INFO] [1740175325.842254049] [subscriber_actioneur]: Qualité reçue: "12"
+[INFO] [1740175325.842634954] [data_logger]: Qualité de l'air reçue: 12
+[INFO] [1740175325.842711738] [subscriber_actioneur]: Publishing on "fenetre": "Ouvre la fenêtre"
+[INFO] [1740175325.843731083] [site_flask_int]: Humidité reçue: 61
+[INFO] [1740175325.844160587] [site_flask_int]: Humidité reçue: 61
+[INFO] [1740175325.845534225] [site_flask_int]: Qualité de l'air reçue: 12
+[INFO] [1740175325.845677384] [site_flask_int]: Qualité de l'air reçue: 12
+127.0.0.1 - - [21/Feb/2025 23:02:06] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175326.827380155] [publisher_presence]: Publishing: "1"
+[INFO] [1740175326.828511317] [site_flask_int]: presence: 1
+[INFO] [1740175326.828569616] [site_flask_int]: presence: 1
+[INFO] [1740175326.840583915] [publisher_i2c]: Publishing Temp: 28
+[INFO] [1740175326.840926949] [subscriber_actioneur]: Température reçue: "28"
+[INFO] [1740175326.840931466] [data_logger]: Température reçue: 28
+[INFO] [1740175326.841102919] [publisher_i2c]: Publishing Humid: 89
+[INFO] [1740175326.841496548] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175326.841600302] [publisher_i2c]: Publishing Qualite: 25
+[INFO] [1740175326.841789687] [data_logger]: Humidité reçue: 89
+[INFO] [1740175326.841898532] [site_flask_int]: Température reçue: 28
+[INFO] [1740175326.841917096] [site_flask_int]: Température reçue: 28
+[INFO] [1740175326.842263928] [subscriber_actioneur]: Humidité reçue: "89"
+[INFO] [1740175326.842325052] [data_logger]: Stockage en mémoire tampon : 28, 89, 25, None
+[INFO] [1740175326.842726727] [subscriber_actioneur]: Qualité reçue: "25"
+[INFO] [1740175326.842728359] [data_logger]: Qualité de l'air reçue: 25
+[INFO] [1740175326.843182292] [subscriber_actioneur]: Publishing on "fenetre": "Ouvre la fenêtre"
+[INFO] [1740175326.843639885] [site_flask_int]: Humidité reçue: 89
+[INFO] [1740175326.844295751] [site_flask_int]: Humidité reçue: 89
+[INFO] [1740175326.845196902] [site_flask_int]: Qualité de l'air reçue: 25
+[INFO] [1740175326.845910993] [site_flask_int]: Qualité de l'air reçue: 25
+[INFO] [1740175327.072649801] [lamp_client]: Prochaine requête dans 8.29 secondes...
+[INFO] [1740175327.072933112] [lamp_service]: État de la lampe : OFF
+127.0.0.1 - - [21/Feb/2025 23:02:07] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175327.827979640] [publisher_presence]: Publishing: "1"
+[INFO] [1740175327.828970960] [site_flask_int]: presence: 1
+[INFO] [1740175327.829231359] [site_flask_int]: presence: 1
+[INFO] [1740175327.840924726] [publisher_i2c]: Publishing Temp: 27
+[INFO] [1740175327.841317563] [data_logger]: Température reçue: 27
+[INFO] [1740175327.841332591] [subscriber_actioneur]: Température reçue: "27"
+[INFO] [1740175327.841564837] [publisher_i2c]: Publishing Humid: 50
+[INFO] [1740175327.841788626] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175327.841981188] [site_flask_int]: Température reçue: 27
+[INFO] [1740175327.842007047] [publisher_i2c]: Publishing Qualite: 33
+[INFO] [1740175327.842034739] [data_logger]: Humidité reçue: 50
+[INFO] [1740175327.842214882] [site_flask_int]: Température reçue: 27
+[INFO] [1740175327.842572999] [subscriber_actioneur]: Humidité reçue: "50"
+[INFO] [1740175327.842719113] [data_logger]: Stockage en mémoire tampon : 27, 50, 33, None
+[INFO] [1740175327.843085961] [subscriber_actioneur]: Qualité reçue: "33"
+[INFO] [1740175327.843244509] [data_logger]: Qualité de l'air reçue: 33
+[INFO] [1740175327.843601710] [subscriber_actioneur]: Publishing on "fenetre": "Ferme la fenêtre"
+[INFO] [1740175327.844012311] [site_flask_int]: Humidité reçue: 50
+[INFO] [1740175327.844072964] [site_flask_int]: Humidité reçue: 50
+[INFO] [1740175327.845634520] [site_flask_int]: Qualité de l'air reçue: 33
+[INFO] [1740175327.845790147] [site_flask_int]: Qualité de l'air reçue: 33
+127.0.0.1 - - [21/Feb/2025 23:02:08] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175328.826391660] [publisher_presence]: Publishing: "1"
+[INFO] [1740175328.827730433] [site_flask_int]: presence: 1
+[INFO] [1740175328.827806906] [site_flask_int]: presence: 1
+[INFO] [1740175328.840325862] [publisher_i2c]: Publishing Temp: 28
+[INFO] [1740175328.840759696] [subscriber_actioneur]: Température reçue: "28"
+[INFO] [1740175328.840786892] [data_logger]: Température reçue: 28
+[INFO] [1740175328.840835338] [publisher_i2c]: Publishing Humid: 53
+[INFO] [1740175328.841364301] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175328.841393305] [publisher_i2c]: Publishing Qualite: 21
+[INFO] [1740175328.841414886] [site_flask_int]: Température reçue: 28
+[INFO] [1740175328.841478014] [site_flask_int]: Température reçue: 28
+[INFO] [1740175328.841694621] [data_logger]: Humidité reçue: 53
+[INFO] [1740175328.842072520] [subscriber_actioneur]: Humidité reçue: "53"
+[INFO] [1740175328.842226389] [data_logger]: Stockage en mémoire tampon : 28, 53, 21, None
+[INFO] [1740175328.842561979] [subscriber_actioneur]: Qualité reçue: "21"
+[INFO] [1740175328.842617573] [data_logger]: Qualité de l'air reçue: 21
+[INFO] [1740175328.843018605] [subscriber_actioneur]: Publishing on "fenetre": "Ouvre la fenêtre"
+[INFO] [1740175328.843101932] [site_flask_int]: Humidité reçue: 53
+[INFO] [1740175328.843570371] [site_flask_int]: Humidité reçue: 53
+[INFO] [1740175328.845191874] [site_flask_int]: Qualité de l'air reçue: 21
+[INFO] [1740175328.845544396] [site_flask_int]: Qualité de l'air reçue: 21
+127.0.0.1 - - [21/Feb/2025 23:02:09] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175329.826740947] [publisher_presence]: Publishing: "1"
+[INFO] [1740175329.828081272] [site_flask_int]: presence: 1
+[INFO] [1740175329.828353283] [site_flask_int]: presence: 1
+[INFO] [1740175329.840542740] [publisher_i2c]: Publishing Temp: 26
+[INFO] [1740175329.840870685] [subscriber_actioneur]: Température reçue: "26"
+[INFO] [1740175329.840936008] [data_logger]: Température reçue: 26
+[INFO] [1740175329.841043870] [publisher_i2c]: Publishing Humid: 96
+[INFO] [1740175329.841458619] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175329.841543278] [publisher_i2c]: Publishing Qualite: 22
+[INFO] [1740175329.841655889] [site_flask_int]: Température reçue: 26
+[INFO] [1740175329.841729848] [site_flask_int]: Température reçue: 26
+[INFO] [1740175329.841744645] [data_logger]: Humidité reçue: 96
+[INFO] [1740175329.842286824] [subscriber_actioneur]: Humidité reçue: "96"
+[INFO] [1740175329.842337619] [data_logger]: Stockage en mémoire tampon : 26, 96, 22, None
+[INFO] [1740175329.842759631] [subscriber_actioneur]: Qualité reçue: "22"
+[INFO] [1740175329.842778436] [data_logger]: Qualité de l'air reçue: 22
+[INFO] [1740175329.843370192] [subscriber_actioneur]: Publishing on "fenetre": "Ouvre la fenêtre"
+[INFO] [1740175329.843939555] [site_flask_int]: Humidité reçue: 96
+[INFO] [1740175329.843956758] [site_flask_int]: Humidité reçue: 96
+[INFO] [1740175329.845898978] [site_flask_int]: Qualité de l'air reçue: 22
+[INFO] [1740175329.845915113] [site_flask_int]: Qualité de l'air reçue: 22
+127.0.0.1 - - [21/Feb/2025 23:02:10] "GET /data HTTP/1.1" 200 -
+127.0.0.1 - - [21/Feb/2025 23:02:10] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175330.702336613] [site_flask_out]: Message envoyé: Commande ROS envoyée !
+127.0.0.1 - - [21/Feb/2025 23:02:10] "POST /send HTTP/1.1" 200 -
+[INFO] [1740175330.715790113] [porte]: Porte ouverte en réponse à la commande: Commande ROS envoyée !
+[INFO] [1740175330.716422400] [porte]: État publié: Porte ouverte
+[INFO] [1740175330.717785137] [site_flask_int]: porte: Porte ouverte
+[INFO] [1740175330.719609220] [site_flask_int]: porte: Porte ouverte
+[INFO] [1740175330.826931766] [publisher_presence]: Publishing: "1"
+[INFO] [1740175330.828212552] [site_flask_int]: presence: 1
+[INFO] [1740175330.828217268] [site_flask_int]: presence: 1
+[INFO] [1740175330.841015934] [publisher_i2c]: Publishing Temp: 22
+[INFO] [1740175330.841368441] [data_logger]: Température reçue: 22
+[INFO] [1740175330.841424101] [subscriber_actioneur]: Température reçue: "22"
+[INFO] [1740175330.841690115] [publisher_i2c]: Publishing Humid: 97
+[INFO] [1740175330.842200152] [site_flask_int]: Température reçue: 22
+[INFO] [1740175330.842231040] [data_logger]: Humidité reçue: 97
+[INFO] [1740175330.842264893] [publisher_i2c]: Publishing Qualite: 5
+[INFO] [1740175330.842362802] [subscriber_actioneur]: Humidité reçue: "97"
+[INFO] [1740175330.842461924] [site_flask_int]: Température reçue: 22
+[INFO] [1740175330.843147731] [data_logger]: Stockage en mémoire tampon : 22, 97, 5, None
+[INFO] [1740175330.843279079] [subscriber_actioneur]: Qualité reçue: "5"
+[INFO] [1740175330.843668528] [data_logger]: Qualité de l'air reçue: 5
+[INFO] [1740175330.843797400] [subscriber_actioneur]: Publishing on "fenetre": "Ouvre la fenêtre"
+[INFO] [1740175330.844325050] [site_flask_int]: Humidité reçue: 97
+[INFO] [1740175330.844643257] [site_flask_int]: Humidité reçue: 97
+[INFO] [1740175330.846139015] [site_flask_int]: Qualité de l'air reçue: 5
+[INFO] [1740175330.846418389] [site_flask_int]: Qualité de l'air reçue: 5
+[INFO] [1740175331.663744909] [site_flask_out]: Message envoyé: Commande ROS envoyée !
+[INFO] [1740175331.664029609] [porte]: Porte fermée en réponse à la commande: Commande ROS envoyée !
+127.0.0.1 - - [21/Feb/2025 23:02:11] "POST /send HTTP/1.1" 200 -
+[INFO] [1740175331.664591624] [porte]: État publié: Porte fermée
+[INFO] [1740175331.666034332] [site_flask_int]: porte: Porte fermée
+[INFO] [1740175331.666459179] [site_flask_int]: porte: Porte fermée
+127.0.0.1 - - [21/Feb/2025 23:02:11] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175331.835670868] [publisher_presence]: Publishing: "1"
+[INFO] [1740175331.837031553] [site_flask_int]: presence: 1
+[INFO] [1740175331.837104399] [site_flask_int]: presence: 1
+[INFO] [1740175331.840457142] [publisher_i2c]: Publishing Temp: 30
+[INFO] [1740175331.840728020] [data_logger]: Température reçue: 30
+[INFO] [1740175331.840835442] [subscriber_actioneur]: Température reçue: "30"
+[INFO] [1740175331.840932514] [publisher_i2c]: Publishing Humid: 83
+[INFO] [1740175331.841316775] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175331.841366533] [site_flask_int]: Température reçue: 30
+[INFO] [1740175331.841438383] [publisher_i2c]: Publishing Qualite: 32
+[INFO] [1740175331.841459633] [data_logger]: Humidité reçue: 83
+[INFO] [1740175331.841507543] [site_flask_int]: Température reçue: 30
+[INFO] [1740175331.842003394] [subscriber_actioneur]: Humidité reçue: "83"
+[INFO] [1740175331.842125963] [data_logger]: Stockage en mémoire tampon : 30, 83, 32, None
+[INFO] [1740175331.842439192] [subscriber_actioneur]: Qualité reçue: "32"
+[INFO] [1740175331.842556341] [data_logger]: Qualité de l'air reçue: 32
+[INFO] [1740175331.842839082] [subscriber_actioneur]: Publishing on "fenetre": "Ferme la fenêtre"
+[INFO] [1740175331.843751274] [site_flask_int]: Humidité reçue: 83
+[INFO] [1740175331.843909371] [site_flask_int]: Humidité reçue: 83
+[INFO] [1740175331.845311242] [site_flask_int]: Qualité de l'air reçue: 32
+[INFO] [1740175331.845477819] [site_flask_int]: Qualité de l'air reçue: 32
+127.0.0.1 - - [21/Feb/2025 23:02:12] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175332.826778490] [publisher_presence]: Publishing: "1"
+[INFO] [1740175332.828015142] [site_flask_int]: presence: 1
+[INFO] [1740175332.828049566] [site_flask_int]: presence: 1
+[INFO] [1740175332.840652444] [publisher_i2c]: Publishing Temp: 24
+[INFO] [1740175332.840921685] [data_logger]: Température reçue: 24
+[INFO] [1740175332.841186923] [subscriber_actioneur]: Température reçue: "24"
+[INFO] [1740175332.841369761] [publisher_i2c]: Publishing Humid: 66
+[INFO] [1740175332.841687322] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175332.841770789] [site_flask_int]: Température reçue: 24
+[INFO] [1740175332.841903202] [publisher_i2c]: Publishing Qualite: 27
+[INFO] [1740175332.842058889] [site_flask_int]: Température reçue: 24
+[INFO] [1740175332.842070603] [data_logger]: Humidité reçue: 66
+[INFO] [1740175332.842734116] [subscriber_actioneur]: Humidité reçue: "66"
+[INFO] [1740175332.843000225] [data_logger]: Stockage en mémoire tampon : 24, 66, 27, None
+[INFO] [1740175332.843254443] [subscriber_actioneur]: Qualité reçue: "27"
+[INFO] [1740175332.843473804] [data_logger]: Qualité de l'air reçue: 27
+[INFO] [1740175332.843701502] [subscriber_actioneur]: Publishing on "fenetre": "Ouvre la fenêtre"
+[INFO] [1740175332.843893282] [site_flask_int]: Humidité reçue: 66
+[INFO] [1740175332.844041365] [site_flask_int]: Humidité reçue: 66
+[INFO] [1740175332.846274211] [site_flask_int]: Qualité de l'air reçue: 27
+[INFO] [1740175332.846785139] [site_flask_int]: Qualité de l'air reçue: 27
+[INFO] [1740175333.016719857] [site_flask_out]: Message envoyé: Commande ROS envoyée !
+[INFO] [1740175333.016953005] [porte]: Porte ouverte en réponse à la commande: Commande ROS envoyée !
+127.0.0.1 - - [21/Feb/2025 23:02:13] "POST /send HTTP/1.1" 200 -
+[INFO] [1740175333.017521511] [porte]: État publié: Porte ouverte
+[INFO] [1740175333.019278834] [site_flask_int]: porte: Porte ouverte
+[INFO] [1740175333.019479266] [site_flask_int]: porte: Porte ouverte
+127.0.0.1 - - [21/Feb/2025 23:02:13] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175333.826833300] [publisher_presence]: Publishing: "1"
+[INFO] [1740175333.828229260] [site_flask_int]: presence: 1
+[INFO] [1740175333.829975201] [site_flask_int]: presence: 1
+[INFO] [1740175333.840850548] [publisher_i2c]: Publishing Temp: 20
+[INFO] [1740175333.841158701] [data_logger]: Température reçue: 20
+[INFO] [1740175333.841168038] [subscriber_actioneur]: Température reçue: "20"
+[INFO] [1740175333.841569322] [publisher_i2c]: Publishing Humid: 67
+[INFO] [1740175333.841917906] [site_flask_int]: Température reçue: 20
+[INFO] [1740175333.842052498] [subscriber_actioneur]: Humidité reçue: "67"
+[INFO] [1740175333.842321243] [publisher_i2c]: Publishing Qualite: 47
+[INFO] [1740175333.842380845] [data_logger]: Humidité reçue: 67
+[INFO] [1740175333.842663826] [site_flask_int]: Température reçue: 20
+[INFO] [1740175333.842931689] [subscriber_actioneur]: Qualité reçue: "47"
+[INFO] [1740175333.843259484] [data_logger]: Stockage en mémoire tampon : 20, 67, 47, None
+[INFO] [1740175333.843454260] [subscriber_actioneur]: Publishing on "fenetre": "Ferme la fenêtre"
+[INFO] [1740175333.843652893] [data_logger]: Qualité de l'air reçue: 47
+[INFO] [1740175333.844443035] [site_flask_int]: Humidité reçue: 67
+[INFO] [1740175333.845464011] [site_flask_int]: Humidité reçue: 67
+[INFO] [1740175333.846171419] [site_flask_int]: Qualité de l'air reçue: 47
+[INFO] [1740175333.848370016] [site_flask_int]: Qualité de l'air reçue: 47
+127.0.0.1 - - [21/Feb/2025 23:02:14] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175334.840471843] [publisher_i2c]: Publishing Temp: 29
+[INFO] [1740175334.840855564] [data_logger]: Température reçue: 29
+[INFO] [1740175334.840866665] [subscriber_actioneur]: Température reçue: "29"
+[INFO] [1740175334.841048195] [publisher_i2c]: Publishing Humid: 54
+[INFO] [1740175334.841397311] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175334.841615389] [publisher_i2c]: Publishing Qualite: 17
+[INFO] [1740175334.841731187] [data_logger]: Humidité reçue: 54
+[INFO] [1740175334.842040332] [site_flask_int]: Température reçue: 29
+[INFO] [1740175334.842260370] [subscriber_actioneur]: Humidité reçue: "54"
+[INFO] [1740175334.842518956] [data_logger]: Stockage en mémoire tampon : 29, 54, 17, None
+[INFO] [1740175334.842598166] [publisher_presence]: Publishing: "1"
+[INFO] [1740175334.842648448] [site_flask_int]: Température reçue: 29
+[INFO] [1740175334.842730402] [subscriber_actioneur]: Qualité reçue: "17"
+[INFO] [1740175334.842940747] [data_logger]: Qualité de l'air reçue: 17
+[INFO] [1740175334.843257402] [subscriber_actioneur]: Publishing on "fenetre": "Ouvre la fenêtre"
+[INFO] [1740175334.844933237] [site_flask_int]: Humidité reçue: 54
+[INFO] [1740175334.845301307] [site_flask_int]: Humidité reçue: 54
+[INFO] [1740175334.846908529] [site_flask_int]: Qualité de l'air reçue: 17
+[INFO] [1740175334.847222202] [site_flask_int]: Qualité de l'air reçue: 17
+[INFO] [1740175334.848728605] [site_flask_int]: presence: 1
+[INFO] [1740175334.848866529] [site_flask_int]: presence: 1
+[INFO] [1740175335.124015919] [site_flask_out]: Message envoyé: Commande ROS envoyée !
+[INFO] [1740175335.124299828] [porte]: Porte fermée en réponse à la commande: Commande ROS envoyée !
+127.0.0.1 - - [21/Feb/2025 23:02:15] "POST /send HTTP/1.1" 200 -
+[INFO] [1740175335.124794496] [porte]: État publié: Porte fermée
+[INFO] [1740175335.126208519] [site_flask_int]: porte: Porte fermée
+[INFO] [1740175335.127893221] [site_flask_int]: porte: Porte fermée
+[INFO] [1740175335.376924283] [lamp_client]: Prochaine requête dans 6.57 secondes...
+[INFO] [1740175335.377217398] [lamp_service]: État de la lampe : ON
+127.0.0.1 - - [21/Feb/2025 23:02:15] "GET /data HTTP/1.1" 200 -
+127.0.0.1 - - [21/Feb/2025 23:02:15] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175335.826749189] [publisher_presence]: Publishing: "1"
+[INFO] [1740175335.828044421] [site_flask_int]: presence: 1
+[INFO] [1740175335.828166574] [site_flask_int]: presence: 1
+[INFO] [1740175335.840312485] [publisher_i2c]: Publishing Temp: 21
+[INFO] [1740175335.840712125] [data_logger]: Température reçue: 21
+[INFO] [1740175335.840715321] [subscriber_actioneur]: Température reçue: "21"
+[INFO] [1740175335.841042906] [publisher_i2c]: Publishing Humid: 58
+[INFO] [1740175335.841657353] [data_logger]: Humidité reçue: 58
+[INFO] [1740175335.841662559] [subscriber_actioneur]: Humidité reçue: "58"
+[INFO] [1740175335.841682986] [publisher_i2c]: Publishing Qualite: 34
+[INFO] [1740175335.841761118] [site_flask_int]: Température reçue: 21
+[INFO] [1740175335.841893983] [site_flask_int]: Température reçue: 21
+[INFO] [1740175335.842366560] [subscriber_actioneur]: Qualité reçue: "34"
+[INFO] [1740175335.842398820] [data_logger]: Stockage en mémoire tampon : 21, 58, 34, None
+[INFO] [1740175335.842833907] [subscriber_actioneur]: Publishing on "fenetre": "Ferme la fenêtre"
+[INFO] [1740175335.842844997] [data_logger]: Qualité de l'air reçue: 34
+[INFO] [1740175335.843806232] [site_flask_int]: Humidité reçue: 58
+[INFO] [1740175335.844090134] [site_flask_int]: Humidité reçue: 58
+[INFO] [1740175335.845425693] [site_flask_int]: Qualité de l'air reçue: 34
+[INFO] [1740175335.845897607] [site_flask_int]: Qualité de l'air reçue: 34
+[INFO] [1740175336.827240632] [publisher_presence]: Publishing: "1"
+[INFO] [1740175336.828621444] [site_flask_int]: presence: 1
+[INFO] [1740175336.828815218] [site_flask_int]: presence: 1
+[INFO] [1740175336.847741408] [publisher_i2c]: Publishing Temp: 20
+[INFO] [1740175336.848144245] [subscriber_actioneur]: Température reçue: "20"
+[INFO] [1740175336.848144365] [data_logger]: Température reçue: 20
+[INFO] [1740175336.848391920] [publisher_i2c]: Publishing Humid: 75
+[INFO] [1740175336.848853356] [site_flask_int]: Température reçue: 20
+[INFO] [1740175336.848877812] [publisher_i2c]: Publishing Qualite: 27
+[INFO] [1740175336.848924349] [data_logger]: Humidité reçue: 75
+[INFO] [1740175336.849016972] [subscriber_actioneur]: Humidité reçue: "75"
+[INFO] [1740175336.849136392] [site_flask_int]: Température reçue: 20
+[INFO] [1740175336.849603414] [data_logger]: Stockage en mémoire tampon : 20, 75, 27, None
+[INFO] [1740175336.849671601] [subscriber_actioneur]: Qualité reçue: "27"
+[INFO] [1740175336.850017902] [data_logger]: Qualité de l'air reçue: 27
+[INFO] [1740175336.850133067] [subscriber_actioneur]: Publishing on "fenetre": "Ouvre la fenêtre"
+[INFO] [1740175336.850746809] [site_flask_int]: Humidité reçue: 75
+[INFO] [1740175336.851475246] [site_flask_int]: Humidité reçue: 75
+[INFO] [1740175336.852386036] [site_flask_int]: Qualité de l'air reçue: 27
+[INFO] [1740175336.852997959] [site_flask_int]: Qualité de l'air reçue: 27
+127.0.0.1 - - [21/Feb/2025 23:02:17] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175337.826732656] [publisher_presence]: Publishing: "1"
+[INFO] [1740175337.827942632] [site_flask_int]: presence: 1
+[INFO] [1740175337.828136210] [site_flask_int]: presence: 1
+[INFO] [1740175337.845630689] [publisher_i2c]: Publishing Temp: 20
+[INFO] [1740175337.845907399] [subscriber_actioneur]: Température reçue: "20"
+[INFO] [1740175337.845923278] [data_logger]: Température reçue: 20
+[INFO] [1740175337.846111982] [publisher_i2c]: Publishing Humid: 70
+[INFO] [1740175337.846630165] [site_flask_int]: Température reçue: 20
+[INFO] [1740175337.846649060] [publisher_i2c]: Publishing Qualite: 10
+[INFO] [1740175337.846679087] [site_flask_int]: Température reçue: 20
+[INFO] [1740175337.846780267] [data_logger]: Humidité reçue: 70
+[INFO] [1740175337.846884102] [subscriber_actioneur]: Humidité reçue: "70"
+[INFO] [1740175337.847334417] [data_logger]: Stockage en mémoire tampon : 20, 70, 10, None
+[INFO] [1740175337.847448742] [subscriber_actioneur]: Qualité reçue: "10"
+[INFO] [1740175337.847721914] [data_logger]: Qualité de l'air reçue: 10
+[INFO] [1740175337.847879169] [subscriber_actioneur]: Publishing on "fenetre": "Ouvre la fenêtre"
+[INFO] [1740175337.849125369] [site_flask_int]: Humidité reçue: 70
+[INFO] [1740175337.849140547] [site_flask_int]: Humidité reçue: 70
+[INFO] [1740175337.850557266] [site_flask_int]: Qualité de l'air reçue: 10
+[INFO] [1740175337.851363168] [site_flask_int]: Qualité de l'air reçue: 10
+127.0.0.1 - - [21/Feb/2025 23:02:18] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175338.826437709] [publisher_presence]: Publishing: "1"
+[INFO] [1740175338.827714205] [site_flask_int]: presence: 1
+[INFO] [1740175338.827816598] [site_flask_int]: presence: 1
+[INFO] [1740175338.840792170] [publisher_i2c]: Publishing Temp: 29
+[INFO] [1740175338.841115086] [subscriber_actioneur]: Température reçue: "29"
+[INFO] [1740175338.841145844] [data_logger]: Température reçue: 29
+[INFO] [1740175338.841311164] [publisher_i2c]: Publishing Humid: 68
+[INFO] [1740175338.841708009] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175338.841909497] [publisher_i2c]: Publishing Qualite: 10
+[INFO] [1740175338.841981493] [data_logger]: Humidité reçue: 68
+[INFO] [1740175338.842035003] [site_flask_int]: Température reçue: 29
+[INFO] [1740175338.842509553] [subscriber_actioneur]: Humidité reçue: "68"
+[INFO] [1740175338.842756066] [data_logger]: Stockage en mémoire tampon : 29, 68, 10, None
+[INFO] [1740175338.842798135] [site_flask_int]: Température reçue: 29
+[INFO] [1740175338.843041992] [subscriber_actioneur]: Qualité reçue: "10"
+[INFO] [1740175338.843290769] [data_logger]: Qualité de l'air reçue: 10
+[INFO] [1740175338.843530840] [subscriber_actioneur]: Publishing on "fenetre": "Ouvre la fenêtre"
+[INFO] [1740175338.844595318] [site_flask_int]: Humidité reçue: 68
+[INFO] [1740175338.845185170] [site_flask_int]: Humidité reçue: 68
+[INFO] [1740175338.846966368] [site_flask_int]: Qualité de l'air reçue: 10
+[INFO] [1740175338.847085035] [site_flask_int]: Qualité de l'air reçue: 10
+127.0.0.1 - - [21/Feb/2025 23:02:19] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175339.826326095] [publisher_presence]: Publishing: "1"
+[INFO] [1740175339.827771553] [site_flask_int]: presence: 1
+[INFO] [1740175339.827795007] [site_flask_int]: presence: 1
+[INFO] [1740175339.840755322] [publisher_i2c]: Publishing Temp: 25
+[INFO] [1740175339.841042601] [data_logger]: Température reçue: 25
+[INFO] [1740175339.841279215] [subscriber_actioneur]: Température reçue: "25"
+[INFO] [1740175339.841448603] [publisher_i2c]: Publishing Humid: 82
+[INFO] [1740175339.841743937] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175339.841970873] [publisher_i2c]: Publishing Qualite: 38
+[INFO] [1740175339.841995489] [data_logger]: Humidité reçue: 82
+[INFO] [1740175339.842163074] [site_flask_int]: Température reçue: 25
+[INFO] [1740175339.842422155] [site_flask_int]: Température reçue: 25
+[INFO] [1740175339.842525765] [subscriber_actioneur]: Humidité reçue: "82"
+[INFO] [1740175339.842795010] [data_logger]: Stockage en mémoire tampon : 25, 82, 38, None
+[INFO] [1740175339.843101836] [subscriber_actioneur]: Qualité reçue: "38"
+[INFO] [1740175339.843401468] [data_logger]: Qualité de l'air reçue: 38
+[INFO] [1740175339.843643212] [subscriber_actioneur]: Publishing on "fenetre": "Ferme la fenêtre"
+[INFO] [1740175339.844725874] [site_flask_int]: Humidité reçue: 82
+[INFO] [1740175339.844887539] [site_flask_int]: Humidité reçue: 82
+[INFO] [1740175339.846623986] [site_flask_int]: Qualité de l'air reçue: 38
+[INFO] [1740175339.848901881] [site_flask_int]: Qualité de l'air reçue: 38
+127.0.0.1 - - [21/Feb/2025 23:02:20] "GET /data HTTP/1.1" 200 -
+127.0.0.1 - - [21/Feb/2025 23:02:20] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175340.826529634] [publisher_presence]: Publishing: "1"
+[INFO] [1740175340.827840364] [site_flask_int]: presence: 1
+[INFO] [1740175340.827926546] [site_flask_int]: presence: 1
+[INFO] [1740175340.840725071] [publisher_i2c]: Publishing Temp: 30
+[INFO] [1740175340.841167367] [subscriber_actioneur]: Température reçue: "30"
+[INFO] [1740175340.841174630] [data_logger]: Température reçue: 30
+[INFO] [1740175340.841515412] [publisher_i2c]: Publishing Humid: 85
+[INFO] [1740175340.841803450] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175340.842033512] [data_logger]: Humidité reçue: 85
+[INFO] [1740175340.842045196] [publisher_i2c]: Publishing Qualite: 19
+[INFO] [1740175340.842718378] [site_flask_int]: Température reçue: 30
+[INFO] [1740175340.842873744] [subscriber_actioneur]: Humidité reçue: "85"
+[INFO] [1740175340.842892715] [data_logger]: Stockage en mémoire tampon : 30, 85, 19, None
+[INFO] [1740175340.843150910] [site_flask_int]: Température reçue: 30
+[INFO] [1740175340.843398875] [data_logger]: Qualité de l'air reçue: 19
+[INFO] [1740175340.843578707] [subscriber_actioneur]: Qualité reçue: "19"
+[INFO] [1740175340.844111687] [subscriber_actioneur]: Publishing on "fenetre": "Ouvre la fenêtre"
+[INFO] [1740175340.844902647] [site_flask_int]: Humidité reçue: 85
+[INFO] [1740175340.845221991] [site_flask_int]: Humidité reçue: 85
+[INFO] [1740175340.846637228] [site_flask_int]: Qualité de l'air reçue: 19
+[INFO] [1740175340.847257567] [site_flask_int]: Qualité de l'air reçue: 19
+[INFO] [1740175341.826922563] [publisher_presence]: Publishing: "1"
+[INFO] [1740175341.828100654] [site_flask_int]: presence: 1
+[INFO] [1740175341.828366323] [site_flask_int]: presence: 1
+[INFO] [1740175341.841642590] [publisher_i2c]: Publishing Temp: 30
+[INFO] [1740175341.841947482] [subscriber_actioneur]: Température reçue: "30"
+[INFO] [1740175341.841973641] [data_logger]: Température reçue: 30
+[INFO] [1740175341.842294303] [publisher_i2c]: Publishing Humid: 81
+[INFO] [1740175341.842457499] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175341.842743346] [data_logger]: Humidité reçue: 81
+[INFO] [1740175341.842767441] [publisher_i2c]: Publishing Qualite: 36
+[INFO] [1740175341.843278009] [site_flask_int]: Température reçue: 30
+[INFO] [1740175341.843360083] [subscriber_actioneur]: Humidité reçue: "81"
+[INFO] [1740175341.843608941] [data_logger]: Stockage en mémoire tampon : 30, 81, 36, None
+[INFO] [1740175341.843826799] [site_flask_int]: Température reçue: 30
+[INFO] [1740175341.843866914] [subscriber_actioneur]: Qualité reçue: "36"
+[INFO] [1740175341.844121442] [data_logger]: Qualité de l'air reçue: 36
+[INFO] [1740175341.844392542] [subscriber_actioneur]: Publishing on "fenetre": "Ferme la fenêtre"
+[INFO] [1740175341.845315443] [site_flask_int]: Humidité reçue: 81
+[INFO] [1740175341.845707424] [site_flask_int]: Humidité reçue: 81
+[INFO] [1740175341.847021595] [site_flask_int]: Qualité de l'air reçue: 36
+[INFO] [1740175341.847202467] [site_flask_int]: Qualité de l'air reçue: 36
+127.0.0.1 - - [21/Feb/2025 23:02:21] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175341.955702452] [lamp_client]: Prochaine requête dans 6.78 secondes...
+[INFO] [1740175341.955913857] [lamp_service]: État de la lampe : OFF
+[INFO] [1740175342.827056878] [publisher_presence]: Publishing: "1"
+[INFO] [1740175342.828335718] [site_flask_int]: presence: 1
+[INFO] [1740175342.828484857] [site_flask_int]: presence: 1
+[INFO] [1740175342.845591865] [publisher_i2c]: Publishing Temp: 23
+[INFO] [1740175342.845852353] [data_logger]: Température reçue: 23
+[INFO] [1740175342.845869305] [subscriber_actioneur]: Température reçue: "23"
+[INFO] [1740175342.846245120] [publisher_i2c]: Publishing Humid: 97
+[INFO] [1740175342.846549141] [site_flask_int]: Température reçue: 23
+[INFO] [1740175342.846558439] [site_flask_int]: Température reçue: 23
+[INFO] [1740175342.846569198] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175342.846762151] [publisher_i2c]: Publishing Qualite: 12
+[INFO] [1740175342.846821312] [data_logger]: Humidité reçue: 97
+[INFO] [1740175342.847425546] [subscriber_actioneur]: Humidité reçue: "97"
+[INFO] [1740175342.847579124] [data_logger]: Stockage en mémoire tampon : 23, 97, 12, None
+[INFO] [1740175342.847900878] [subscriber_actioneur]: Qualité reçue: "12"
+[INFO] [1740175342.847957314] [data_logger]: Qualité de l'air reçue: 12
+[INFO] [1740175342.848376140] [subscriber_actioneur]: Publishing on "fenetre": "Ouvre la fenêtre"
+[INFO] [1740175342.848845240] [site_flask_int]: Humidité reçue: 97
+[INFO] [1740175342.848955688] [site_flask_int]: Humidité reçue: 97
+[INFO] [1740175342.850463788] [site_flask_int]: Qualité de l'air reçue: 12
+[INFO] [1740175342.850647303] [site_flask_int]: Qualité de l'air reçue: 12
+127.0.0.1 - - [21/Feb/2025 23:02:22] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175343.826751987] [publisher_presence]: Publishing: "1"
+[INFO] [1740175343.828037369] [site_flask_int]: presence: 1
+[INFO] [1740175343.828061406] [site_flask_int]: presence: 1
+[INFO] [1740175343.840750810] [publisher_i2c]: Publishing Temp: 30
+[INFO] [1740175343.841233956] [data_logger]: Température reçue: 30
+[INFO] [1740175343.841254425] [subscriber_actioneur]: Température reçue: "30"
+[INFO] [1740175343.841568455] [publisher_i2c]: Publishing Humid: 51
+[INFO] [1740175343.841792615] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175343.841931596] [site_flask_int]: Température reçue: 30
+[INFO] [1740175343.841953166] [site_flask_int]: Température reçue: 30
+[INFO] [1740175343.842194049] [publisher_i2c]: Publishing Qualite: 49
+[INFO] [1740175343.842193568] [data_logger]: Humidité reçue: 51
+[INFO] [1740175343.842684940] [subscriber_actioneur]: Humidité reçue: "51"
+[INFO] [1740175343.842978811] [data_logger]: Stockage en mémoire tampon : 30, 51, 49, None
+[INFO] [1740175343.843426637] [subscriber_actioneur]: Qualité reçue: "49"
+[INFO] [1740175343.843560043] [data_logger]: Qualité de l'air reçue: 49
+[INFO] [1740175343.844001806] [subscriber_actioneur]: Publishing on "fenetre": "Ferme la fenêtre"
+[INFO] [1740175343.844474981] [site_flask_int]: Humidité reçue: 51
+[INFO] [1740175343.845179572] [site_flask_int]: Humidité reçue: 51
+[INFO] [1740175343.846219589] [site_flask_int]: Qualité de l'air reçue: 49
+[INFO] [1740175343.847616666] [site_flask_int]: Qualité de l'air reçue: 49
+127.0.0.1 - - [21/Feb/2025 23:02:23] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175344.826883807] [publisher_presence]: Publishing: "1"
+[INFO] [1740175344.828292169] [site_flask_int]: presence: 1
+[INFO] [1740175344.828402827] [site_flask_int]: presence: 1
+[INFO] [1740175344.844011514] [publisher_i2c]: Publishing Temp: 28
+[INFO] [1740175344.844227242] [data_logger]: Température reçue: 28
+[INFO] [1740175344.844317967] [subscriber_actioneur]: Température reçue: "28"
+[INFO] [1740175344.844756460] [publisher_i2c]: Publishing Humid: 69
+[INFO] [1740175344.844879061] [site_flask_int]: Température reçue: 28
+[INFO] [1740175344.844896302] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175344.844899329] [site_flask_int]: Température reçue: 28
+[INFO] [1740175344.845261368] [data_logger]: Humidité reçue: 69
+[INFO] [1740175344.845484719] [publisher_i2c]: Publishing Qualite: 9
+[INFO] [1740175344.845815017] [subscriber_actioneur]: Humidité reçue: "69"
+[INFO] [1740175344.845927839] [data_logger]: Stockage en mémoire tampon : 28, 69, 9, None
+[INFO] [1740175344.846481738] [subscriber_actioneur]: Qualité reçue: "9"
+[INFO] [1740175344.846551444] [data_logger]: Qualité de l'air reçue: 9
+[INFO] [1740175344.847027432] [subscriber_actioneur]: Publishing on "fenetre": "Ouvre la fenêtre"
+[INFO] [1740175344.847274892] [site_flask_int]: Humidité reçue: 69
+[INFO] [1740175344.847640103] [site_flask_int]: Humidité reçue: 69
+[INFO] [1740175344.849167764] [site_flask_int]: Qualité de l'air reçue: 9
+[INFO] [1740175344.849528066] [site_flask_int]: Qualité de l'air reçue: 9
+127.0.0.1 - - [21/Feb/2025 23:02:25] "GET /live_data HTTP/1.1" 200 -
+127.0.0.1 - - [21/Feb/2025 23:02:25] "GET /data HTTP/1.1" 200 -
+[INFO] [1740175345.827025735] [publisher_presence]: Publishing: "1"
+[INFO] [1740175345.828419686] [site_flask_int]: presence: 1
+[INFO] [1740175345.828567688] [site_flask_int]: presence: 1
+[INFO] [1740175345.848107316] [publisher_i2c]: Publishing Temp: 23
+[INFO] [1740175345.848254317] [subscriber_actioneur]: Température reçue: "23"
+[INFO] [1740175345.848400001] [data_logger]: Température reçue: 23
+[INFO] [1740175345.848751740] [publisher_i2c]: Publishing Humid: 64
+[INFO] [1740175345.848925421] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175345.849293798] [publisher_i2c]: Publishing Qualite: 3
+[INFO] [1740175345.849309708] [data_logger]: Humidité reçue: 64
+[INFO] [1740175345.849408458] [site_flask_int]: Température reçue: 23
+[INFO] [1740175345.849543476] [site_flask_int]: Température reçue: 23
+[INFO] [1740175345.849761020] [subscriber_actioneur]: Humidité reçue: "64"
+[INFO] [1740175345.849937526] [data_logger]: Stockage en mémoire tampon : 23, 64, 3, None
+[INFO] [1740175345.850288565] [subscriber_actioneur]: Qualité reçue: "3"
+[INFO] [1740175345.850422135] [data_logger]: Qualité de l'air reçue: 3
+[INFO] [1740175345.850800977] [subscriber_actioneur]: Publishing on "fenetre": "Ouvre la fenêtre"
+[INFO] [1740175345.851352562] [site_flask_int]: Humidité reçue: 64
+[INFO] [1740175345.851647505] [site_flask_int]: Humidité reçue: 64
+[INFO] [1740175345.853314714] [site_flask_int]: Qualité de l'air reçue: 3
+[INFO] [1740175345.853649142] [site_flask_int]: Qualité de l'air reçue: 3
+127.0.0.1 - - [21/Feb/2025 23:02:26] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175346.826508095] [publisher_presence]: Publishing: "1"
+[INFO] [1740175346.827781786] [site_flask_int]: presence: 1
+[INFO] [1740175346.827802334] [site_flask_int]: presence: 1
+[INFO] [1740175346.840454090] [publisher_i2c]: Publishing Temp: 24
+[INFO] [1740175346.840798982] [data_logger]: Température reçue: 24
+[INFO] [1740175346.840825061] [subscriber_actioneur]: Température reçue: "24"
+[INFO] [1740175346.841010834] [publisher_i2c]: Publishing Humid: 51
+[INFO] [1740175346.841321863] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175346.841531682] [publisher_i2c]: Publishing Qualite: 31
+[INFO] [1740175346.841574903] [site_flask_int]: Température reçue: 24
+[INFO] [1740175346.841589080] [data_logger]: Humidité reçue: 51
+[INFO] [1740175346.841617133] [site_flask_int]: Température reçue: 24
+[INFO] [1740175346.842054528] [subscriber_actioneur]: Humidité reçue: "51"
+[INFO] [1740175346.842313980] [data_logger]: Stockage en mémoire tampon : 24, 51, 31, None
+[INFO] [1740175346.842562251] [subscriber_actioneur]: Qualité reçue: "31"
+[INFO] [1740175346.842753325] [data_logger]: Qualité de l'air reçue: 31
+[INFO] [1740175346.843054505] [subscriber_actioneur]: Publishing on "fenetre": "Ferme la fenêtre"
+[INFO] [1740175346.843543197] [site_flask_int]: Humidité reçue: 51
+[INFO] [1740175346.844065648] [site_flask_int]: Humidité reçue: 51
+[INFO] [1740175346.845066326] [site_flask_int]: Qualité de l'air reçue: 31
+[INFO] [1740175346.845802017] [site_flask_int]: Qualité de l'air reçue: 31
+127.0.0.1 - - [21/Feb/2025 23:02:27] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175347.826871189] [publisher_presence]: Publishing: "1"
+[INFO] [1740175347.828215421] [site_flask_int]: presence: 1
+[INFO] [1740175347.828254776] [site_flask_int]: presence: 1
+[INFO] [1740175347.841478023] [publisher_i2c]: Publishing Temp: 29
+[INFO] [1740175347.841715610] [subscriber_actioneur]: Température reçue: "29"
+[INFO] [1740175347.841729345] [data_logger]: Température reçue: 29
+[INFO] [1740175347.842082007] [publisher_i2c]: Publishing Humid: 71
+[INFO] [1740175347.842249642] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175347.842542030] [data_logger]: Humidité reçue: 71
+[INFO] [1740175347.842590601] [publisher_i2c]: Publishing Qualite: 47
+[INFO] [1740175347.842668417] [site_flask_int]: Température reçue: 29
+[INFO] [1740175347.842849467] [site_flask_int]: Température reçue: 29
+[INFO] [1740175347.842954264] [subscriber_actioneur]: Humidité reçue: "71"
+[INFO] [1740175347.843161763] [data_logger]: Stockage en mémoire tampon : 29, 71, 47, None
+[INFO] [1740175347.843433153] [subscriber_actioneur]: Qualité reçue: "47"
+[INFO] [1740175347.843577954] [data_logger]: Qualité de l'air reçue: 47
+[INFO] [1740175347.843850106] [subscriber_actioneur]: Publishing on "fenetre": "Ferme la fenêtre"
+[INFO] [1740175347.844676225] [site_flask_int]: Humidité reçue: 71
+[INFO] [1740175347.844871653] [site_flask_int]: Humidité reçue: 71
+[INFO] [1740175347.846884691] [site_flask_int]: Qualité de l'air reçue: 47
+[INFO] [1740175347.847565579] [site_flask_int]: Qualité de l'air reçue: 47
+127.0.0.1 - - [21/Feb/2025 23:02:28] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175348.774959373] [lamp_client]: Prochaine requête dans 5.06 secondes...
+[INFO] [1740175348.775381204] [lamp_service]: État de la lampe : ON
+[INFO] [1740175348.827129116] [publisher_presence]: Publishing: "1"
+[INFO] [1740175348.828664678] [site_flask_int]: presence: 1
+[INFO] [1740175348.828712709] [site_flask_int]: presence: 1
+[INFO] [1740175348.841294246] [publisher_i2c]: Publishing Temp: 27
+[INFO] [1740175348.841540754] [subscriber_actioneur]: Température reçue: "27"
+[INFO] [1740175348.841577233] [data_logger]: Température reçue: 27
+[INFO] [1740175348.841880146] [publisher_i2c]: Publishing Humid: 51
+[INFO] [1740175348.842015165] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175348.842520903] [site_flask_int]: Température reçue: 27
+[INFO] [1740175348.842522927] [site_flask_int]: Température reçue: 27
+[INFO] [1740175348.842555659] [data_logger]: Humidité reçue: 51
+[INFO] [1740175348.842558917] [publisher_i2c]: Publishing Qualite: 30
+[INFO] [1740175348.842888644] [subscriber_actioneur]: Humidité reçue: "51"
+[INFO] [1740175348.843351613] [data_logger]: Stockage en mémoire tampon : 27, 51, 30, None
+[INFO] [1740175348.843432304] [subscriber_actioneur]: Qualité reçue: "30"
+[INFO] [1740175348.843754819] [data_logger]: Qualité de l'air reçue: 30
+[INFO] [1740175348.843856540] [subscriber_actioneur]: Publishing on "fenetre": "Ferme la fenêtre"
+[INFO] [1740175348.844249077] [site_flask_int]: Humidité reçue: 51
+[INFO] [1740175348.844653836] [site_flask_int]: Humidité reçue: 51
+[INFO] [1740175348.846021363] [site_flask_int]: Qualité de l'air reçue: 30
+[INFO] [1740175348.846392780] [site_flask_int]: Qualité de l'air reçue: 30
+127.0.0.1 - - [21/Feb/2025 23:02:29] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175349.826696957] [publisher_presence]: Publishing: "1"
+[INFO] [1740175349.828071768] [site_flask_int]: presence: 1
+[INFO] [1740175349.828266063] [site_flask_int]: presence: 1
+[INFO] [1740175349.840839185] [publisher_i2c]: Publishing Temp: 24
+[INFO] [1740175349.841292341] [subscriber_actioneur]: Température reçue: "24"
+[INFO] [1740175349.841320658] [data_logger]: Température reçue: 24
+[INFO] [1740175349.841496804] [publisher_i2c]: Publishing Humid: 69
+[INFO] [1740175349.841768494] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175349.842117560] [site_flask_int]: Température reçue: 24
+[INFO] [1740175349.842224244] [site_flask_int]: Température reçue: 24
+[INFO] [1740175349.842259536] [publisher_i2c]: Publishing Qualite: 5
+[INFO] [1740175349.842293640] [data_logger]: Humidité reçue: 69
+[INFO] [1740175349.842806602] [subscriber_actioneur]: Humidité reçue: "69"
+[INFO] [1740175349.843272572] [data_logger]: Stockage en mémoire tampon : 24, 69, 5, None
+[INFO] [1740175349.843529309] [subscriber_actioneur]: Qualité reçue: "5"
+[INFO] [1740175349.843709121] [data_logger]: Qualité de l'air reçue: 5
+[INFO] [1740175349.843957573] [subscriber_actioneur]: Publishing on "fenetre": "Ouvre la fenêtre"
+[INFO] [1740175349.844127532] [site_flask_int]: Humidité reçue: 69
+[INFO] [1740175349.844245122] [site_flask_int]: Humidité reçue: 69
+[INFO] [1740175349.845711294] [site_flask_int]: Qualité de l'air reçue: 5
+[INFO] [1740175349.845852684] [site_flask_int]: Qualité de l'air reçue: 5
+127.0.0.1 - - [21/Feb/2025 23:02:30] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175350.826417699] [publisher_presence]: Publishing: "1"
+[INFO] [1740175350.827447817] [site_flask_int]: presence: 1
+[INFO] [1740175350.827685935] [site_flask_int]: presence: 1
+[INFO] [1740175350.840457510] [publisher_i2c]: Publishing Temp: 22
+[INFO] [1740175350.840748661] [data_logger]: Température reçue: 22
+[INFO] [1740175350.840843449] [subscriber_actioneur]: Température reçue: "22"
+[INFO] [1740175350.840961255] [publisher_i2c]: Publishing Humid: 100
+[INFO] [1740175350.841623273] [publisher_i2c]: Publishing Qualite: 38
+[INFO] [1740175350.841667606] [site_flask_int]: Température reçue: 22
+[INFO] [1740175350.841815474] [data_logger]: Humidité reçue: 100
+[INFO] [1740175350.841872761] [subscriber_actioneur]: Humidité reçue: "100"
+[INFO] [1740175350.842022051] [site_flask_int]: Température reçue: 22
+[INFO] [1740175350.842423935] [subscriber_actioneur]: Qualité reçue: "38"
+[INFO] [1740175350.842810942] [data_logger]: Stockage en mémoire tampon : 22, 100, 38, None
+[INFO] [1740175350.843070529] [subscriber_actioneur]: Publishing on "fenetre": "Ferme la fenêtre"
+[INFO] [1740175350.843256658] [data_logger]: Qualité de l'air reçue: 38
+[INFO] [1740175350.844187997] [site_flask_int]: Humidité reçue: 100
+[INFO] [1740175350.844340322] [site_flask_int]: Humidité reçue: 100
+[INFO] [1740175350.846132286] [site_flask_int]: Qualité de l'air reçue: 38
+[INFO] [1740175350.846391432] [site_flask_int]: Qualité de l'air reçue: 38
+127.0.0.1 - - [21/Feb/2025 23:02:31] "GET /live_data HTTP/1.1" 200 -
+127.0.0.1 - - [21/Feb/2025 23:02:31] "GET /data HTTP/1.1" 200 -
+[INFO] [1740175351.826648610] [publisher_presence]: Publishing: "1"
+[INFO] [1740175351.827606332] [site_flask_int]: presence: 1
+[INFO] [1740175351.827777599] [site_flask_int]: presence: 1
+[INFO] [1740175351.845262244] [publisher_i2c]: Publishing Temp: 22
+[INFO] [1740175351.845540221] [data_logger]: Température reçue: 22
+[INFO] [1740175351.845579880] [subscriber_actioneur]: Température reçue: "22"
+[INFO] [1740175351.845912435] [publisher_i2c]: Publishing Humid: 66
+[INFO] [1740175351.846368561] [site_flask_int]: Température reçue: 22
+[INFO] [1740175351.846454342] [data_logger]: Humidité reçue: 66
+[INFO] [1740175351.846515488] [publisher_i2c]: Publishing Qualite: 29
+[INFO] [1740175351.846514805] [site_flask_int]: Température reçue: 22
+[INFO] [1740175351.846649318] [subscriber_actioneur]: Humidité reçue: "66"
+[INFO] [1740175351.847198308] [data_logger]: Stockage en mémoire tampon : 22, 66, 29, None
+[INFO] [1740175351.847351526] [subscriber_actioneur]: Qualité reçue: "29"
+[INFO] [1740175351.847629087] [data_logger]: Qualité de l'air reçue: 29
+[INFO] [1740175351.847768408] [subscriber_actioneur]: Publishing on "fenetre": "Ouvre la fenêtre"
+[INFO] [1740175351.848561376] [site_flask_int]: Humidité reçue: 66
+[INFO] [1740175351.849356789] [site_flask_int]: Humidité reçue: 66
+[INFO] [1740175351.850317973] [site_flask_int]: Qualité de l'air reçue: 29
+[INFO] [1740175351.851714204] [site_flask_int]: Qualité de l'air reçue: 29
+127.0.0.1 - - [21/Feb/2025 23:02:32] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175352.826918530] [publisher_presence]: Publishing: "1"
+[INFO] [1740175352.828129943] [site_flask_int]: presence: 1
+[INFO] [1740175352.828327444] [site_flask_int]: presence: 1
+[INFO] [1740175352.840939118] [publisher_i2c]: Publishing Temp: 24
+[INFO] [1740175352.841310170] [subscriber_actioneur]: Température reçue: "24"
+[INFO] [1740175352.841396206] [data_logger]: Température reçue: 24
+[INFO] [1740175352.841618220] [publisher_i2c]: Publishing Humid: 82
+[INFO] [1740175352.841763982] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175352.842127526] [publisher_i2c]: Publishing Qualite: 28
+[INFO] [1740175352.842232055] [data_logger]: Humidité reçue: 82
+[INFO] [1740175352.842425874] [site_flask_int]: Température reçue: 24
+[INFO] [1740175352.842526714] [subscriber_actioneur]: Humidité reçue: "82"
+[INFO] [1740175352.842718072] [site_flask_int]: Température reçue: 24
+[INFO] [1740175352.842899548] [data_logger]: Stockage en mémoire tampon : 24, 82, 28, None
+[INFO] [1740175352.842983952] [subscriber_actioneur]: Qualité reçue: "28"
+[INFO] [1740175352.843368989] [data_logger]: Qualité de l'air reçue: 28
+[INFO] [1740175352.843427825] [subscriber_actioneur]: Publishing on "fenetre": "Ouvre la fenêtre"
+[INFO] [1740175352.844498524] [site_flask_int]: Humidité reçue: 82
+[INFO] [1740175352.844677520] [site_flask_int]: Humidité reçue: 82
+[INFO] [1740175352.846653599] [site_flask_int]: Qualité de l'air reçue: 28
+[INFO] [1740175352.847196097] [site_flask_int]: Qualité de l'air reçue: 28
+127.0.0.1 - - [21/Feb/2025 23:02:33] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175353.827122535] [publisher_presence]: Publishing: "1"
+[INFO] [1740175353.828485072] [site_flask_int]: presence: 1
+[INFO] [1740175353.828585300] [site_flask_int]: presence: 1
+[INFO] [1740175353.842902406] [publisher_i2c]: Publishing Temp: 23
+[INFO] [1740175353.843245178] [subscriber_actioneur]: Température reçue: "23"
+[INFO] [1740175353.843401868] [data_logger]: Température reçue: 23
+[INFO] [1740175353.843476984] [publisher_i2c]: Publishing Humid: 96
+[INFO] [1740175353.843490876] [lamp_client]: Prochaine requête dans 3.74 secondes...
+[INFO] [1740175353.843534147] [lamp_service]: État de la lampe : OFF
+[INFO] [1740175353.843692438] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175353.843938911] [publisher_i2c]: Publishing Qualite: 1
+[INFO] [1740175353.844115102] [site_flask_int]: Température reçue: 23
+[INFO] [1740175353.844380074] [data_logger]: Humidité reçue: 96
+[INFO] [1740175353.844566646] [subscriber_actioneur]: Humidité reçue: "96"
+[INFO] [1740175353.845091489] [data_logger]: Stockage en mémoire tampon : 23, 96, 1, None
+[INFO] [1740175353.845381859] [subscriber_actioneur]: Qualité reçue: "1"
+[INFO] [1740175353.845483971] [site_flask_int]: Température reçue: 23
+[INFO] [1740175353.845698770] [data_logger]: Qualité de l'air reçue: 1
+[INFO] [1740175353.845905823] [subscriber_actioneur]: Publishing on "fenetre": "Ouvre la fenêtre"
+[INFO] [1740175353.846293455] [site_flask_int]: Humidité reçue: 96
+[INFO] [1740175353.847881586] [site_flask_int]: Qualité de l'air reçue: 1
+[INFO] [1740175353.848013183] [site_flask_int]: Humidité reçue: 96
+[INFO] [1740175353.849860575] [site_flask_int]: Qualité de l'air reçue: 1
+127.0.0.1 - - [21/Feb/2025 23:02:34] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175354.827235949] [publisher_presence]: Publishing: "1"
+[INFO] [1740175354.828632535] [site_flask_int]: presence: 1
+[INFO] [1740175354.828639353] [site_flask_int]: presence: 1
+[INFO] [1740175354.843107477] [publisher_i2c]: Publishing Temp: 30
+[INFO] [1740175354.843403333] [subscriber_actioneur]: Température reçue: "30"
+[INFO] [1740175354.843486558] [data_logger]: Température reçue: 30
+[INFO] [1740175354.843666837] [publisher_i2c]: Publishing Humid: 77
+[INFO] [1740175354.843941593] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175354.844267955] [site_flask_int]: Température reçue: 30
+[INFO] [1740175354.844369450] [publisher_i2c]: Publishing Qualite: 6
+[INFO] [1740175354.844398670] [site_flask_int]: Température reçue: 30
+[INFO] [1740175354.844515419] [data_logger]: Humidité reçue: 77
+[INFO] [1740175354.844673887] [subscriber_actioneur]: Humidité reçue: "77"
+[INFO] [1740175354.845122209] [subscriber_actioneur]: Qualité reçue: "6"
+[INFO] [1740175354.845378739] [data_logger]: Stockage en mémoire tampon : 30, 77, 6, None
+[INFO] [1740175354.845517871] [subscriber_actioneur]: Publishing on "fenetre": "Ouvre la fenêtre"
+[INFO] [1740175354.845869330] [data_logger]: Qualité de l'air reçue: 6
+[INFO] [1740175354.845957255] [site_flask_int]: Humidité reçue: 77
+[INFO] [1740175354.847839257] [site_flask_int]: Humidité reçue: 77
+[INFO] [1740175354.847913227] [site_flask_int]: Qualité de l'air reçue: 6
+[INFO] [1740175354.849784619] [site_flask_int]: Qualité de l'air reçue: 6
+127.0.0.1 - - [21/Feb/2025 23:02:35] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175355.826828276] [publisher_presence]: Publishing: "1"
+[INFO] [1740175355.828064636] [site_flask_int]: presence: 1
+[INFO] [1740175355.828207355] [site_flask_int]: presence: 1
+[INFO] [1740175355.874890953] [publisher_i2c]: Publishing Temp: 24
+[INFO] [1740175355.875058516] [subscriber_actioneur]: Température reçue: "24"
+[INFO] [1740175355.875133226] [data_logger]: Température reçue: 24
+[INFO] [1740175355.875462546] [publisher_i2c]: Publishing Humid: 65
+[INFO] [1740175355.875847256] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175355.876060386] [site_flask_int]: Température reçue: 24
+[INFO] [1740175355.876069165] [publisher_i2c]: Publishing Qualite: 16
+[INFO] [1740175355.876098719] [data_logger]: Humidité reçue: 65
+[INFO] [1740175355.876712801] [subscriber_actioneur]: Humidité reçue: "65"
+[INFO] [1740175355.876926662] [data_logger]: Stockage en mémoire tampon : 24, 65, 16, None
+[INFO] [1740175355.877257503] [subscriber_actioneur]: Qualité reçue: "16"
+[INFO] [1740175355.877375084] [site_flask_int]: Température reçue: 24
+[INFO] [1740175355.877516429] [data_logger]: Qualité de l'air reçue: 16
+[INFO] [1740175355.877674155] [subscriber_actioneur]: Publishing on "fenetre": "Ouvre la fenêtre"
+[INFO] [1740175355.877874962] [site_flask_int]: Humidité reçue: 65
+[INFO] [1740175355.879524473] [site_flask_int]: Humidité reçue: 65
+[INFO] [1740175355.880085105] [site_flask_int]: Qualité de l'air reçue: 16
+[INFO] [1740175355.881105946] [site_flask_int]: Qualité de l'air reçue: 16
+127.0.0.1 - - [21/Feb/2025 23:02:36] "GET /live_data HTTP/1.1" 200 -
+127.0.0.1 - - [21/Feb/2025 23:02:36] "GET /data HTTP/1.1" 200 -
+[INFO] [1740175356.826983340] [publisher_presence]: Publishing: "1"
+[INFO] [1740175356.828642464] [site_flask_int]: presence: 1
+[INFO] [1740175356.831084041] [site_flask_int]: presence: 1
+[INFO] [1740175356.840380915] [publisher_i2c]: Publishing Temp: 21
+[INFO] [1740175356.840846308] [data_logger]: Température reçue: 21
+[INFO] [1740175356.840853171] [subscriber_actioneur]: Température reçue: "21"
+[INFO] [1740175356.840960322] [publisher_i2c]: Publishing Humid: 79
+[INFO] [1740175356.841607911] [publisher_i2c]: Publishing Qualite: 37
+[INFO] [1740175356.841819385] [subscriber_actioneur]: Humidité reçue: "79"
+[INFO] [1740175356.841821658] [data_logger]: Humidité reçue: 79
+[INFO] [1740175356.841873818] [site_flask_int]: Température reçue: 21
+[INFO] [1740175356.842404072] [subscriber_actioneur]: Qualité reçue: "37"
+[INFO] [1740175356.842434188] [data_logger]: Stockage en mémoire tampon : 21, 79, 37, None
+[INFO] [1740175356.842748859] [site_flask_int]: Température reçue: 21
+[INFO] [1740175356.842836994] [data_logger]: Qualité de l'air reçue: 37
+[INFO] [1740175356.843177974] [subscriber_actioneur]: Publishing on "fenetre": "Ferme la fenêtre"
+[INFO] [1740175356.844302585] [site_flask_int]: Humidité reçue: 79
+[INFO] [1740175356.845361242] [site_flask_int]: Humidité reçue: 79
+[INFO] [1740175356.846421171] [site_flask_int]: Qualité de l'air reçue: 37
+[INFO] [1740175356.847006880] [site_flask_int]: Qualité de l'air reçue: 37
+127.0.0.1 - - [21/Feb/2025 23:02:37] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175357.627008134] [lamp_client]: Prochaine requête dans 9.60 secondes...
+[INFO] [1740175357.627317194] [lamp_service]: État de la lampe : ON
+[INFO] [1740175357.826447586] [publisher_presence]: Publishing: "1"
+[INFO] [1740175357.827874043] [site_flask_int]: presence: 1
+[INFO] [1740175357.828108143] [site_flask_int]: presence: 1
+[INFO] [1740175357.840532832] [publisher_i2c]: Publishing Temp: 24
+[INFO] [1740175357.840870536] [subscriber_actioneur]: Température reçue: "24"
+[INFO] [1740175357.840924708] [data_logger]: Température reçue: 24
+[INFO] [1740175357.841285815] [publisher_i2c]: Publishing Humid: 87
+[INFO] [1740175357.841542226] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175357.841716955] [site_flask_int]: Température reçue: 24
+[INFO] [1740175357.841822082] [publisher_i2c]: Publishing Qualite: 35
+[INFO] [1740175357.841924684] [data_logger]: Humidité reçue: 87
+[INFO] [1740175357.842766063] [subscriber_actioneur]: Humidité reçue: "87"
+[INFO] [1740175357.842988019] [data_logger]: Stockage en mémoire tampon : 24, 87, 35, None
+[INFO] [1740175357.843333609] [site_flask_int]: Température reçue: 24
+[INFO] [1740175357.843668137] [data_logger]: Qualité de l'air reçue: 35
+[INFO] [1740175357.843681411] [subscriber_actioneur]: Qualité reçue: "35"
+[INFO] [1740175357.844158316] [site_flask_int]: Humidité reçue: 87
+[INFO] [1740175357.844169548] [subscriber_actioneur]: Publishing on "fenetre": "Ferme la fenêtre"
+[INFO] [1740175357.846216781] [site_flask_int]: Qualité de l'air reçue: 35
+[INFO] [1740175357.846326756] [site_flask_int]: Humidité reçue: 87
+[INFO] [1740175357.848237573] [site_flask_int]: Qualité de l'air reçue: 35
+127.0.0.1 - - [21/Feb/2025 23:02:38] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175358.826824131] [publisher_presence]: Publishing: "1"
+[INFO] [1740175358.828202313] [site_flask_int]: presence: 1
+[INFO] [1740175358.828632790] [site_flask_int]: presence: 1
+[INFO] [1740175358.840834541] [publisher_i2c]: Publishing Temp: 26
+[INFO] [1740175358.841077798] [subscriber_actioneur]: Température reçue: "26"
+[INFO] [1740175358.841275649] [data_logger]: Température reçue: 26
+[INFO] [1740175358.841568339] [publisher_i2c]: Publishing Humid: 73
+[INFO] [1740175358.841637499] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175358.842177682] [publisher_i2c]: Publishing Qualite: 33
+[INFO] [1740175358.842181509] [data_logger]: Humidité reçue: 73
+[INFO] [1740175358.842424966] [site_flask_int]: Température reçue: 26
+[INFO] [1740175358.842470091] [subscriber_actioneur]: Humidité reçue: "73"
+[INFO] [1740175358.842929483] [data_logger]: Stockage en mémoire tampon : 26, 73, 33, None
+[INFO] [1740175358.842981541] [subscriber_actioneur]: Qualité reçue: "33"
+[INFO] [1740175358.843219788] [site_flask_int]: Température reçue: 26
+[INFO] [1740175358.843510544] [data_logger]: Qualité de l'air reçue: 33
+[INFO] [1740175358.843541892] [subscriber_actioneur]: Publishing on "fenetre": "Ferme la fenêtre"
+[INFO] [1740175358.845445836] [site_flask_int]: Humidité reçue: 73
+[INFO] [1740175358.846136482] [site_flask_int]: Humidité reçue: 73
+[INFO] [1740175358.849110905] [site_flask_int]: Qualité de l'air reçue: 33
+[INFO] [1740175358.849319286] [site_flask_int]: Qualité de l'air reçue: 33
+127.0.0.1 - - [21/Feb/2025 23:02:39] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175359.826654556] [publisher_presence]: Publishing: "1"
+[INFO] [1740175359.828288968] [site_flask_int]: presence: 1
+[INFO] [1740175359.828606003] [site_flask_int]: presence: 1
+[INFO] [1740175359.841901221] [publisher_i2c]: Publishing Temp: 20
+[INFO] [1740175359.842448554] [data_logger]: Température reçue: 20
+[INFO] [1740175359.842528764] [subscriber_actioneur]: Température reçue: "20"
+[INFO] [1740175359.842616083] [publisher_i2c]: Publishing Humid: 50
+[INFO] [1740175359.843237759] [site_flask_int]: Température reçue: 20
+[INFO] [1740175359.843308798] [publisher_i2c]: Publishing Qualite: 0
+[INFO] [1740175359.843415127] [data_logger]: Humidité reçue: 50
+[INFO] [1740175359.843534381] [subscriber_actioneur]: Humidité reçue: "50"
+[INFO] [1740175359.843602099] [site_flask_int]: Température reçue: 20
+[INFO] [1740175359.843904816] [data_logger]: Stockage en mémoire tampon : 20, 50, 0, None
+[INFO] [1740175359.844020503] [subscriber_actioneur]: Qualité reçue: "0"
+[INFO] [1740175359.844355592] [data_logger]: Qualité de l'air reçue: 0
+[INFO] [1740175359.844493681] [subscriber_actioneur]: Publishing on "fenetre": "Ouvre la fenêtre"
+[INFO] [1740175359.845363586] [site_flask_int]: Humidité reçue: 50
+[INFO] [1740175359.845405899] [site_flask_int]: Humidité reçue: 50
+[INFO] [1740175359.847258290] [site_flask_int]: Qualité de l'air reçue: 0
+[INFO] [1740175359.847404525] [site_flask_int]: Qualité de l'air reçue: 0
+127.0.0.1 - - [21/Feb/2025 23:02:40] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175360.826742007] [publisher_presence]: Publishing: "1"
+[INFO] [1740175360.828067705] [site_flask_int]: presence: 1
+[INFO] [1740175360.828559969] [site_flask_int]: presence: 1
+[INFO] [1740175360.840822764] [publisher_i2c]: Publishing Temp: 25
+[INFO] [1740175360.841247311] [data_logger]: Température reçue: 25
+[INFO] [1740175360.841329615] [subscriber_actioneur]: Température reçue: "25"
+[INFO] [1740175360.841588562] [publisher_i2c]: Publishing Humid: 65
+[INFO] [1740175360.841812121] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175360.841950600] [site_flask_int]: Température reçue: 25
+[INFO] [1740175360.842124748] [data_logger]: Humidité reçue: 65
+[INFO] [1740175360.842201873] [publisher_i2c]: Publishing Qualite: 40
+[INFO] [1740175360.842270451] [site_flask_int]: Température reçue: 25
+[INFO] [1740175360.842742147] [subscriber_actioneur]: Humidité reçue: "65"
+[INFO] [1740175360.842957831] [data_logger]: Stockage en mémoire tampon : 25, 65, 40, None
+[INFO] [1740175360.843390423] [subscriber_actioneur]: Qualité reçue: "40"
+[INFO] [1740175360.843547789] [data_logger]: Qualité de l'air reçue: 40
+[INFO] [1740175360.843809410] [subscriber_actioneur]: Publishing on "fenetre": "Ferme la fenêtre"
+[INFO] [1740175360.844022724] [site_flask_int]: Humidité reçue: 65
+[INFO] [1740175360.844424013] [site_flask_int]: Humidité reçue: 65
+[INFO] [1740175360.845994341] [site_flask_int]: Qualité de l'air reçue: 40
+[INFO] [1740175360.846357733] [site_flask_int]: Qualité de l'air reçue: 40
+127.0.0.1 - - [21/Feb/2025 23:02:41] "GET /live_data HTTP/1.1" 200 -
+127.0.0.1 - - [21/Feb/2025 23:02:41] "GET /data HTTP/1.1" 200 -
+[INFO] [1740175361.826709539] [publisher_presence]: Publishing: "1"
+[INFO] [1740175361.828377268] [site_flask_int]: presence: 1
+[INFO] [1740175361.828573437] [site_flask_int]: presence: 1
+[INFO] [1740175361.842370657] [publisher_i2c]: Publishing Temp: 29
+[INFO] [1740175361.842660916] [subscriber_actioneur]: Température reçue: "29"
+[INFO] [1740175361.842697277] [data_logger]: Température reçue: 29
+[INFO] [1740175361.842861107] [publisher_i2c]: Publishing Humid: 51
+[INFO] [1740175361.843130368] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175361.843236867] [site_flask_int]: Température reçue: 29
+[INFO] [1740175361.843377166] [publisher_i2c]: Publishing Qualite: 33
+[INFO] [1740175361.843506524] [site_flask_int]: Température reçue: 29
+[INFO] [1740175361.843615630] [data_logger]: Humidité reçue: 51
+[INFO] [1740175361.843864646] [subscriber_actioneur]: Humidité reçue: "51"
+[INFO] [1740175361.844111291] [data_logger]: Stockage en mémoire tampon : 29, 51, 33, None
+[INFO] [1740175361.844294653] [subscriber_actioneur]: Qualité reçue: "33"
+[INFO] [1740175361.844533743] [data_logger]: Qualité de l'air reçue: 33
+[INFO] [1740175361.844726092] [subscriber_actioneur]: Publishing on "fenetre": "Ferme la fenêtre"
+[INFO] [1740175361.845301024] [site_flask_int]: Humidité reçue: 51
+[INFO] [1740175361.845776103] [site_flask_int]: Humidité reçue: 51
+[INFO] [1740175361.847315242] [site_flask_int]: Qualité de l'air reçue: 33
+[INFO] [1740175361.847588695] [site_flask_int]: Qualité de l'air reçue: 33
+127.0.0.1 - - [21/Feb/2025 23:02:42] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175362.827204711] [publisher_presence]: Publishing: "1"
+[INFO] [1740175362.828497147] [site_flask_int]: presence: 1
+[INFO] [1740175362.828513287] [site_flask_int]: presence: 1
+[INFO] [1740175362.843256081] [publisher_i2c]: Publishing Temp: 28
+[INFO] [1740175362.843436375] [subscriber_actioneur]: Température reçue: "28"
+[INFO] [1740175362.843574344] [data_logger]: Température reçue: 28
+[INFO] [1740175362.843780706] [publisher_i2c]: Publishing Humid: 63
+[INFO] [1740175362.843896459] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175362.844166089] [site_flask_int]: Température reçue: 28
+[INFO] [1740175362.844235630] [publisher_i2c]: Publishing Qualite: 19
+[INFO] [1740175362.844393942] [site_flask_int]: Température reçue: 28
+[INFO] [1740175362.844438516] [data_logger]: Humidité reçue: 63
+[INFO] [1740175362.844570193] [subscriber_actioneur]: Humidité reçue: "63"
+[INFO] [1740175362.844992916] [subscriber_actioneur]: Qualité reçue: "19"
+[INFO] [1740175362.845230131] [data_logger]: Stockage en mémoire tampon : 28, 63, 19, None
+[INFO] [1740175362.845376476] [subscriber_actioneur]: Publishing on "fenetre": "Ouvre la fenêtre"
+[INFO] [1740175362.845621045] [data_logger]: Qualité de l'air reçue: 19
+[INFO] [1740175362.846267448] [site_flask_int]: Humidité reçue: 63
+[INFO] [1740175362.846689285] [site_flask_int]: Humidité reçue: 63
+[INFO] [1740175362.847930910] [site_flask_int]: Qualité de l'air reçue: 19
+[INFO] [1740175362.848358132] [site_flask_int]: Qualité de l'air reçue: 19
+127.0.0.1 - - [21/Feb/2025 23:02:43] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175363.826865792] [publisher_presence]: Publishing: "1"
+[INFO] [1740175363.828179743] [site_flask_int]: presence: 1
+[INFO] [1740175363.828588801] [site_flask_int]: presence: 1
+[INFO] [1740175363.840845717] [publisher_i2c]: Publishing Temp: 23
+[INFO] [1740175363.840960912] [subscriber_actioneur]: Température reçue: "23"
+[INFO] [1740175363.841176396] [data_logger]: Température reçue: 23
+[INFO] [1740175363.841494805] [publisher_i2c]: Publishing Humid: 71
+[INFO] [1740175363.841519540] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175363.841738651] [site_flask_int]: Température reçue: 23
+[INFO] [1740175363.841891788] [data_logger]: Humidité reçue: 71
+[INFO] [1740175363.841889890] [site_flask_int]: Température reçue: 23
+[INFO] [1740175363.842108827] [publisher_i2c]: Publishing Qualite: 38
+[INFO] [1740175363.842314933] [subscriber_actioneur]: Humidité reçue: "71"
+[INFO] [1740175363.842572867] [data_logger]: Stockage en mémoire tampon : 23, 71, 38, None
+[INFO] [1740175363.842941859] [subscriber_actioneur]: Qualité reçue: "38"
+[INFO] [1740175363.843187420] [data_logger]: Qualité de l'air reçue: 38
+[INFO] [1740175363.843656400] [subscriber_actioneur]: Publishing on "fenetre": "Ferme la fenêtre"
+[INFO] [1740175363.843959429] [site_flask_int]: Humidité reçue: 71
+[INFO] [1740175363.844135824] [site_flask_int]: Humidité reçue: 71
+[INFO] [1740175363.845648809] [site_flask_int]: Qualité de l'air reçue: 38
+[INFO] [1740175363.845738448] [site_flask_int]: Qualité de l'air reçue: 38
+127.0.0.1 - - [21/Feb/2025 23:02:44] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175364.826800118] [publisher_presence]: Publishing: "1"
+[INFO] [1740175364.828331252] [site_flask_int]: presence: 1
+[INFO] [1740175364.828535404] [site_flask_int]: presence: 1
+[INFO] [1740175364.840567401] [publisher_i2c]: Publishing Temp: 27
+[INFO] [1740175364.840748346] [data_logger]: Température reçue: 27
+[INFO] [1740175364.840813178] [subscriber_actioneur]: Température reçue: "27"
+[INFO] [1740175364.841207282] [publisher_i2c]: Publishing Humid: 60
+[INFO] [1740175364.841370684] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175364.841484367] [site_flask_int]: Température reçue: 27
+[INFO] [1740175364.841559899] [data_logger]: Humidité reçue: 60
+[INFO] [1740175364.841616546] [site_flask_int]: Température reçue: 27
+[INFO] [1740175364.841656595] [publisher_i2c]: Publishing Qualite: 2
+[INFO] [1740175364.842165065] [subscriber_actioneur]: Humidité reçue: "60"
+[INFO] [1740175364.842283147] [data_logger]: Stockage en mémoire tampon : 27, 60, 2, None
+[INFO] [1740175364.842656928] [subscriber_actioneur]: Qualité reçue: "2"
+[INFO] [1740175364.842787263] [data_logger]: Qualité de l'air reçue: 2
+[INFO] [1740175364.843332746] [subscriber_actioneur]: Publishing on "fenetre": "Ouvre la fenêtre"
+[INFO] [1740175364.843637789] [site_flask_int]: Humidité reçue: 60
+[INFO] [1740175364.843782761] [site_flask_int]: Humidité reçue: 60
+[INFO] [1740175364.845481745] [site_flask_int]: Qualité de l'air reçue: 2
+[INFO] [1740175364.845680833] [site_flask_int]: Qualité de l'air reçue: 2
+127.0.0.1 - - [21/Feb/2025 23:02:45] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175365.827292107] [publisher_presence]: Publishing: "1"
+[INFO] [1740175365.828484470] [site_flask_int]: presence: 1
+[INFO] [1740175365.828645022] [site_flask_int]: presence: 1
+[INFO] [1740175365.849188754] [publisher_i2c]: Publishing Temp: 21
+[INFO] [1740175365.849511885] [data_logger]: Température reçue: 21
+[INFO] [1740175365.849511739] [subscriber_actioneur]: Température reçue: "21"
+[INFO] [1740175365.849722635] [publisher_i2c]: Publishing Humid: 83
+[INFO] [1740175365.850355403] [publisher_i2c]: Publishing Qualite: 24
+[INFO] [1740175365.850468561] [data_logger]: Humidité reçue: 83
+[INFO] [1740175365.850493938] [subscriber_actioneur]: Humidité reçue: "83"
+[INFO] [1740175365.850513906] [site_flask_int]: Température reçue: 21
+[INFO] [1740175365.851131835] [data_logger]: Stockage en mémoire tampon : 21, 83, 24, None
+[INFO] [1740175365.851231012] [subscriber_actioneur]: Qualité reçue: "24"
+[INFO] [1740175365.851342160] [site_flask_int]: Température reçue: 21
+[INFO] [1740175365.851554168] [data_logger]: Qualité de l'air reçue: 24
+[INFO] [1740175365.851688510] [subscriber_actioneur]: Publishing on "fenetre": "Ouvre la fenêtre"
+[INFO] [1740175365.852719365] [site_flask_int]: Humidité reçue: 83
+[INFO] [1740175365.853952830] [site_flask_int]: Humidité reçue: 83
+[INFO] [1740175365.854310381] [site_flask_int]: Qualité de l'air reçue: 24
+[INFO] [1740175365.855503400] [site_flask_int]: Qualité de l'air reçue: 24
+127.0.0.1 - - [21/Feb/2025 23:02:46] "GET /live_data HTTP/1.1" 200 -
+127.0.0.1 - - [21/Feb/2025 23:02:46] "GET /data HTTP/1.1" 200 -
+[INFO] [1740175366.827376243] [publisher_presence]: Publishing: "1"
+[INFO] [1740175366.828510121] [site_flask_int]: presence: 1
+[INFO] [1740175366.828735414] [site_flask_int]: presence: 1
+[INFO] [1740175366.841227103] [publisher_i2c]: Publishing Temp: 28
+[INFO] [1740175366.841658458] [subscriber_actioneur]: Température reçue: "28"
+[INFO] [1740175366.841763417] [data_logger]: Température reçue: 28
+[INFO] [1740175366.842254532] [publisher_i2c]: Publishing Humid: 53
+[INFO] [1740175366.842479038] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175366.842700549] [publisher_i2c]: Publishing Qualite: 21
+[INFO] [1740175366.842780153] [site_flask_int]: Température reçue: 28
+[INFO] [1740175366.842805982] [site_flask_int]: Température reçue: 28
+[INFO] [1740175366.842880977] [data_logger]: Humidité reçue: 53
+[INFO] [1740175366.843423731] [subscriber_actioneur]: Humidité reçue: "53"
+[INFO] [1740175366.843497023] [data_logger]: Stockage en mémoire tampon : 28, 53, 21, None
+[INFO] [1740175366.843879742] [data_logger]: Qualité de l'air reçue: 21
+[INFO] [1740175366.843927777] [subscriber_actioneur]: Qualité reçue: "21"
+[INFO] [1740175366.844407758] [subscriber_actioneur]: Publishing on "fenetre": "Ouvre la fenêtre"
+[INFO] [1740175366.844823358] [site_flask_int]: Humidité reçue: 53
+[INFO] [1740175366.845101350] [site_flask_int]: Humidité reçue: 53
+[INFO] [1740175366.846464658] [site_flask_int]: Qualité de l'air reçue: 21
+[INFO] [1740175366.846878610] [site_flask_int]: Qualité de l'air reçue: 21
+[INFO] [1740175367.239139760] [lamp_client]: Prochaine requête dans 3.81 secondes...
+[INFO] [1740175367.239328745] [lamp_service]: État de la lampe : OFF
+127.0.0.1 - - [21/Feb/2025 23:02:47] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175367.826386338] [publisher_presence]: Publishing: "1"
+[INFO] [1740175367.827799240] [site_flask_int]: presence: 1
+[INFO] [1740175367.827988677] [site_flask_int]: presence: 1
+[INFO] [1740175367.842756504] [publisher_i2c]: Publishing Temp: 26
+[INFO] [1740175367.842991598] [data_logger]: Température reçue: 26
+[INFO] [1740175367.842996923] [subscriber_actioneur]: Température reçue: "26"
+[INFO] [1740175367.843437913] [publisher_i2c]: Publishing Humid: 73
+[INFO] [1740175367.843494477] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175367.843993644] [site_flask_int]: Température reçue: 26
+[INFO] [1740175367.844047039] [data_logger]: Humidité reçue: 73
+[INFO] [1740175367.844084236] [publisher_i2c]: Publishing Qualite: 4
+[INFO] [1740175367.844583411] [subscriber_actioneur]: Humidité reçue: "73"
+[INFO] [1740175367.844857635] [data_logger]: Stockage en mémoire tampon : 26, 73, 4, None
+[INFO] [1740175367.845084561] [subscriber_actioneur]: Qualité reçue: "4"
+[INFO] [1740175367.845115159] [site_flask_int]: Température reçue: 26
+[INFO] [1740175367.845385496] [data_logger]: Qualité de l'air reçue: 4
+[INFO] [1740175367.845653449] [subscriber_actioneur]: Publishing on "fenetre": "Ouvre la fenêtre"
+[INFO] [1740175367.846562916] [site_flask_int]: Humidité reçue: 73
+[INFO] [1740175367.847861473] [site_flask_int]: Humidité reçue: 73
+[INFO] [1740175367.848416916] [site_flask_int]: Qualité de l'air reçue: 4
+[INFO] [1740175367.849664758] [site_flask_int]: Qualité de l'air reçue: 4
+127.0.0.1 - - [21/Feb/2025 23:02:48] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175368.826511226] [publisher_presence]: Publishing: "1"
+[INFO] [1740175368.827843511] [site_flask_int]: presence: 1
+[INFO] [1740175368.827846702] [site_flask_int]: presence: 1
+[INFO] [1740175368.840633781] [publisher_i2c]: Publishing Temp: 22
+[INFO] [1740175368.840952990] [subscriber_actioneur]: Température reçue: "22"
+[INFO] [1740175368.840953411] [data_logger]: Température reçue: 22
+[INFO] [1740175368.841241233] [publisher_i2c]: Publishing Humid: 100
+[INFO] [1740175368.841761279] [publisher_i2c]: Publishing Qualite: 1
+[INFO] [1740175368.841813505] [data_logger]: Humidité reçue: 100
+[INFO] [1740175368.841847128] [subscriber_actioneur]: Humidité reçue: "100"
+[INFO] [1740175368.842664562] [subscriber_actioneur]: Qualité reçue: "1"
+[INFO] [1740175368.842736548] [data_logger]: Stockage en mémoire tampon : 22, 100, 1, None
+[INFO] [1740175368.842852585] [site_flask_int]: Température reçue: 22
+[INFO] [1740175368.843354227] [data_logger]: Qualité de l'air reçue: 1
+[INFO] [1740175368.843389854] [subscriber_actioneur]: Publishing on "fenetre": "Ouvre la fenêtre"
+[INFO] [1740175368.844816932] [site_flask_int]: Humidité reçue: 100
+[INFO] [1740175368.846687854] [site_flask_int]: Qualité de l'air reçue: 1
+[INFO] [1740175368.847728972] [site_flask_int]: Température reçue: 22
+[INFO] [1740175368.850308679] [site_flask_int]: Humidité reçue: 100
+[INFO] [1740175368.851903497] [site_flask_int]: Qualité de l'air reçue: 1
+127.0.0.1 - - [21/Feb/2025 23:02:49] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175369.826925898] [publisher_presence]: Publishing: "1"
+[INFO] [1740175369.828231287] [site_flask_int]: presence: 1
+[INFO] [1740175369.828310401] [site_flask_int]: presence: 1
+[INFO] [1740175369.841923676] [publisher_i2c]: Publishing Temp: 24
+[INFO] [1740175369.842053930] [data_logger]: Température reçue: 24
+[INFO] [1740175369.842066073] [subscriber_actioneur]: Température reçue: "24"
+[INFO] [1740175369.842615584] [publisher_i2c]: Publishing Humid: 80
+[INFO] [1740175369.842620323] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175369.842803758] [site_flask_int]: Température reçue: 24
+[INFO] [1740175369.842954310] [data_logger]: Humidité reçue: 80
+[INFO] [1740175369.843157892] [publisher_i2c]: Publishing Qualite: 4
+[INFO] [1740175369.843350404] [subscriber_actioneur]: Humidité reçue: "80"
+[INFO] [1740175369.843616052] [data_logger]: Stockage en mémoire tampon : 24, 80, 4, None
+[INFO] [1740175369.843837408] [subscriber_actioneur]: Qualité reçue: "4"
+[INFO] [1740175369.844255231] [data_logger]: Qualité de l'air reçue: 4
+[INFO] [1740175369.844519548] [subscriber_actioneur]: Publishing on "fenetre": "Ouvre la fenêtre"
+[INFO] [1740175369.845103489] [site_flask_int]: Humidité reçue: 80
+[INFO] [1740175369.845229039] [site_flask_int]: Température reçue: 24
+[INFO] [1740175369.846656098] [site_flask_int]: Qualité de l'air reçue: 4
+[INFO] [1740175369.847178649] [site_flask_int]: Humidité reçue: 80
+[INFO] [1740175369.848901081] [site_flask_int]: Qualité de l'air reçue: 4
+127.0.0.1 - - [21/Feb/2025 23:02:50] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175370.826560280] [publisher_presence]: Publishing: "1"
+[INFO] [1740175370.827785029] [site_flask_int]: presence: 1
+[INFO] [1740175370.828118179] [site_flask_int]: presence: 1
+[INFO] [1740175370.849998677] [publisher_i2c]: Publishing Temp: 23
+[INFO] [1740175370.850204572] [data_logger]: Température reçue: 23
+[INFO] [1740175370.850288810] [subscriber_actioneur]: Température reçue: "23"
+[INFO] [1740175370.850688700] [publisher_i2c]: Publishing Humid: 81
+[INFO] [1740175370.850811852] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175370.850877505] [data_logger]: Humidité reçue: 81
+[INFO] [1740175370.850902842] [site_flask_int]: Température reçue: 23
+[INFO] [1740175370.851151949] [publisher_i2c]: Publishing Qualite: 20
+[INFO] [1740175370.851317049] [site_flask_int]: Température reçue: 23
+[INFO] [1740175370.851499903] [subscriber_actioneur]: Humidité reçue: "81"
+[INFO] [1740175370.851629667] [data_logger]: Stockage en mémoire tampon : 23, 81, 20, None
+[INFO] [1740175370.852007876] [subscriber_actioneur]: Qualité reçue: "20"
+[INFO] [1740175370.852092615] [data_logger]: Qualité de l'air reçue: 20
+[INFO] [1740175370.852489029] [subscriber_actioneur]: Publishing on "fenetre": "Ouvre la fenêtre"
+[INFO] [1740175370.852578376] [site_flask_int]: Humidité reçue: 81
+[INFO] [1740175370.853096083] [site_flask_int]: Humidité reçue: 81
+[INFO] [1740175370.854271845] [site_flask_int]: Qualité de l'air reçue: 20
+[INFO] [1740175370.855096663] [site_flask_int]: Qualité de l'air reçue: 20
+[INFO] [1740175371.110919548] [lamp_client]: Prochaine requête dans 4.88 secondes...
+[INFO] [1740175371.111397545] [lamp_service]: État de la lampe : ON
+127.0.0.1 - - [21/Feb/2025 23:02:51] "GET /live_data HTTP/1.1" 200 -
+127.0.0.1 - - [21/Feb/2025 23:02:51] "GET /data HTTP/1.1" 200 -
+[INFO] [1740175371.826709179] [publisher_presence]: Publishing: "1"
+[INFO] [1740175371.827822113] [site_flask_int]: presence: 1
+[INFO] [1740175371.827946762] [site_flask_int]: presence: 1
+[INFO] [1740175371.840665072] [publisher_i2c]: Publishing Temp: 27
+[INFO] [1740175371.840957962] [data_logger]: Température reçue: 27
+[INFO] [1740175371.840967329] [subscriber_actioneur]: Température reçue: "27"
+[INFO] [1740175371.841143089] [publisher_i2c]: Publishing Humid: 93
+[INFO] [1740175371.841580469] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175371.841585068] [site_flask_int]: Température reçue: 27
+[INFO] [1740175371.841657445] [site_flask_int]: Température reçue: 27
+[INFO] [1740175371.841734238] [publisher_i2c]: Publishing Qualite: 39
+[INFO] [1740175371.841785074] [data_logger]: Humidité reçue: 93
+[INFO] [1740175371.842297997] [data_logger]: Stockage en mémoire tampon : 27, 93, 39, None
+[INFO] [1740175371.842327341] [subscriber_actioneur]: Humidité reçue: "93"
+[INFO] [1740175371.842770704] [data_logger]: Qualité de l'air reçue: 39
+[INFO] [1740175371.842851775] [subscriber_actioneur]: Qualité reçue: "39"
+[INFO] [1740175371.843452202] [subscriber_actioneur]: Publishing on "fenetre": "Ferme la fenêtre"
+[INFO] [1740175371.844113564] [site_flask_int]: Humidité reçue: 93
+[INFO] [1740175371.844723578] [site_flask_int]: Humidité reçue: 93
+[INFO] [1740175371.845569937] [site_flask_int]: Qualité de l'air reçue: 39
+[INFO] [1740175371.846368175] [site_flask_int]: Qualité de l'air reçue: 39
+127.0.0.1 - - [21/Feb/2025 23:02:52] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175372.827411020] [publisher_presence]: Publishing: "1"
+[INFO] [1740175372.828744468] [site_flask_int]: presence: 1
+[INFO] [1740175372.828809024] [site_flask_int]: presence: 1
+[INFO] [1740175372.841442415] [publisher_i2c]: Publishing Temp: 22
+[INFO] [1740175372.841722410] [data_logger]: Température reçue: 22
+[INFO] [1740175372.841722110] [subscriber_actioneur]: Température reçue: "22"
+[INFO] [1740175372.841936272] [publisher_i2c]: Publishing Humid: 73
+[INFO] [1740175372.842258066] [site_flask_int]: Température reçue: 22
+[INFO] [1740175372.842258526] [site_flask_int]: Température reçue: 22
+[INFO] [1740175372.842437182] [publisher_i2c]: Publishing Qualite: 31
+[INFO] [1740175372.842451458] [data_logger]: Humidité reçue: 73
+[INFO] [1740175372.842461257] [subscriber_actioneur]: Humidité reçue: "73"
+[INFO] [1740175372.843256249] [subscriber_actioneur]: Qualité reçue: "31"
+[INFO] [1740175372.843262390] [data_logger]: Stockage en mémoire tampon : 22, 73, 31, None
+[INFO] [1740175372.843708247] [data_logger]: Qualité de l'air reçue: 31
+[INFO] [1740175372.843843401] [subscriber_actioneur]: Publishing on "fenetre": "Ferme la fenêtre"
+[INFO] [1740175372.844206392] [site_flask_int]: Humidité reçue: 73
+[INFO] [1740175372.845766881] [site_flask_int]: Qualité de l'air reçue: 31
+[INFO] [1740175372.845887928] [site_flask_int]: Humidité reçue: 73
+[INFO] [1740175372.847583746] [site_flask_int]: Qualité de l'air reçue: 31
+127.0.0.1 - - [21/Feb/2025 23:02:53] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175373.826390870] [publisher_presence]: Publishing: "1"
+[INFO] [1740175373.827734817] [site_flask_int]: presence: 1
+[INFO] [1740175373.827808846] [site_flask_int]: presence: 1
+[INFO] [1740175373.848095155] [publisher_i2c]: Publishing Temp: 29
+[INFO] [1740175373.848494023] [subscriber_actioneur]: Température reçue: "29"
+[INFO] [1740175373.848517399] [data_logger]: Température reçue: 29
+[INFO] [1740175373.848907199] [publisher_i2c]: Publishing Humid: 79
+[INFO] [1740175373.848928589] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175373.849058472] [site_flask_int]: Température reçue: 29
+[INFO] [1740175373.849275632] [data_logger]: Humidité reçue: 79
+[INFO] [1740175373.849518486] [publisher_i2c]: Publishing Qualite: 14
+[INFO] [1740175373.849645594] [subscriber_actioneur]: Humidité reçue: "79"
+[INFO] [1740175373.849932705] [data_logger]: Stockage en mémoire tampon : 29, 79, 14, None
+[INFO] [1740175373.850083647] [site_flask_int]: Température reçue: 29
+[INFO] [1740175373.850130034] [subscriber_actioneur]: Qualité reçue: "14"
+[INFO] [1740175373.850424328] [data_logger]: Qualité de l'air reçue: 14
+[INFO] [1740175373.850563086] [subscriber_actioneur]: Publishing on "fenetre": "Ouvre la fenêtre"
+[INFO] [1740175373.851772326] [site_flask_int]: Humidité reçue: 79
+[INFO] [1740175373.851887382] [site_flask_int]: Humidité reçue: 79
+[INFO] [1740175373.853312808] [site_flask_int]: Qualité de l'air reçue: 14
+[INFO] [1740175373.853365228] [site_flask_int]: Qualité de l'air reçue: 14
+127.0.0.1 - - [21/Feb/2025 23:02:54] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175374.827306271] [publisher_presence]: Publishing: "1"
+[INFO] [1740175374.828532423] [site_flask_int]: presence: 1
+[INFO] [1740175374.828589791] [site_flask_int]: presence: 1
+[INFO] [1740175374.842129672] [publisher_i2c]: Publishing Temp: 25
+[INFO] [1740175374.842443862] [subscriber_actioneur]: Température reçue: "25"
+[INFO] [1740175374.842502006] [data_logger]: Température reçue: 25
+[INFO] [1740175374.842702127] [publisher_i2c]: Publishing Humid: 71
+[INFO] [1740175374.842938150] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175374.843153233] [site_flask_int]: Température reçue: 25
+[INFO] [1740175374.843228474] [publisher_i2c]: Publishing Qualite: 30
+[INFO] [1740175374.843254152] [site_flask_int]: Température reçue: 25
+[INFO] [1740175374.843290716] [data_logger]: Humidité reçue: 71
+[INFO] [1740175374.843663982] [subscriber_actioneur]: Humidité reçue: "71"
+[INFO] [1740175374.844023521] [data_logger]: Stockage en mémoire tampon : 25, 71, 30, None
+[INFO] [1740175374.844100341] [subscriber_actioneur]: Qualité reçue: "30"
+[INFO] [1740175374.844484537] [data_logger]: Qualité de l'air reçue: 30
+[INFO] [1740175374.844529937] [subscriber_actioneur]: Publishing on "fenetre": "Ferme la fenêtre"
+[INFO] [1740175374.845699863] [site_flask_int]: Humidité reçue: 71
+[INFO] [1740175374.845766272] [site_flask_int]: Humidité reçue: 71
+[INFO] [1740175374.847182615] [site_flask_int]: Qualité de l'air reçue: 30
+[INFO] [1740175374.847663348] [site_flask_int]: Qualité de l'air reçue: 30
+127.0.0.1 - - [21/Feb/2025 23:02:55] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175375.827035075] [publisher_presence]: Publishing: "1"
+[INFO] [1740175375.828286714] [site_flask_int]: presence: 1
+[INFO] [1740175375.828551170] [site_flask_int]: presence: 1
+[INFO] [1740175375.842398254] [publisher_i2c]: Publishing Temp: 28
+[INFO] [1740175375.842505670] [data_logger]: Température reçue: 28
+[INFO] [1740175375.842630434] [subscriber_actioneur]: Température reçue: "28"
+[INFO] [1740175375.842846470] [site_flask_int]: Température reçue: 28
+[INFO] [1740175375.843054104] [publisher_i2c]: Publishing Humid: 93
+[INFO] [1740175375.843187009] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175375.843231923] [data_logger]: Humidité reçue: 93
+[INFO] [1740175375.843572267] [publisher_i2c]: Publishing Qualite: 21
+[INFO] [1740175375.843642058] [site_flask_int]: Température reçue: 28
+[INFO] [1740175375.843855564] [data_logger]: Stockage en mémoire tampon : 28, 93, 21, None
+[INFO] [1740175375.843888255] [subscriber_actioneur]: Humidité reçue: "93"
+[INFO] [1740175375.844392873] [data_logger]: Qualité de l'air reçue: 21
+[INFO] [1740175375.844442175] [subscriber_actioneur]: Qualité reçue: "21"
+[INFO] [1740175375.844835082] [subscriber_actioneur]: Publishing on "fenetre": "Ouvre la fenêtre"
+[INFO] [1740175375.845057161] [site_flask_int]: Humidité reçue: 93
+[INFO] [1740175375.845678024] [site_flask_int]: Humidité reçue: 93
+[INFO] [1740175375.846590469] [site_flask_int]: Qualité de l'air reçue: 21
+[INFO] [1740175375.847202831] [site_flask_int]: Qualité de l'air reçue: 21
+[INFO] [1740175376.040777291] [lamp_client]: Prochaine requête dans 4.09 secondes...
+[INFO] [1740175376.041199744] [lamp_service]: État de la lampe : OFF
+127.0.0.1 - - [21/Feb/2025 23:02:56] "GET /live_data HTTP/1.1" 200 -
+127.0.0.1 - - [21/Feb/2025 23:02:56] "GET /data HTTP/1.1" 200 -
+[INFO] [1740175376.827135792] [publisher_presence]: Publishing: "1"
+[INFO] [1740175376.828233076] [site_flask_int]: presence: 1
+[INFO] [1740175376.828469270] [site_flask_int]: presence: 1
+[INFO] [1740175376.841984165] [publisher_i2c]: Publishing Temp: 24
+[INFO] [1740175376.842319399] [subscriber_actioneur]: Température reçue: "24"
+[INFO] [1740175376.842362485] [data_logger]: Température reçue: 24
+[INFO] [1740175376.842605541] [publisher_i2c]: Publishing Humid: 85
+[INFO] [1740175376.842779121] [site_flask_int]: Température reçue: 24
+[INFO] [1740175376.842815450] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175376.843084430] [data_logger]: Humidité reçue: 85
+[INFO] [1740175376.843096773] [publisher_i2c]: Publishing Qualite: 21
+[INFO] [1740175376.843211969] [site_flask_int]: Température reçue: 24
+[INFO] [1740175376.843550249] [subscriber_actioneur]: Humidité reçue: "85"
+[INFO] [1740175376.843734871] [data_logger]: Stockage en mémoire tampon : 24, 85, 21, None
+[INFO] [1740175376.844124336] [subscriber_actioneur]: Qualité reçue: "21"
+[INFO] [1740175376.844253514] [data_logger]: Qualité de l'air reçue: 21
+[INFO] [1740175376.844560655] [subscriber_actioneur]: Publishing on "fenetre": "Ouvre la fenêtre"
+[INFO] [1740175376.845115421] [site_flask_int]: Humidité reçue: 85
+[INFO] [1740175376.845320517] [site_flask_int]: Humidité reçue: 85
+[INFO] [1740175376.846562432] [site_flask_int]: Qualité de l'air reçue: 21
+[INFO] [1740175376.846721175] [site_flask_int]: Qualité de l'air reçue: 21
+127.0.0.1 - - [21/Feb/2025 23:02:57] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175377.826869401] [publisher_presence]: Publishing: "1"
+[INFO] [1740175377.828278966] [site_flask_int]: presence: 1
+[INFO] [1740175377.828315876] [site_flask_int]: presence: 1
+[INFO] [1740175377.840678458] [publisher_i2c]: Publishing Temp: 22
+[INFO] [1740175377.840885636] [subscriber_actioneur]: Température reçue: "22"
+[INFO] [1740175377.840932625] [data_logger]: Température reçue: 22
+[INFO] [1740175377.841422977] [publisher_i2c]: Publishing Humid: 61
+[INFO] [1740175377.841595834] [site_flask_int]: Température reçue: 22
+[INFO] [1740175377.841750109] [subscriber_actioneur]: Humidité reçue: "61"
+[INFO] [1740175377.841785731] [data_logger]: Humidité reçue: 61
+[INFO] [1740175377.841862770] [site_flask_int]: Température reçue: 22
+[INFO] [1740175377.841898339] [publisher_i2c]: Publishing Qualite: 45
+[INFO] [1740175377.842438281] [subscriber_actioneur]: Qualité reçue: "45"
+[INFO] [1740175377.842450549] [data_logger]: Stockage en mémoire tampon : 22, 61, 45, None
+[INFO] [1740175377.842916754] [data_logger]: Qualité de l'air reçue: 45
+[INFO] [1740175377.842986009] [subscriber_actioneur]: Publishing on "fenetre": "Ferme la fenêtre"
+[INFO] [1740175377.843656120] [site_flask_int]: Humidité reçue: 61
+[INFO] [1740175377.844231776] [site_flask_int]: Humidité reçue: 61
+[INFO] [1740175377.845652859] [site_flask_int]: Qualité de l'air reçue: 45
+[INFO] [1740175377.846760803] [site_flask_int]: Qualité de l'air reçue: 45
+127.0.0.1 - - [21/Feb/2025 23:02:58] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175378.826663357] [publisher_presence]: Publishing: "1"
+[INFO] [1740175378.828535330] [site_flask_int]: presence: 1
+[INFO] [1740175378.828927166] [site_flask_int]: presence: 1
+[INFO] [1740175378.840226182] [publisher_i2c]: Publishing Temp: 20
+[INFO] [1740175378.840691770] [data_logger]: Température reçue: 20
+[INFO] [1740175378.840906318] [subscriber_actioneur]: Température reçue: "20"
+[INFO] [1740175378.841019575] [publisher_i2c]: Publishing Humid: 51
+[INFO] [1740175378.841579291] [site_flask_int]: Température reçue: 20
+[INFO] [1740175378.841648433] [publisher_i2c]: Publishing Qualite: 10
+[INFO] [1740175378.841693309] [data_logger]: Humidité reçue: 51
+[INFO] [1740175378.841764489] [site_flask_int]: Température reçue: 20
+[INFO] [1740175378.841903320] [subscriber_actioneur]: Humidité reçue: "51"
+[INFO] [1740175378.842455927] [data_logger]: Stockage en mémoire tampon : 20, 51, 10, None
+[INFO] [1740175378.842496794] [subscriber_actioneur]: Qualité reçue: "10"
+[INFO] [1740175378.842892125] [data_logger]: Qualité de l'air reçue: 10
+[INFO] [1740175378.843213118] [subscriber_actioneur]: Publishing on "fenetre": "Ouvre la fenêtre"
+[INFO] [1740175378.843989094] [site_flask_int]: Humidité reçue: 51
+[INFO] [1740175378.844314965] [site_flask_int]: Humidité reçue: 51
+[INFO] [1740175378.845842733] [site_flask_int]: Qualité de l'air reçue: 10
+[INFO] [1740175378.845912288] [site_flask_int]: Qualité de l'air reçue: 10
+127.0.0.1 - - [21/Feb/2025 23:02:59] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175379.827095020] [publisher_presence]: Publishing: "1"
+[INFO] [1740175379.828726262] [site_flask_int]: presence: 1
+[INFO] [1740175379.828843832] [site_flask_int]: presence: 1
+[INFO] [1740175379.881267127] [publisher_i2c]: Publishing Temp: 28
+[INFO] [1740175379.881503150] [data_logger]: Température reçue: 28
+[INFO] [1740175379.881517131] [subscriber_actioneur]: Température reçue: "28"
+[INFO] [1740175379.881750544] [publisher_i2c]: Publishing Humid: 77
+[INFO] [1740175379.881949673] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175379.882302510] [data_logger]: Humidité reçue: 77
+[INFO] [1740175379.882311958] [publisher_i2c]: Publishing Qualite: 37
+[INFO] [1740175379.882357529] [site_flask_int]: Température reçue: 28
+[INFO] [1740175379.882738584] [subscriber_actioneur]: Humidité reçue: "77"
+[INFO] [1740175379.882979911] [data_logger]: Stockage en mémoire tampon : 28, 77, 37, None
+[INFO] [1740175379.883236298] [subscriber_actioneur]: Qualité reçue: "37"
+[INFO] [1740175379.883395461] [data_logger]: Qualité de l'air reçue: 37
+[INFO] [1740175379.883634155] [subscriber_actioneur]: Publishing on "fenetre": "Ferme la fenêtre"
+[INFO] [1740175379.883731196] [site_flask_int]: Température reçue: 28
+[INFO] [1740175379.884436310] [site_flask_int]: Humidité reçue: 77
+[INFO] [1740175379.886236678] [site_flask_int]: Qualité de l'air reçue: 37
+[INFO] [1740175379.886712753] [site_flask_int]: Humidité reçue: 77
+[INFO] [1740175379.889856202] [site_flask_int]: Qualité de l'air reçue: 37
+[INFO] [1740175380.136990445] [lamp_client]: Prochaine requête dans 3.21 secondes...
+[INFO] [1740175380.137287718] [lamp_service]: État de la lampe : ON
+127.0.0.1 - - [21/Feb/2025 23:03:00] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175380.826654638] [publisher_presence]: Publishing: "1"
+[INFO] [1740175380.827959427] [site_flask_int]: presence: 1
+[INFO] [1740175380.827987710] [site_flask_int]: presence: 1
+[INFO] [1740175380.840622388] [publisher_i2c]: Publishing Temp: 21
+[INFO] [1740175380.840847806] [data_logger]: Température reçue: 21
+[INFO] [1740175380.840997459] [subscriber_actioneur]: Température reçue: "21"
+[INFO] [1740175380.841241520] [publisher_i2c]: Publishing Humid: 72
+[INFO] [1740175380.841647767] [data_logger]: Humidité reçue: 72
+[INFO] [1740175380.841647487] [site_flask_int]: Température reçue: 21
+[INFO] [1740175380.841750385] [publisher_i2c]: Publishing Qualite: 28
+[INFO] [1740175380.841859467] [subscriber_actioneur]: Humidité reçue: "72"
+[INFO] [1740175380.841980592] [site_flask_int]: Température reçue: 21
+[INFO] [1740175380.842365514] [data_logger]: Stockage en mémoire tampon : 21, 72, 28, None
+[INFO] [1740175380.842596189] [subscriber_actioneur]: Qualité reçue: "28"
+[INFO] [1740175380.842756769] [data_logger]: Qualité de l'air reçue: 28
+[INFO] [1740175380.843067043] [subscriber_actioneur]: Publishing on "fenetre": "Ouvre la fenêtre"
+[INFO] [1740175380.843543596] [site_flask_int]: Humidité reçue: 72
+[INFO] [1740175380.843935451] [site_flask_int]: Humidité reçue: 72
+[INFO] [1740175380.845007784] [site_flask_int]: Qualité de l'air reçue: 28
+[INFO] [1740175380.845478522] [site_flask_int]: Qualité de l'air reçue: 28
+127.0.0.1 - - [21/Feb/2025 23:03:01] "GET /live_data HTTP/1.1" 200 -
+127.0.0.1 - - [21/Feb/2025 23:03:01] "GET /data HTTP/1.1" 200 -
+[INFO] [1740175381.826521426] [publisher_presence]: Publishing: "1"
+[INFO] [1740175381.827756359] [site_flask_int]: presence: 1
+[INFO] [1740175381.827943240] [site_flask_int]: presence: 1
+[INFO] [1740175381.840616435] [publisher_i2c]: Publishing Temp: 28
+[INFO] [1740175381.840995672] [subscriber_actioneur]: Température reçue: "28"
+[INFO] [1740175381.841096356] [data_logger]: Température reçue: 28
+[INFO] [1740175381.841370074] [publisher_i2c]: Publishing Humid: 61
+[INFO] [1740175381.841685804] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175381.841872693] [site_flask_int]: Température reçue: 28
+[INFO] [1740175381.841958018] [publisher_i2c]: Publishing Qualite: 35
+[INFO] [1740175381.842297179] [data_logger]: Humidité reçue: 61
+[INFO] [1740175381.842297660] [site_flask_int]: Température reçue: 28
+[INFO] [1740175381.842760028] [subscriber_actioneur]: Humidité reçue: "61"
+[INFO] [1740175381.843289913] [data_logger]: Stockage en mémoire tampon : 28, 61, 35, None
+[INFO] [1740175381.843401427] [subscriber_actioneur]: Qualité reçue: "35"
+[INFO] [1740175381.843834184] [data_logger]: Qualité de l'air reçue: 35
+[INFO] [1740175381.844099634] [subscriber_actioneur]: Publishing on "fenetre": "Ferme la fenêtre"
+[INFO] [1740175381.844397161] [site_flask_int]: Humidité reçue: 61
+[INFO] [1740175381.844436806] [site_flask_int]: Humidité reçue: 61
+[INFO] [1740175381.846210785] [site_flask_int]: Qualité de l'air reçue: 35
+[INFO] [1740175381.846809318] [site_flask_int]: Qualité de l'air reçue: 35
+127.0.0.1 - - [21/Feb/2025 23:03:02] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175382.827237284] [publisher_presence]: Publishing: "1"
+[INFO] [1740175382.828518413] [site_flask_int]: presence: 1
+[INFO] [1740175382.828627288] [site_flask_int]: presence: 1
+[INFO] [1740175382.840676998] [publisher_i2c]: Publishing Temp: 22
+[INFO] [1740175382.840951047] [data_logger]: Température reçue: 22
+[INFO] [1740175382.840966707] [subscriber_actioneur]: Température reçue: "22"
+[INFO] [1740175382.841442720] [publisher_i2c]: Publishing Humid: 78
+[INFO] [1740175382.841929694] [site_flask_int]: Température reçue: 22
+[INFO] [1740175382.841994846] [subscriber_actioneur]: Humidité reçue: "78"
+[INFO] [1740175382.842112361] [publisher_i2c]: Publishing Qualite: 23
+[INFO] [1740175382.842151490] [data_logger]: Humidité reçue: 78
+[INFO] [1740175382.842281809] [site_flask_int]: Température reçue: 22
+[INFO] [1740175382.842731669] [subscriber_actioneur]: Qualité reçue: "23"
+[INFO] [1740175382.842835704] [data_logger]: Stockage en mémoire tampon : 22, 78, 23, None
+[INFO] [1740175382.843277614] [subscriber_actioneur]: Publishing on "fenetre": "Ouvre la fenêtre"
+[INFO] [1740175382.843328669] [data_logger]: Qualité de l'air reçue: 23
+[INFO] [1740175382.844191359] [site_flask_int]: Humidité reçue: 78
+[INFO] [1740175382.844649749] [site_flask_int]: Humidité reçue: 78
+[INFO] [1740175382.846247458] [site_flask_int]: Qualité de l'air reçue: 23
+[INFO] [1740175382.846302485] [site_flask_int]: Qualité de l'air reçue: 23
+[INFO] [1740175383.349562792] [lamp_client]: Prochaine requête dans 3.74 secondes...
+[INFO] [1740175383.349756581] [lamp_service]: État de la lampe : OFF
+127.0.0.1 - - [21/Feb/2025 23:03:03] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175383.826532882] [publisher_presence]: Publishing: "1"
+[INFO] [1740175383.827845791] [site_flask_int]: presence: 1
+[INFO] [1740175383.828707904] [site_flask_int]: presence: 1
+[INFO] [1740175383.840544930] [publisher_i2c]: Publishing Temp: 22
+[INFO] [1740175383.840808455] [subscriber_actioneur]: Température reçue: "22"
+[INFO] [1740175383.840860422] [data_logger]: Température reçue: 22
+[INFO] [1740175383.841204518] [publisher_i2c]: Publishing Humid: 98
+[INFO] [1740175383.841619958] [subscriber_actioneur]: Humidité reçue: "98"
+[INFO] [1740175383.841632201] [site_flask_int]: Température reçue: 22
+[INFO] [1740175383.841664957] [site_flask_int]: Température reçue: 22
+[INFO] [1740175383.841725015] [publisher_i2c]: Publishing Qualite: 40
+[INFO] [1740175383.841798302] [data_logger]: Humidité reçue: 98
+[INFO] [1740175383.842311656] [subscriber_actioneur]: Qualité reçue: "40"
+[INFO] [1740175383.842494098] [data_logger]: Stockage en mémoire tampon : 22, 98, 40, None
+[INFO] [1740175383.842733738] [subscriber_actioneur]: Publishing on "fenetre": "Ferme la fenêtre"
+[INFO] [1740175383.842878880] [data_logger]: Qualité de l'air reçue: 40
+[INFO] [1740175383.843585787] [site_flask_int]: Humidité reçue: 98
+[INFO] [1740175383.844205736] [site_flask_int]: Humidité reçue: 98
+[INFO] [1740175383.845406604] [site_flask_int]: Qualité de l'air reçue: 40
+[INFO] [1740175383.845775898] [site_flask_int]: Qualité de l'air reçue: 40
+127.0.0.1 - - [21/Feb/2025 23:03:04] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175384.826602887] [publisher_presence]: Publishing: "1"
+[INFO] [1740175384.827804582] [site_flask_int]: presence: 1
+[INFO] [1740175384.827896244] [site_flask_int]: presence: 1
+[INFO] [1740175384.840592157] [publisher_i2c]: Publishing Temp: 30
+[INFO] [1740175384.840816984] [subscriber_actioneur]: Température reçue: "30"
+[INFO] [1740175384.840847141] [data_logger]: Température reçue: 30
+[INFO] [1740175384.841086705] [publisher_i2c]: Publishing Humid: 73
+[INFO] [1740175384.841383036] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175384.841585522] [publisher_i2c]: Publishing Qualite: 16
+[INFO] [1740175384.841657612] [site_flask_int]: Température reçue: 30
+[INFO] [1740175384.841723997] [site_flask_int]: Température reçue: 30
+[INFO] [1740175384.841759614] [data_logger]: Humidité reçue: 73
+[INFO] [1740175384.842083681] [subscriber_actioneur]: Humidité reçue: "73"
+[INFO] [1740175384.842432907] [data_logger]: Stockage en mémoire tampon : 30, 73, 16, None
+[INFO] [1740175384.842513979] [subscriber_actioneur]: Qualité reçue: "16"
+[INFO] [1740175384.842849549] [data_logger]: Qualité de l'air reçue: 16
+[INFO] [1740175384.842935540] [subscriber_actioneur]: Publishing on "fenetre": "Ouvre la fenêtre"
+[INFO] [1740175384.843534996] [site_flask_int]: Humidité reçue: 73
+[INFO] [1740175384.845460610] [site_flask_int]: Humidité reçue: 73
+[INFO] [1740175384.845617835] [site_flask_int]: Qualité de l'air reçue: 16
+[INFO] [1740175384.846947360] [site_flask_int]: Qualité de l'air reçue: 16
+127.0.0.1 - - [21/Feb/2025 23:03:05] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175385.826507515] [publisher_presence]: Publishing: "1"
+[INFO] [1740175385.828288734] [site_flask_int]: presence: 1
+[INFO] [1740175385.828855547] [site_flask_int]: presence: 1
+[INFO] [1740175385.840635642] [publisher_i2c]: Publishing Temp: 30
+[INFO] [1740175385.840990713] [data_logger]: Température reçue: 30
+[INFO] [1740175385.840996353] [subscriber_actioneur]: Température reçue: "30"
+[INFO] [1740175385.841406654] [publisher_i2c]: Publishing Humid: 50
+[INFO] [1740175385.841620599] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175385.841785685] [site_flask_int]: Température reçue: 30
+[INFO] [1740175385.841821918] [data_logger]: Humidité reçue: 50
+[INFO] [1740175385.841825369] [site_flask_int]: Température reçue: 30
+[INFO] [1740175385.841900481] [publisher_i2c]: Publishing Qualite: 41
+[INFO] [1740175385.842417194] [subscriber_actioneur]: Humidité reçue: "50"
+[INFO] [1740175385.842454485] [data_logger]: Stockage en mémoire tampon : 30, 50, 41, None
+[INFO] [1740175385.842918266] [data_logger]: Qualité de l'air reçue: 41
+[INFO] [1740175385.842975580] [subscriber_actioneur]: Qualité reçue: "41"
+[INFO] [1740175385.843590242] [subscriber_actioneur]: Publishing on "fenetre": "Ferme la fenêtre"
+[INFO] [1740175385.843857704] [site_flask_int]: Humidité reçue: 50
+[INFO] [1740175385.844296608] [site_flask_int]: Humidité reçue: 50
+[INFO] [1740175385.845792896] [site_flask_int]: Qualité de l'air reçue: 41
+[INFO] [1740175385.845984931] [site_flask_int]: Qualité de l'air reçue: 41
+127.0.0.1 - - [21/Feb/2025 23:03:06] "GET /data HTTP/1.1" 200 -
+127.0.0.1 - - [21/Feb/2025 23:03:06] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175386.826670981] [publisher_presence]: Publishing: "1"
+[INFO] [1740175386.828219482] [site_flask_int]: presence: 1
+[INFO] [1740175386.828247590] [site_flask_int]: presence: 1
+[INFO] [1740175386.840767460] [publisher_i2c]: Publishing Temp: 27
+[INFO] [1740175386.841028738] [data_logger]: Température reçue: 27
+[INFO] [1740175386.841122234] [subscriber_actioneur]: Température reçue: "27"
+[INFO] [1740175386.841481850] [publisher_i2c]: Publishing Humid: 99
+[INFO] [1740175386.841716930] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175386.842323072] [data_logger]: Humidité reçue: 99
+[INFO] [1740175386.842415541] [publisher_i2c]: Publishing Qualite: 40
+[INFO] [1740175386.842772451] [site_flask_int]: Température reçue: 27
+[INFO] [1740175386.842963940] [subscriber_actioneur]: Humidité reçue: "99"
+[INFO] [1740175386.843230275] [data_logger]: Stockage en mémoire tampon : 27, 99, 40, None
+[INFO] [1740175386.843538368] [subscriber_actioneur]: Qualité reçue: "40"
+[INFO] [1740175386.843660152] [data_logger]: Qualité de l'air reçue: 40
+[INFO] [1740175386.843779341] [site_flask_int]: Température reçue: 27
+[INFO] [1740175386.844048646] [subscriber_actioneur]: Publishing on "fenetre": "Ferme la fenêtre"
+[INFO] [1740175386.845550515] [site_flask_int]: Humidité reçue: 99
+[INFO] [1740175386.846361131] [site_flask_int]: Humidité reçue: 99
+[INFO] [1740175386.847396730] [site_flask_int]: Qualité de l'air reçue: 40
+[INFO] [1740175386.848059203] [site_flask_int]: Qualité de l'air reçue: 40
+[INFO] [1740175387.091530720] [lamp_client]: Prochaine requête dans 6.27 secondes...
+[INFO] [1740175387.091758613] [lamp_service]: État de la lampe : ON
+[INFO] [1740175387.826592110] [publisher_presence]: Publishing: "1"
+[INFO] [1740175387.828110528] [site_flask_int]: presence: 1
+[INFO] [1740175387.828503355] [site_flask_int]: presence: 1
+[INFO] [1740175387.840312704] [publisher_i2c]: Publishing Temp: 26
+[INFO] [1740175387.840733559] [data_logger]: Température reçue: 26
+[INFO] [1740175387.840818910] [subscriber_actioneur]: Température reçue: "26"
+[INFO] [1740175387.840946153] [publisher_i2c]: Publishing Humid: 91
+[INFO] [1740175387.841468298] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175387.841579798] [publisher_i2c]: Publishing Qualite: 34
+[INFO] [1740175387.841615645] [site_flask_int]: Température reçue: 26
+[INFO] [1740175387.841799640] [data_logger]: Humidité reçue: 91
+[INFO] [1740175387.841803347] [site_flask_int]: Température reçue: 26
+[INFO] [1740175387.842553075] [subscriber_actioneur]: Humidité reçue: "91"
+[INFO] [1740175387.842606354] [data_logger]: Stockage en mémoire tampon : 26, 91, 34, None
+[INFO] [1740175387.843197374] [data_logger]: Qualité de l'air reçue: 34
+[INFO] [1740175387.843267696] [subscriber_actioneur]: Qualité reçue: "34"
+[INFO] [1740175387.843755431] [subscriber_actioneur]: Publishing on "fenetre": "Ferme la fenêtre"
+[INFO] [1740175387.844417283] [site_flask_int]: Humidité reçue: 91
+[INFO] [1740175387.844440897] [site_flask_int]: Humidité reçue: 91
+[INFO] [1740175387.845965002] [site_flask_int]: Qualité de l'air reçue: 34
+[INFO] [1740175387.846153692] [site_flask_int]: Qualité de l'air reçue: 34
+127.0.0.1 - - [21/Feb/2025 23:03:07] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175388.826550102] [publisher_presence]: Publishing: "1"
+[INFO] [1740175388.827831888] [site_flask_int]: presence: 1
+[INFO] [1740175388.827853478] [site_flask_int]: presence: 1
+[INFO] [1740175388.840585133] [publisher_i2c]: Publishing Temp: 28
+[INFO] [1740175388.840858371] [data_logger]: Température reçue: 28
+[INFO] [1740175388.841106482] [subscriber_actioneur]: Température reçue: "28"
+[INFO] [1740175388.841239271] [publisher_i2c]: Publishing Humid: 57
+[INFO] [1740175388.841762333] [publisher_i2c]: Publishing Qualite: 28
+[INFO] [1740175388.841857741] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175388.841882648] [data_logger]: Humidité reçue: 57
+[INFO] [1740175388.842164507] [site_flask_int]: Température reçue: 28
+[INFO] [1740175388.842303589] [site_flask_int]: Température reçue: 28
+[INFO] [1740175388.842758041] [data_logger]: Stockage en mémoire tampon : 28, 57, 28, None
+[INFO] [1740175388.842830628] [subscriber_actioneur]: Humidité reçue: "57"
+[INFO] [1740175388.843325106] [data_logger]: Qualité de l'air reçue: 28
+[INFO] [1740175388.843445542] [subscriber_actioneur]: Qualité reçue: "28"
+[INFO] [1740175388.844009741] [subscriber_actioneur]: Publishing on "fenetre": "Ouvre la fenêtre"
+[INFO] [1740175388.844451349] [site_flask_int]: Humidité reçue: 57
+[INFO] [1740175388.844466829] [site_flask_int]: Humidité reçue: 57
+[INFO] [1740175388.846233364] [site_flask_int]: Qualité de l'air reçue: 28
+[INFO] [1740175388.846339012] [site_flask_int]: Qualité de l'air reçue: 28
+127.0.0.1 - - [21/Feb/2025 23:03:08] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175389.826961679] [publisher_presence]: Publishing: "1"
+[INFO] [1740175389.828505442] [site_flask_int]: presence: 1
+[INFO] [1740175389.828647965] [site_flask_int]: presence: 1
+[INFO] [1740175389.840488678] [publisher_i2c]: Publishing Temp: 21
+[INFO] [1740175389.840786086] [data_logger]: Température reçue: 21
+[INFO] [1740175389.840797547] [subscriber_actioneur]: Température reçue: "21"
+[INFO] [1740175389.841021318] [publisher_i2c]: Publishing Humid: 55
+[INFO] [1740175389.841607167] [publisher_i2c]: Publishing Qualite: 39
+[INFO] [1740175389.841750095] [data_logger]: Humidité reçue: 55
+[INFO] [1740175389.841756788] [subscriber_actioneur]: Humidité reçue: "55"
+[INFO] [1740175389.841863318] [site_flask_int]: Température reçue: 21
+[INFO] [1740175389.842234956] [site_flask_int]: Température reçue: 21
+[INFO] [1740175389.842250895] [subscriber_actioneur]: Qualité reçue: "39"
+[INFO] [1740175389.842557030] [data_logger]: Stockage en mémoire tampon : 21, 55, 39, None
+[INFO] [1740175389.842711960] [subscriber_actioneur]: Publishing on "fenetre": "Ferme la fenêtre"
+[INFO] [1740175389.842974624] [data_logger]: Qualité de l'air reçue: 39
+[INFO] [1740175389.843931890] [site_flask_int]: Humidité reçue: 55
+[INFO] [1740175389.844317594] [site_flask_int]: Humidité reçue: 55
+[INFO] [1740175389.845782504] [site_flask_int]: Qualité de l'air reçue: 39
+[INFO] [1740175389.845871811] [site_flask_int]: Qualité de l'air reçue: 39
+127.0.0.1 - - [21/Feb/2025 23:03:09] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175390.827084204] [publisher_presence]: Publishing: "1"
+[INFO] [1740175390.828430646] [site_flask_int]: presence: 1
+[INFO] [1740175390.828517594] [site_flask_int]: presence: 1
+[INFO] [1740175390.840629887] [publisher_i2c]: Publishing Temp: 30
+[INFO] [1740175390.840968543] [data_logger]: Température reçue: 30
+[INFO] [1740175390.841025279] [subscriber_actioneur]: Température reçue: "30"
+[INFO] [1740175390.841358404] [publisher_i2c]: Publishing Humid: 77
+[INFO] [1740175390.841538953] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175390.841742395] [site_flask_int]: Température reçue: 30
+[INFO] [1740175390.841868542] [publisher_i2c]: Publishing Qualite: 8
+[INFO] [1740175390.841899961] [data_logger]: Humidité reçue: 77
+[INFO] [1740175390.842070000] [site_flask_int]: Température reçue: 30
+[INFO] [1740175390.842366176] [subscriber_actioneur]: Humidité reçue: "77"
+[INFO] [1740175390.842644598] [data_logger]: Stockage en mémoire tampon : 30, 77, 8, None
+[INFO] [1740175390.842823685] [subscriber_actioneur]: Qualité reçue: "8"
+[INFO] [1740175390.843084654] [data_logger]: Qualité de l'air reçue: 8
+[INFO] [1740175390.843325988] [subscriber_actioneur]: Publishing on "fenetre": "Ouvre la fenêtre"
+[INFO] [1740175390.844353235] [site_flask_int]: Humidité reçue: 77
+[INFO] [1740175390.845551254] [site_flask_int]: Humidité reçue: 77
+[INFO] [1740175390.846290586] [site_flask_int]: Qualité de l'air reçue: 8
+[INFO] [1740175390.847449286] [site_flask_int]: Qualité de l'air reçue: 8
+127.0.0.1 - - [21/Feb/2025 23:03:10] "GET /live_data HTTP/1.1" 200 -
+127.0.0.1 - - [21/Feb/2025 23:03:11] "GET /data HTTP/1.1" 200 -
+[INFO] [1740175391.826824018] [publisher_presence]: Publishing: "1"
+[INFO] [1740175391.828061421] [site_flask_int]: presence: 1
+[INFO] [1740175391.828248868] [site_flask_int]: presence: 1
+[INFO] [1740175391.840666499] [publisher_i2c]: Publishing Temp: 29
+[INFO] [1740175391.841038787] [data_logger]: Température reçue: 29
+[INFO] [1740175391.841196185] [subscriber_actioneur]: Température reçue: "29"
+[INFO] [1740175391.841395136] [publisher_i2c]: Publishing Humid: 99
+[INFO] [1740175391.841664544] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175391.841889403] [publisher_i2c]: Publishing Qualite: 13
+[INFO] [1740175391.841894103] [data_logger]: Humidité reçue: 99
+[INFO] [1740175391.842114697] [site_flask_int]: Température reçue: 29
+[INFO] [1740175391.842529888] [subscriber_actioneur]: Humidité reçue: "99"
+[INFO] [1740175391.842777982] [data_logger]: Stockage en mémoire tampon : 29, 99, 13, None
+[INFO] [1740175391.842793591] [site_flask_int]: Température reçue: 29
+[INFO] [1740175391.843024276] [subscriber_actioneur]: Qualité reçue: "13"
+[INFO] [1740175391.843270816] [data_logger]: Qualité de l'air reçue: 13
+[INFO] [1740175391.843566004] [subscriber_actioneur]: Publishing on "fenetre": "Ouvre la fenêtre"
+[INFO] [1740175391.844516644] [site_flask_int]: Humidité reçue: 99
+[INFO] [1740175391.845075684] [site_flask_int]: Humidité reçue: 99
+[INFO] [1740175391.845996341] [site_flask_int]: Qualité de l'air reçue: 13
+[INFO] [1740175391.847363147] [site_flask_int]: Qualité de l'air reçue: 13
+127.0.0.1 - - [21/Feb/2025 23:03:11] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175392.826852086] [publisher_presence]: Publishing: "1"
+[INFO] [1740175392.828100659] [site_flask_int]: presence: 1
+[INFO] [1740175392.828175059] [site_flask_int]: presence: 1
+[INFO] [1740175392.840884822] [publisher_i2c]: Publishing Temp: 28
+[INFO] [1740175392.841335248] [subscriber_actioneur]: Température reçue: "28"
+[INFO] [1740175392.841340738] [data_logger]: Température reçue: 28
+[INFO] [1740175392.841772178] [publisher_i2c]: Publishing Humid: 77
+[INFO] [1740175392.841783870] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175392.841880637] [site_flask_int]: Température reçue: 28
+[INFO] [1740175392.842157601] [data_logger]: Humidité reçue: 77
+[INFO] [1740175392.842241815] [site_flask_int]: Température reçue: 28
+[INFO] [1740175392.842323944] [publisher_i2c]: Publishing Qualite: 15
+[INFO] [1740175392.842613227] [subscriber_actioneur]: Humidité reçue: "77"
+[INFO] [1740175392.842877733] [data_logger]: Stockage en mémoire tampon : 28, 77, 15, None
+[INFO] [1740175392.843109819] [subscriber_actioneur]: Qualité reçue: "15"
+[INFO] [1740175392.843325898] [data_logger]: Qualité de l'air reçue: 15
+[INFO] [1740175392.843491305] [site_flask_int]: Humidité reçue: 77
+[INFO] [1740175392.843573569] [subscriber_actioneur]: Publishing on "fenetre": "Ouvre la fenêtre"
+[INFO] [1740175392.844161723] [site_flask_int]: Humidité reçue: 77
+[INFO] [1740175392.845210792] [site_flask_int]: Qualité de l'air reçue: 15
+[INFO] [1740175392.845611254] [site_flask_int]: Qualité de l'air reçue: 15
+127.0.0.1 - - [21/Feb/2025 23:03:12] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175393.365641188] [lamp_client]: Prochaine requête dans 7.73 secondes...
+[INFO] [1740175393.365963222] [lamp_service]: État de la lampe : OFF
+[INFO] [1740175393.826447420] [publisher_presence]: Publishing: "1"
+[INFO] [1740175393.827907991] [site_flask_int]: presence: 1
+[INFO] [1740175393.828405339] [site_flask_int]: presence: 1
+[INFO] [1740175393.840720137] [publisher_i2c]: Publishing Temp: 23
+[INFO] [1740175393.840840444] [subscriber_actioneur]: Température reçue: "23"
+[INFO] [1740175393.841229484] [data_logger]: Température reçue: 23
+[INFO] [1740175393.841271823] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175393.841365950] [publisher_i2c]: Publishing Humid: 85
+[INFO] [1740175393.841665792] [site_flask_int]: Température reçue: 23
+[INFO] [1740175393.841769402] [site_flask_int]: Température reçue: 23
+[INFO] [1740175393.841823989] [publisher_i2c]: Publishing Qualite: 19
+[INFO] [1740175393.841961948] [subscriber_actioneur]: Humidité reçue: "85"
+[INFO] [1740175393.842073287] [data_logger]: Humidité reçue: 85
+[INFO] [1740175393.842402445] [subscriber_actioneur]: Qualité reçue: "19"
+[INFO] [1740175393.842601118] [data_logger]: Stockage en mémoire tampon : 23, 85, 19, None
+[INFO] [1740175393.842795483] [subscriber_actioneur]: Publishing on "fenetre": "Ouvre la fenêtre"
+[INFO] [1740175393.843047436] [data_logger]: Qualité de l'air reçue: 19
+[INFO] [1740175393.843380270] [site_flask_int]: Humidité reçue: 85
+[INFO] [1740175393.843459970] [site_flask_int]: Humidité reçue: 85
+[INFO] [1740175393.844909200] [site_flask_int]: Qualité de l'air reçue: 19
+[INFO] [1740175393.845847861] [site_flask_int]: Qualité de l'air reçue: 19
+127.0.0.1 - - [21/Feb/2025 23:03:13] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175394.826742669] [publisher_presence]: Publishing: "1"
+[INFO] [1740175394.828038712] [site_flask_int]: presence: 1
+[INFO] [1740175394.828126897] [site_flask_int]: presence: 1
+[INFO] [1740175394.841130303] [publisher_i2c]: Publishing Temp: 27
+[INFO] [1740175394.841440104] [data_logger]: Température reçue: 27
+[INFO] [1740175394.841452347] [subscriber_actioneur]: Température reçue: "27"
+[INFO] [1740175394.841795631] [publisher_i2c]: Publishing Humid: 83
+[INFO] [1740175394.841983604] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175394.842419832] [publisher_i2c]: Publishing Qualite: 13
+[INFO] [1740175394.842466575] [data_logger]: Humidité reçue: 83
+[INFO] [1740175394.842669701] [site_flask_int]: Température reçue: 27
+[INFO] [1740175394.843085102] [subscriber_actioneur]: Humidité reçue: "83"
+[INFO] [1740175394.843120059] [site_flask_int]: Température reçue: 27
+[INFO] [1740175394.843387559] [data_logger]: Stockage en mémoire tampon : 27, 83, 13, None
+[INFO] [1740175394.843619575] [subscriber_actioneur]: Qualité reçue: "13"
+[INFO] [1740175394.843818237] [data_logger]: Qualité de l'air reçue: 13
+[INFO] [1740175394.844184455] [subscriber_actioneur]: Publishing on "fenetre": "Ouvre la fenêtre"
+[INFO] [1740175394.845292148] [site_flask_int]: Humidité reçue: 83
+[INFO] [1740175394.845328361] [site_flask_int]: Humidité reçue: 83
+[INFO] [1740175394.847042038] [site_flask_int]: Qualité de l'air reçue: 13
+[INFO] [1740175394.847357299] [site_flask_int]: Qualité de l'air reçue: 13
+127.0.0.1 - - [21/Feb/2025 23:03:14] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175395.826565140] [publisher_presence]: Publishing: "1"
+[INFO] [1740175395.827975005] [site_flask_int]: presence: 1
+[INFO] [1740175395.828438445] [site_flask_int]: presence: 1
+[INFO] [1740175395.840512256] [publisher_i2c]: Publishing Temp: 22
+[INFO] [1740175395.841032021] [subscriber_actioneur]: Température reçue: "22"
+[INFO] [1740175395.841085371] [data_logger]: Température reçue: 22
+[INFO] [1740175395.841390433] [publisher_i2c]: Publishing Humid: 96
+[INFO] [1740175395.841737149] [site_flask_int]: Température reçue: 22
+[INFO] [1740175395.841939965] [subscriber_actioneur]: Humidité reçue: "96"
+[INFO] [1740175395.841970893] [publisher_i2c]: Publishing Qualite: 44
+[INFO] [1740175395.841978988] [site_flask_int]: Température reçue: 22
+[INFO] [1740175395.842022240] [data_logger]: Humidité reçue: 96
+[INFO] [1740175395.842743673] [subscriber_actioneur]: Qualité reçue: "44"
+[INFO] [1740175395.842994895] [data_logger]: Stockage en mémoire tampon : 22, 96, 44, None
+[INFO] [1740175395.843327940] [subscriber_actioneur]: Publishing on "fenetre": "Ferme la fenêtre"
+[INFO] [1740175395.843481849] [data_logger]: Qualité de l'air reçue: 44
+[INFO] [1740175395.843784337] [site_flask_int]: Humidité reçue: 96
+[INFO] [1740175395.844566304] [site_flask_int]: Humidité reçue: 96
+[INFO] [1740175395.844735031] [site_flask_int]: Qualité de l'air reçue: 44
+[INFO] [1740175395.846532164] [site_flask_int]: Qualité de l'air reçue: 44
+127.0.0.1 - - [21/Feb/2025 23:03:15] "GET /live_data HTTP/1.1" 200 -
+127.0.0.1 - - [21/Feb/2025 23:03:16] "GET /data HTTP/1.1" 200 -
+[INFO] [1740175396.826648749] [publisher_presence]: Publishing: "1"
+[INFO] [1740175396.828102788] [site_flask_int]: presence: 1
+[INFO] [1740175396.828255635] [site_flask_int]: presence: 1
+[INFO] [1740175396.840419965] [publisher_i2c]: Publishing Temp: 23
+[INFO] [1740175396.840807122] [data_logger]: Température reçue: 23
+[INFO] [1740175396.840867074] [subscriber_actioneur]: Température reçue: "23"
+[INFO] [1740175396.840965980] [publisher_i2c]: Publishing Humid: 51
+[INFO] [1740175396.841465427] [publisher_i2c]: Publishing Qualite: 35
+[INFO] [1740175396.841515677] [site_flask_int]: Température reçue: 23
+[INFO] [1740175396.841518337] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175396.841806748] [data_logger]: Humidité reçue: 51
+[INFO] [1740175396.842158538] [site_flask_int]: Température reçue: 23
+[INFO] [1740175396.842289885] [data_logger]: Stockage en mémoire tampon : 23, 51, 35, None
+[INFO] [1740175396.842482386] [subscriber_actioneur]: Humidité reçue: "51"
+[INFO] [1740175396.842659288] [data_logger]: Qualité de l'air reçue: 35
+[INFO] [1740175396.842972015] [subscriber_actioneur]: Qualité reçue: "35"
+[INFO] [1740175396.844143644] [site_flask_int]: Humidité reçue: 51
+[INFO] [1740175396.847257891] [subscriber_actioneur]: Publishing on "fenetre": "Ferme la fenêtre"
+[INFO] [1740175396.847594836] [site_flask_int]: Humidité reçue: 51
+[INFO] [1740175396.848799883] [site_flask_int]: Qualité de l'air reçue: 35
+[INFO] [1740175396.849670106] [site_flask_int]: Qualité de l'air reçue: 35
+127.0.0.1 - - [21/Feb/2025 23:03:16] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175397.827216339] [publisher_presence]: Publishing: "1"
+[INFO] [1740175397.828547648] [site_flask_int]: presence: 1
+[INFO] [1740175397.829361465] [site_flask_int]: presence: 1
+[INFO] [1740175397.840641716] [publisher_i2c]: Publishing Temp: 29
+[INFO] [1740175397.840986874] [subscriber_actioneur]: Température reçue: "29"
+[INFO] [1740175397.841003335] [data_logger]: Température reçue: 29
+[INFO] [1740175397.841118892] [publisher_i2c]: Publishing Humid: 94
+[INFO] [1740175397.841616996] [publisher_i2c]: Publishing Qualite: 3
+[INFO] [1740175397.841646091] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175397.841776127] [site_flask_int]: Température reçue: 29
+[INFO] [1740175397.841840441] [site_flask_int]: Température reçue: 29
+[INFO] [1740175397.841875431] [data_logger]: Humidité reçue: 94
+[INFO] [1740175397.842476409] [data_logger]: Stockage en mémoire tampon : 29, 94, 3, None
+[INFO] [1740175397.842509372] [subscriber_actioneur]: Humidité reçue: "94"
+[INFO] [1740175397.842860009] [data_logger]: Qualité de l'air reçue: 3
+[INFO] [1740175397.843032233] [subscriber_actioneur]: Qualité reçue: "3"
+[INFO] [1740175397.843638280] [subscriber_actioneur]: Publishing on "fenetre": "Ouvre la fenêtre"
+[INFO] [1740175397.843716557] [site_flask_int]: Humidité reçue: 94
+[INFO] [1740175397.844075992] [site_flask_int]: Humidité reçue: 94
+[INFO] [1740175397.845157642] [site_flask_int]: Qualité de l'air reçue: 3
+[INFO] [1740175397.845667950] [site_flask_int]: Qualité de l'air reçue: 3
+127.0.0.1 - - [21/Feb/2025 23:03:17] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175398.826289113] [publisher_presence]: Publishing: "1"
+[INFO] [1740175398.827727593] [site_flask_int]: presence: 1
+[INFO] [1740175398.827796432] [site_flask_int]: presence: 1
+[INFO] [1740175398.840850452] [publisher_i2c]: Publishing Temp: 29
+[INFO] [1740175398.841203344] [subscriber_actioneur]: Température reçue: "29"
+[INFO] [1740175398.841227283] [data_logger]: Température reçue: 29
+[INFO] [1740175398.841513075] [publisher_i2c]: Publishing Humid: 81
+[INFO] [1740175398.841702972] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175398.841732517] [site_flask_int]: Température reçue: 29
+[INFO] [1740175398.842050819] [data_logger]: Humidité reçue: 81
+[INFO] [1740175398.842062567] [publisher_i2c]: Publishing Qualite: 42
+[INFO] [1740175398.842339902] [site_flask_int]: Température reçue: 29
+[INFO] [1740175398.842641037] [subscriber_actioneur]: Humidité reçue: "81"
+[INFO] [1740175398.843051263] [data_logger]: Stockage en mémoire tampon : 29, 81, 42, None
+[INFO] [1740175398.843274056] [subscriber_actioneur]: Qualité reçue: "42"
+[INFO] [1740175398.843559426] [data_logger]: Qualité de l'air reçue: 42
+[INFO] [1740175398.843707845] [site_flask_int]: Humidité reçue: 81
+[INFO] [1740175398.843768053] [subscriber_actioneur]: Publishing on "fenetre": "Ferme la fenêtre"
+[INFO] [1740175398.845409990] [site_flask_int]: Qualité de l'air reçue: 42
+[INFO] [1740175398.845684625] [site_flask_int]: Humidité reçue: 81
+[INFO] [1740175398.848343616] [site_flask_int]: Qualité de l'air reçue: 42
+127.0.0.1 - - [21/Feb/2025 23:03:19] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175399.827239601] [publisher_presence]: Publishing: "1"
+[INFO] [1740175399.828432675] [site_flask_int]: presence: 1
+[INFO] [1740175399.828433797] [site_flask_int]: presence: 1
+[INFO] [1740175399.840735563] [publisher_i2c]: Publishing Temp: 27
+[INFO] [1740175399.840998645] [subscriber_actioneur]: Température reçue: "27"
+[INFO] [1740175399.841007897] [data_logger]: Température reçue: 27
+[INFO] [1740175399.841406604] [publisher_i2c]: Publishing Humid: 72
+[INFO] [1740175399.841539339] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175399.841757749] [site_flask_int]: Température reçue: 27
+[INFO] [1740175399.841807888] [data_logger]: Humidité reçue: 72
+[INFO] [1740175399.842009622] [publisher_i2c]: Publishing Qualite: 45
+[INFO] [1740175399.842318637] [subscriber_actioneur]: Humidité reçue: "72"
+[INFO] [1740175399.842523587] [data_logger]: Stockage en mémoire tampon : 27, 72, 45, None
+[INFO] [1740175399.842805160] [subscriber_actioneur]: Qualité reçue: "45"
+[INFO] [1740175399.843140064] [data_logger]: Qualité de l'air reçue: 45
+[INFO] [1740175399.843223185] [site_flask_int]: Température reçue: 27
+[INFO] [1740175399.843458652] [subscriber_actioneur]: Publishing on "fenetre": "Ferme la fenêtre"
+[INFO] [1740175399.844244607] [site_flask_int]: Humidité reçue: 72
+[INFO] [1740175399.846286168] [site_flask_int]: Humidité reçue: 72
+[INFO] [1740175399.846396916] [site_flask_int]: Qualité de l'air reçue: 45
+[INFO] [1740175399.848393974] [site_flask_int]: Qualité de l'air reçue: 45
+127.0.0.1 - - [21/Feb/2025 23:03:20] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175400.826852580] [publisher_presence]: Publishing: "1"
+[INFO] [1740175400.828167253] [site_flask_int]: presence: 1
+[INFO] [1740175400.828177668] [site_flask_int]: presence: 1
+[INFO] [1740175400.840453217] [publisher_i2c]: Publishing Temp: 23
+[INFO] [1740175400.840716595] [subscriber_actioneur]: Température reçue: "23"
+[INFO] [1740175400.840730076] [data_logger]: Température reçue: 23
+[INFO] [1740175400.841060877] [publisher_i2c]: Publishing Humid: 97
+[INFO] [1740175400.841392480] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175400.841484958] [site_flask_int]: Température reçue: 23
+[INFO] [1740175400.841619676] [data_logger]: Humidité reçue: 97
+[INFO] [1740175400.841678947] [site_flask_int]: Température reçue: 23
+[INFO] [1740175400.841689617] [publisher_i2c]: Publishing Qualite: 35
+[INFO] [1740175400.842213911] [subscriber_actioneur]: Humidité reçue: "97"
+[INFO] [1740175400.842301355] [data_logger]: Stockage en mémoire tampon : 23, 97, 35, None
+[INFO] [1740175400.842752402] [subscriber_actioneur]: Qualité reçue: "35"
+[INFO] [1740175400.842772800] [data_logger]: Qualité de l'air reçue: 35
+[INFO] [1740175400.843373057] [subscriber_actioneur]: Publishing on "fenetre": "Ferme la fenêtre"
+[INFO] [1740175400.843637392] [site_flask_int]: Humidité reçue: 97
+[INFO] [1740175400.844244192] [site_flask_int]: Humidité reçue: 97
+[INFO] [1740175400.846156641] [site_flask_int]: Qualité de l'air reçue: 35
+[INFO] [1740175400.846261878] [site_flask_int]: Qualité de l'air reçue: 35
+127.0.0.1 - - [21/Feb/2025 23:03:21] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175401.103044910] [lamp_client]: Prochaine requête dans 7.59 secondes...
+[INFO] [1740175401.103432302] [lamp_service]: État de la lampe : ON
+[INFO] [1740175401.829070427] [publisher_presence]: Publishing: "1"
+[INFO] [1740175401.830348486] [site_flask_int]: presence: 1
+[INFO] [1740175401.830369998] [site_flask_int]: presence: 1
+[INFO] [1740175401.840263846] [publisher_i2c]: Publishing Temp: 22
+[INFO] [1740175401.840633143] [subscriber_actioneur]: Température reçue: "22"
+[INFO] [1740175401.840659608] [data_logger]: Température reçue: 22
+[INFO] [1740175401.840795133] [publisher_i2c]: Publishing Humid: 94
+[INFO] [1740175401.841272949] [publisher_i2c]: Publishing Qualite: 30
+[INFO] [1740175401.841377500] [subscriber_actioneur]: Humidité reçue: "94"
+[INFO] [1740175401.841447978] [data_logger]: Humidité reçue: 94
+[INFO] [1740175401.841664334] [site_flask_int]: Température reçue: 22
+[INFO] [1740175401.841801211] [site_flask_int]: Température reçue: 22
+[INFO] [1740175401.841845638] [subscriber_actioneur]: Qualité reçue: "30"
+[INFO] [1740175401.841929161] [data_logger]: Stockage en mémoire tampon : 22, 94, 30, None
+[INFO] [1740175401.842258724] [subscriber_actioneur]: Publishing on "fenetre": "Ferme la fenêtre"
+[INFO] [1740175401.842370249] [data_logger]: Qualité de l'air reçue: 30
+[INFO] [1740175401.843957670] [site_flask_int]: Humidité reçue: 94
+[INFO] [1740175401.844067605] [site_flask_int]: Humidité reçue: 94
+[INFO] [1740175401.845700769] [site_flask_int]: Qualité de l'air reçue: 30
+[INFO] [1740175401.845973922] [site_flask_int]: Qualité de l'air reçue: 30
+127.0.0.1 - - [21/Feb/2025 23:03:21] "GET /data HTTP/1.1" 200 -
+127.0.0.1 - - [21/Feb/2025 23:03:22] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175402.827672025] [publisher_presence]: Publishing: "1"
+[INFO] [1740175402.828994899] [site_flask_int]: presence: 1
+[INFO] [1740175402.829029053] [site_flask_int]: presence: 1
+[INFO] [1740175402.841764274] [publisher_i2c]: Publishing Temp: 30
+[INFO] [1740175402.842091472] [data_logger]: Température reçue: 30
+[INFO] [1740175402.842100485] [subscriber_actioneur]: Température reçue: "30"
+[INFO] [1740175402.842449230] [publisher_i2c]: Publishing Humid: 82
+[INFO] [1740175402.842616729] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175402.842913562] [publisher_i2c]: Publishing Qualite: 40
+[INFO] [1740175402.842924672] [site_flask_int]: Température reçue: 30
+[INFO] [1740175402.842994013] [site_flask_int]: Température reçue: 30
+[INFO] [1740175402.843024480] [data_logger]: Humidité reçue: 82
+[INFO] [1740175402.843325750] [subscriber_actioneur]: Humidité reçue: "82"
+[INFO] [1740175402.843806978] [data_logger]: Stockage en mémoire tampon : 30, 82, 40, None
+[INFO] [1740175402.843817853] [subscriber_actioneur]: Qualité reçue: "40"
+[INFO] [1740175402.844348314] [data_logger]: Qualité de l'air reçue: 40
+[INFO] [1740175402.844376011] [subscriber_actioneur]: Publishing on "fenetre": "Ferme la fenêtre"
+[INFO] [1740175402.845318049] [site_flask_int]: Humidité reçue: 82
+[INFO] [1740175402.845362848] [site_flask_int]: Humidité reçue: 82
+[INFO] [1740175402.846781702] [site_flask_int]: Qualité de l'air reçue: 40
+[INFO] [1740175402.847064091] [site_flask_int]: Qualité de l'air reçue: 40
+127.0.0.1 - - [21/Feb/2025 23:03:23] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175403.826895413] [publisher_presence]: Publishing: "1"
+[INFO] [1740175403.828116239] [site_flask_int]: presence: 1
+[INFO] [1740175403.828179889] [site_flask_int]: presence: 1
+[INFO] [1740175403.870781359] [publisher_i2c]: Publishing Temp: 27
+[INFO] [1740175403.871084662] [data_logger]: Température reçue: 27
+[INFO] [1740175403.871085050] [subscriber_actioneur]: Température reçue: "27"
+[INFO] [1740175403.871344356] [publisher_i2c]: Publishing Humid: 57
+[INFO] [1740175403.871669216] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175403.871824649] [site_flask_int]: Température reçue: 27
+[INFO] [1740175403.871840497] [site_flask_int]: Température reçue: 27
+[INFO] [1740175403.871847163] [data_logger]: Humidité reçue: 57
+[INFO] [1740175403.871863320] [publisher_i2c]: Publishing Qualite: 21
+[INFO] [1740175403.872598875] [data_logger]: Stockage en mémoire tampon : 27, 57, 21, None
+[INFO] [1740175403.872634357] [subscriber_actioneur]: Humidité reçue: "57"
+[INFO] [1740175403.872992584] [data_logger]: Qualité de l'air reçue: 21
+[INFO] [1740175403.873189419] [subscriber_actioneur]: Qualité reçue: "21"
+[INFO] [1740175403.873610640] [subscriber_actioneur]: Publishing on "fenetre": "Ouvre la fenêtre"
+[INFO] [1740175403.874316324] [site_flask_int]: Humidité reçue: 57
+[INFO] [1740175403.874621306] [site_flask_int]: Humidité reçue: 57
+[INFO] [1740175403.875791392] [site_flask_int]: Qualité de l'air reçue: 21
+[INFO] [1740175403.876105512] [site_flask_int]: Qualité de l'air reçue: 21
+127.0.0.1 - - [21/Feb/2025 23:03:24] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175404.828003506] [publisher_presence]: Publishing: "1"
+[INFO] [1740175404.829485017] [site_flask_int]: presence: 1
+[INFO] [1740175404.829634196] [site_flask_int]: presence: 1
+[INFO] [1740175404.840983567] [publisher_i2c]: Publishing Temp: 23
+[INFO] [1740175404.841314801] [data_logger]: Température reçue: 23
+[INFO] [1740175404.841453069] [subscriber_actioneur]: Température reçue: "23"
+[INFO] [1740175404.841652393] [publisher_i2c]: Publishing Humid: 97
+[INFO] [1740175404.841968085] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175404.842143516] [data_logger]: Humidité reçue: 97
+[INFO] [1740175404.842145148] [publisher_i2c]: Publishing Qualite: 4
+[INFO] [1740175404.842305768] [site_flask_int]: Température reçue: 23
+[INFO] [1740175404.842463219] [site_flask_int]: Température reçue: 23
+[INFO] [1740175404.842750804] [subscriber_actioneur]: Humidité reçue: "97"
+[INFO] [1740175404.842803635] [data_logger]: Stockage en mémoire tampon : 23, 97, 4, None
+[INFO] [1740175404.843225116] [data_logger]: Qualité de l'air reçue: 4
+[INFO] [1740175404.843315915] [subscriber_actioneur]: Qualité reçue: "4"
+[INFO] [1740175404.843731565] [subscriber_actioneur]: Publishing on "fenetre": "Ouvre la fenêtre"
+[INFO] [1740175404.844032970] [site_flask_int]: Humidité reçue: 97
+[INFO] [1740175404.844404688] [site_flask_int]: Humidité reçue: 97
+[INFO] [1740175404.845411011] [site_flask_int]: Qualité de l'air reçue: 4
+[INFO] [1740175404.846697071] [site_flask_int]: Qualité de l'air reçue: 4
+127.0.0.1 - - [21/Feb/2025 23:03:25] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175405.826529203] [publisher_presence]: Publishing: "1"
+[INFO] [1740175405.828086326] [site_flask_int]: presence: 1
+[INFO] [1740175405.828374607] [site_flask_int]: presence: 1
+[INFO] [1740175405.840839260] [publisher_i2c]: Publishing Temp: 28
+[INFO] [1740175405.841222610] [data_logger]: Température reçue: 28
+[INFO] [1740175405.841334704] [subscriber_actioneur]: Température reçue: "28"
+[INFO] [1740175405.841484592] [publisher_i2c]: Publishing Humid: 94
+[INFO] [1740175405.841915831] [site_flask_int]: Température reçue: 28
+[INFO] [1740175405.841946142] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175405.842185968] [publisher_i2c]: Publishing Qualite: 39
+[INFO] [1740175405.842225482] [data_logger]: Humidité reçue: 94
+[INFO] [1740175405.842288029] [site_flask_int]: Température reçue: 28
+[INFO] [1740175405.842883056] [data_logger]: Stockage en mémoire tampon : 28, 94, 39, None
+[INFO] [1740175405.842907492] [subscriber_actioneur]: Humidité reçue: "94"
+[INFO] [1740175405.843351345] [data_logger]: Qualité de l'air reçue: 39
+[INFO] [1740175405.843421036] [subscriber_actioneur]: Qualité reçue: "39"
+[INFO] [1740175405.843828461] [subscriber_actioneur]: Publishing on "fenetre": "Ferme la fenêtre"
+[INFO] [1740175405.844905176] [site_flask_int]: Humidité reçue: 94
+[INFO] [1740175405.845422322] [site_flask_int]: Humidité reçue: 94
+[INFO] [1740175405.846449810] [site_flask_int]: Qualité de l'air reçue: 39
+[INFO] [1740175405.846988646] [site_flask_int]: Qualité de l'air reçue: 39
+127.0.0.1 - - [21/Feb/2025 23:03:26] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175406.826867964] [publisher_presence]: Publishing: "1"
+[INFO] [1740175406.827987796] [site_flask_int]: presence: 1
+[INFO] [1740175406.828762039] [site_flask_int]: presence: 1
+[INFO] [1740175406.841545050] [publisher_i2c]: Publishing Temp: 28
+[INFO] [1740175406.841756457] [data_logger]: Température reçue: 28
+[INFO] [1740175406.841835766] [subscriber_actioneur]: Température reçue: "28"
+[INFO] [1740175406.842093450] [publisher_i2c]: Publishing Humid: 87
+[INFO] [1740175406.842358542] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175406.842514951] [data_logger]: Humidité reçue: 87
+[INFO] [1740175406.842531632] [site_flask_int]: Température reçue: 28
+[INFO] [1740175406.842590575] [site_flask_int]: Température reçue: 28
+[INFO] [1740175406.842612194] [publisher_i2c]: Publishing Qualite: 21
+[INFO] [1740175406.843088312] [subscriber_actioneur]: Humidité reçue: "87"
+[INFO] [1740175406.843173427] [data_logger]: Stockage en mémoire tampon : 28, 87, 21, None
+[INFO] [1740175406.843575035] [subscriber_actioneur]: Qualité reçue: "21"
+[INFO] [1740175406.843612751] [data_logger]: Qualité de l'air reçue: 21
+[INFO] [1740175406.844009852] [subscriber_actioneur]: Publishing on "fenetre": "Ouvre la fenêtre"
+[INFO] [1740175406.844555481] [site_flask_int]: Humidité reçue: 87
+[INFO] [1740175406.844690173] [site_flask_int]: Humidité reçue: 87
+[INFO] [1740175406.846165693] [site_flask_int]: Qualité de l'air reçue: 21
+[INFO] [1740175406.846516291] [site_flask_int]: Qualité de l'air reçue: 21
+127.0.0.1 - - [21/Feb/2025 23:03:26] "GET /data HTTP/1.1" 200 -
+127.0.0.1 - - [21/Feb/2025 23:03:27] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175407.827127095] [publisher_presence]: Publishing: "1"
+[INFO] [1740175407.828441892] [site_flask_int]: presence: 1
+[INFO] [1740175407.828698293] [site_flask_int]: presence: 1
+[INFO] [1740175407.841047070] [publisher_i2c]: Publishing Temp: 26
+[INFO] [1740175407.841551147] [subscriber_actioneur]: Température reçue: "26"
+[INFO] [1740175407.841622241] [data_logger]: Température reçue: 26
+[INFO] [1740175407.841858212] [publisher_i2c]: Publishing Humid: 83
+[INFO] [1740175407.842100898] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175407.842339370] [site_flask_int]: Température reçue: 26
+[INFO] [1740175407.842399729] [publisher_i2c]: Publishing Qualite: 12
+[INFO] [1740175407.842439485] [data_logger]: Humidité reçue: 83
+[INFO] [1740175407.842463078] [site_flask_int]: Température reçue: 26
+[INFO] [1740175407.842795993] [subscriber_actioneur]: Humidité reçue: "83"
+[INFO] [1740175407.843166009] [data_logger]: Stockage en mémoire tampon : 26, 83, 12, None
+[INFO] [1740175407.843323753] [subscriber_actioneur]: Qualité reçue: "12"
+[INFO] [1740175407.843582971] [data_logger]: Qualité de l'air reçue: 12
+[INFO] [1740175407.843715769] [subscriber_actioneur]: Publishing on "fenetre": "Ouvre la fenêtre"
+[INFO] [1740175407.844432028] [site_flask_int]: Humidité reçue: 83
+[INFO] [1740175407.844688815] [site_flask_int]: Humidité reçue: 83
+[INFO] [1740175407.846394882] [site_flask_int]: Qualité de l'air reçue: 12
+[INFO] [1740175407.846431776] [site_flask_int]: Qualité de l'air reçue: 12
+127.0.0.1 - - [21/Feb/2025 23:03:28] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175408.714620359] [lamp_client]: Prochaine requête dans 6.53 secondes...
+[INFO] [1740175408.714973888] [lamp_service]: État de la lampe : OFF
+[INFO] [1740175408.826706209] [publisher_presence]: Publishing: "1"
+[INFO] [1740175408.828020360] [site_flask_int]: presence: 1
+[INFO] [1740175408.828067023] [site_flask_int]: presence: 1
+[INFO] [1740175408.840930195] [publisher_i2c]: Publishing Temp: 27
+[INFO] [1740175408.841188515] [subscriber_actioneur]: Température reçue: "27"
+[INFO] [1740175408.841314461] [data_logger]: Température reçue: 27
+[INFO] [1740175408.841640243] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175408.841666367] [publisher_i2c]: Publishing Humid: 61
+[INFO] [1740175408.842227930] [data_logger]: Humidité reçue: 61
+[INFO] [1740175408.842284086] [publisher_i2c]: Publishing Qualite: 15
+[INFO] [1740175408.842581976] [subscriber_actioneur]: Humidité reçue: "61"
+[INFO] [1740175408.842775729] [site_flask_int]: Température reçue: 27
+[INFO] [1740175408.842964303] [data_logger]: Stockage en mémoire tampon : 27, 61, 15, None
+[INFO] [1740175408.842973435] [site_flask_int]: Température reçue: 27
+[INFO] [1740175408.843118783] [subscriber_actioneur]: Qualité reçue: "15"
+[INFO] [1740175408.843491093] [data_logger]: Qualité de l'air reçue: 15
+[INFO] [1740175408.843644023] [subscriber_actioneur]: Publishing on "fenetre": "Ouvre la fenêtre"
+[INFO] [1740175408.844573664] [site_flask_int]: Humidité reçue: 61
+[INFO] [1740175408.845076988] [site_flask_int]: Humidité reçue: 61
+[INFO] [1740175408.846625724] [site_flask_int]: Qualité de l'air reçue: 15
+[INFO] [1740175408.846898692] [site_flask_int]: Qualité de l'air reçue: 15
+127.0.0.1 - - [21/Feb/2025 23:03:29] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175409.826797005] [publisher_presence]: Publishing: "1"
+[INFO] [1740175409.828310838] [site_flask_int]: presence: 1
+[INFO] [1740175409.828510571] [site_flask_int]: presence: 1
+[INFO] [1740175409.840899593] [publisher_i2c]: Publishing Temp: 25
+[INFO] [1740175409.841465505] [data_logger]: Température reçue: 25
+[INFO] [1740175409.841502645] [subscriber_actioneur]: Température reçue: "25"
+[INFO] [1740175409.841831412] [publisher_i2c]: Publishing Humid: 92
+[INFO] [1740175409.842311683] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175409.842454151] [data_logger]: Humidité reçue: 92
+[INFO] [1740175409.842477484] [publisher_i2c]: Publishing Qualite: 37
+[INFO] [1740175409.842701054] [site_flask_int]: Température reçue: 25
+[INFO] [1740175409.843105252] [subscriber_actioneur]: Humidité reçue: "92"
+[INFO] [1740175409.843207805] [data_logger]: Stockage en mémoire tampon : 25, 92, 37, None
+[INFO] [1740175409.843639896] [subscriber_actioneur]: Qualité reçue: "37"
+[INFO] [1740175409.843658230] [data_logger]: Qualité de l'air reçue: 37
+[INFO] [1740175409.844311657] [subscriber_actioneur]: Publishing on "fenetre": "Ferme la fenêtre"
+[INFO] [1740175409.845076362] [site_flask_int]: Température reçue: 25
+[INFO] [1740175409.845202670] [site_flask_int]: Humidité reçue: 92
+[INFO] [1740175409.846891048] [site_flask_int]: Qualité de l'air reçue: 37
+[INFO] [1740175409.847045853] [site_flask_int]: Humidité reçue: 92
+[INFO] [1740175409.848695184] [site_flask_int]: Qualité de l'air reçue: 37
+127.0.0.1 - - [21/Feb/2025 23:03:30] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175410.827462971] [publisher_presence]: Publishing: "1"
+[INFO] [1740175410.828901762] [site_flask_int]: presence: 1
+[INFO] [1740175410.828910318] [site_flask_int]: presence: 1
+[INFO] [1740175410.840516661] [publisher_i2c]: Publishing Temp: 30
+[INFO] [1740175410.840927963] [subscriber_actioneur]: Température reçue: "30"
+[INFO] [1740175410.840971855] [data_logger]: Température reçue: 30
+[INFO] [1740175410.841205734] [publisher_i2c]: Publishing Humid: 56
+[INFO] [1740175410.841593001] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175410.841686016] [publisher_i2c]: Publishing Qualite: 27
+[INFO] [1740175410.841922690] [data_logger]: Humidité reçue: 56
+[INFO] [1740175410.842058970] [site_flask_int]: Température reçue: 30
+[INFO] [1740175410.842163977] [site_flask_int]: Température reçue: 30
+[INFO] [1740175410.842376942] [subscriber_actioneur]: Humidité reçue: "56"
+[INFO] [1740175410.842477311] [data_logger]: Stockage en mémoire tampon : 30, 56, 27, None
+[INFO] [1740175410.842826436] [subscriber_actioneur]: Qualité reçue: "27"
+[INFO] [1740175410.843250632] [subscriber_actioneur]: Publishing on "fenetre": "Ouvre la fenêtre"
+[INFO] [1740175410.844271292] [data_logger]: Qualité de l'air reçue: 27
+[INFO] [1740175410.845455921] [site_flask_int]: Humidité reçue: 56
+[INFO] [1740175410.845894048] [site_flask_int]: Humidité reçue: 56
+[INFO] [1740175410.847073367] [site_flask_int]: Qualité de l'air reçue: 27
+[INFO] [1740175410.847540032] [site_flask_int]: Qualité de l'air reçue: 27
+127.0.0.1 - - [21/Feb/2025 23:03:31] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175411.826787377] [publisher_presence]: Publishing: "1"
+[INFO] [1740175411.828067851] [site_flask_int]: presence: 1
+[INFO] [1740175411.828232284] [site_flask_int]: presence: 1
+[INFO] [1740175411.842048590] [publisher_i2c]: Publishing Temp: 28
+[INFO] [1740175411.842135463] [subscriber_actioneur]: Température reçue: "28"
+[INFO] [1740175411.842424556] [data_logger]: Température reçue: 28
+[INFO] [1740175411.842597180] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175411.842785613] [publisher_i2c]: Publishing Humid: 70
+[INFO] [1740175411.842847384] [site_flask_int]: Température reçue: 28
+[INFO] [1740175411.843280673] [subscriber_actioneur]: Humidité reçue: "70"
+[INFO] [1740175411.843341749] [site_flask_int]: Température reçue: 28
+[INFO] [1740175411.843442025] [data_logger]: Humidité reçue: 70
+[INFO] [1740175411.843462073] [publisher_i2c]: Publishing Qualite: 25
+[INFO] [1740175411.843872063] [subscriber_actioneur]: Qualité reçue: "25"
+[INFO] [1740175411.844232188] [data_logger]: Stockage en mémoire tampon : 28, 70, 25, None
+[INFO] [1740175411.844276291] [subscriber_actioneur]: Publishing on "fenetre": "Ouvre la fenêtre"
+[INFO] [1740175411.844615598] [data_logger]: Qualité de l'air reçue: 25
+[INFO] [1740175411.844678331] [site_flask_int]: Humidité reçue: 70
+[INFO] [1740175411.845825890] [site_flask_int]: Humidité reçue: 70
+[INFO] [1740175411.846408202] [site_flask_int]: Qualité de l'air reçue: 25
+[INFO] [1740175411.847449987] [site_flask_int]: Qualité de l'air reçue: 25
+127.0.0.1 - - [21/Feb/2025 23:03:31] "GET /data HTTP/1.1" 200 -
+127.0.0.1 - - [21/Feb/2025 23:03:32] "GET /live_data HTTP/1.1" 200 -
+[INFO] [1740175412.827446860] [publisher_presence]: Publishing: "1"
+[INFO] [1740175412.828936957] [site_flask_int]: presence: 1
+[INFO] [1740175412.829225479] [site_flask_int]: presence: 1
+[INFO] [1740175412.840943321] [publisher_i2c]: Publishing Temp: 26
+[INFO] [1740175412.841273130] [data_logger]: Température reçue: 26
+[INFO] [1740175412.841300451] [subscriber_actioneur]: Température reçue: "26"
+[INFO] [1740175412.841631432] [publisher_i2c]: Publishing Humid: 54
+[INFO] [1740175412.841803606] [subscriber_actioneur]: Publishing on "chauffage": "Chauffage OFF"
+[INFO] [1740175412.841929113] [site_flask_int]: Température reçue: 26
+[INFO] [1740175412.841988302] [data_logger]: Humidité reçue: 54
+[INFO] [1740175412.842307341] [publisher_i2c]: Publishing Qualite: 50
+[INFO] [1740175412.842598517] [data_logger]: Stockage en mémoire tampon : 26, 54, 50, None
+[INFO] [1740175412.842612975] [subscriber_actioneur]: Humidité reçue: "54"
+[INFO] [1740175412.842851633] [site_flask_int]: Température reçue: 26
+[INFO] [1740175412.842969544] [data_logger]: Qualité de l'air reçue: 50
+[INFO] [1740175412.843135706] [subscriber_actioneur]: Qualité reçue: "50"
+[INFO] [1740175412.843572195] [subscriber_actioneur]: Publishing on "fenetre": "Ferme la fenêtre"
+[INFO] [1740175412.844621625] [site_flask_int]: Humidité reçue: 54
+[INFO] [1740175412.845494363] [site_flask_int]: Humidité reçue: 54
+[INFO] [1740175412.846237502] [site_flask_int]: Qualité de l'air reçue: 50
+[INFO] [1740175412.846897236] [site_flask_int]: Qualité de l'air reçue: 50
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/home/alan/ros2_ws/src/package_projet/./package_projet/porte.py", line 39, in <module>
+  File "/home/alan/ros2_ws/src/package_projet/./package_projet/suscriber_i2c.py", line 70, in <module>
+    main()
+    main()
+  File "/home/alan/ros2_ws/src/package_projet/./package_projet/porte.py", line 34, in main
+  File "/home/alan/ros2_ws/src/package_projet/./package_projet/suscriber_i2c.py", line 64, in main
+    rclpy.spin(door_controller)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 226, in spin
+    rclpy.spin(minimal_subscriber)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 226, in spin
+    executor.spin_once()
+    executor.spin_once()
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 739, in spin_once
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 739, in spin_once
+    self._spin_once_impl(timeout_sec)
+    self._spin_once_impl(timeout_sec)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 728, in _spin_once_impl
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 728, in _spin_once_impl
+    handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+    handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 711, in wait_for_ready_callbacks
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 711, in wait_for_ready_callbacks
+    return next(self._cb_iter)
+    return next(self._cb_iter)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 612, in _wait_for_ready_callbacks
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 612, in _wait_for_ready_callbacks
+    raise ExternalShutdownException()
+    raise ExternalShutdownException()
+rclpy.executors.ExternalShutdownException
+rclpy.executors.ExternalShutdownException
+Traceback (most recent call last):
+  File "/home/alan/ros2_ws/src/package_projet/./package_projet/capteur_presence.py", line 43, in <module>
+    main()
+  File "/home/alan/ros2_ws/src/package_projet/./package_projet/capteur_presence.py", line 33, in main
+    rclpy.spin(minimal_publisher)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 226, in spin
+    executor.spin_once()
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 739, in spin_once
+Traceback (most recent call last):
+  File "/home/alan/ros2_ws/src/package_projet/./package_projet/suscriber_basededonne.py", line 85, in <module>
+    self._spin_once_impl(timeout_sec)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 728, in _spin_once_impl
+    rclpy.spin(node)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 226, in spin
+    executor.spin_once()
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 739, in spin_once
+    handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 711, in wait_for_ready_callbacks
+    return next(self._cb_iter)
+    self._spin_once_impl(timeout_sec)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 612, in _wait_for_ready_callbacks
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 728, in _spin_once_impl
+    raise ExternalShutdownException()
+rclpy.executors.ExternalShutdownException
+    handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 711, in wait_for_ready_callbacks
+    return next(self._cb_iter)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 612, in _wait_for_ready_callbacks
+    raise ExternalShutdownException()
+rclpy.executors.ExternalShutdownException
+Traceback (most recent call last):
+  File "/home/alan/ros2_ws/src/package_projet/./package_projet/serveur.py", line 33, in <module>
+    main()
+  File "/home/alan/ros2_ws/src/package_projet/./package_projet/serveur.py", line 28, in main
+    rclpy.spin(node)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 226, in spin
+    executor.spin_once()
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 739, in spin_once
+    self._spin_once_impl(timeout_sec)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 728, in _spin_once_impl
+    handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 711, in wait_for_ready_callbacks
+    return next(self._cb_iter)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 612, in _wait_for_ready_callbacks
+    raise ExternalShutdownException()
+rclpy.executors.ExternalShutdownException
+Traceback (most recent call last):
+  File "/home/alan/ros2_ws/src/package_projet/./package_projet/publisher_i2c_rand.py", line 46, in <module>
+    main()
+  File "/home/alan/ros2_ws/src/package_projet/./package_projet/publisher_i2c_rand.py", line 39, in main
+    rclpy.spin(minimal_publisher)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 226, in spin
+    executor.spin_once()
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 739, in spin_once
+    self._spin_once_impl(timeout_sec)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 728, in _spin_once_impl
+    handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 711, in wait_for_ready_callbacks
+    return next(self._cb_iter)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 612, in _wait_for_ready_callbacks
+    raise ExternalShutdownException()
+rclpy.executors.ExternalShutdownException
+Traceback (most recent call last):
+  File "/home/alan/ros2_ws/src/package_projet/./package_projet/client.py", line 44, in <module>
+    main()
+  File "/home/alan/ros2_ws/src/package_projet/./package_projet/client.py", line 41, in main
+    rclpy.shutdown()
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 130, in shutdown
+    _shutdown(context=context)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/utilities.py", line 58, in shutdown
+    return context.shutdown()
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/context.py", line 102, in shutdown
+    self.__context.shutdown()
+rclpy._rclpy_pybind11.RCLError: failed to shutdown: rcl_shutdown already called on the given context, at ./src/rcl/init.c:241

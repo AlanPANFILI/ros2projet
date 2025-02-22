@@ -1,0 +1,26 @@
+running egg_info
+writing ../build/package_projet/package_projet.egg-info/PKG-INFO
+writing dependency_links to ../build/package_projet/package_projet.egg-info/dependency_links.txt
+writing entry points to ../build/package_projet/package_projet.egg-info/entry_points.txt
+writing requirements to ../build/package_projet/package_projet.egg-info/requires.txt
+writing top-level names to ../build/package_projet/package_projet.egg-info/top_level.txt
+reading manifest file '../build/package_projet/package_projet.egg-info/SOURCES.txt'
+writing manifest file '../build/package_projet/package_projet.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/alan/ros2_ws/src/install/package_projet/lib/python3.10/site-packages/package_projet-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../build/package_projet/package_projet.egg-info to /home/alan/ros2_ws/src/install/package_projet/lib/python3.10/site-packages/package_projet-0.0.0-py3.10.egg-info
+running install_scripts
+Installing capteur_presence script to /home/alan/ros2_ws/src/install/package_projet/lib/package_projet
+Installing client script to /home/alan/ros2_ws/src/install/package_projet/lib/package_projet
+Installing porte script to /home/alan/ros2_ws/src/install/package_projet/lib/package_projet
+Installing publisher_i2c_rand script to /home/alan/ros2_ws/src/install/package_projet/lib/package_projet
+Installing serveur script to /home/alan/ros2_ws/src/install/package_projet/lib/package_projet
+Installing site script to /home/alan/ros2_ws/src/install/package_projet/lib/package_projet
+Installing suscriber_basededonne script to /home/alan/ros2_ws/src/install/package_projet/lib/package_projet
+Installing suscriber_i2c script to /home/alan/ros2_ws/src/install/package_projet/lib/package_projet
+writing list of installed files to '/home/alan/ros2_ws/src/build/package_projet/install.log'
